@@ -1,0 +1,6 @@
+*.h5ad
+*.mtx
+*.tar
+*.gz
+.ipynb_checkpoints/
+__pycache__/
