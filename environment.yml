@@ -20,4 +20,4 @@ dependencies:
   - gseapy
   - pip
   - black
-  - ruff
+  - ruff=0.15.13
