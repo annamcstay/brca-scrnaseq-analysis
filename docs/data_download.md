@@ -1,51 +1,24 @@
-# Data Download and Storage
-
-## Dataset 1 — GSE176078
+## GSE176078 — Wu et al. 2021 BRCA scRNA-seq Dataset
 
 ### Source
+- GEO accession: GSE176078
+- Dataset folder used locally:
+  `GSE176078_Wu_etal_2021_BRCA_scRNASeq`
 
-* GEO accession: GSE176078
-* Downloaded from NCBI GEO:
-  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078
+### Original Download Format
+The dataset was downloaded as a processed sparse count matrix with accompanying barcode, gene, and metadata files.
 
-### Data Type
+Files used:
+- `count_matrix_sparse.mtx`
+- `count_matrix_barcodes.tsv`
+- `count_matrix_genes.tsv`
+- `metadata.csv`
 
-* Breast cancer tumour microenvironment scRNA-seq dataset
-
-### Downloaded Files
-
-* Processed expression matrix / AnnData-compatible files
-
-### Local Storage
-
-Stored locally in:
-
-```text
-data/raw/GSE176078_raw.h5ad
-```
-
-### Loading Method
-
-Loaded into Python using Scanpy:
+### Processing Workflow
+The sparse matrix was loaded using Scanpy:
 
 ```python
-import scanpy as sc
-
-adata = sc.read_h5ad("data/raw/GSE176078_raw.h5ad")
-```
-
-### Notes
-
-Intermediate processed datasets are stored in:
-
-```text
-data/processed/
-```
-
-including QC-filtered, clustered, and annotated objects.
-
----
-
+adata = sc.read_mtx("count_matrix_sparse.mtx")
 
 # Data Download and Processing
 
