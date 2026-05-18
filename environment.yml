@@ -1,0 +1,22 @@
+name: brca-scrnaseq
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.11
+  - scanpy
+  - anndata
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - leidenalg
+  - python-igraph
+  - harmonypy
+  - gseapy
+  - pip
