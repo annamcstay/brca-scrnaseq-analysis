@@ -46,45 +46,42 @@ including QC-filtered, clustered, and annotated objects.
 
 ---
 
-## Dataset 2 — GSE114725
+
+# Data Download and Processing
+
+## GSE114725 — Breast Cancer scRNA-seq Dataset
 
 ### Source
+- GEO accession: GSE114725
+- Downloaded from:
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114725
 
-* GEO accession: GSE114725
-* Downloaded from NCBI GEO:
-  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114725
+### Original Download Format
+- Raw corrected expression matrix CSV file:
+  `raw_corrected.csv`
 
-### Data Type
+### Processing Workflow
+The dataset was loaded into Python using pandas and converted into a sparse matrix representation to reduce memory usage.
 
-* Breast cancer single-cell RNA-seq dataset
+Metadata columns:
+- patient
+- tissue
+- replicate
+- cluster
+- cellid
 
-### Downloaded Files
+Expression columns were converted into a sparse matrix using scipy.sparse.
 
-* Processed expression matrix / AnnData-compatible files
+The sparse matrix and metadata were then assembled into an AnnData object using Scanpy.
 
-### Local Storage
+### Output
+The processed AnnData object was saved locally as:
 
-Stored locally in:
-
-```text
 data/raw/GSE114725_raw.h5ad
-```
 
-### Loading Method
-
-Loaded into Python using Scanpy:
+### Loading Example
 
 ```python
 import scanpy as sc
 
 adata = sc.read_h5ad("data/raw/GSE114725_raw.h5ad")
-```
-
-### Notes
-
-Processed and annotated datasets are stored in:
-
-```text
-data/processed/
-```
-
