@@ -6,6 +6,6 @@
 
 - **Dataset choices:** I selected two breast cancer scRNA-seq datasets: GSE176078 and GSE114725. GSE176078 is larger and more heterogeneous, making it suitable for immune heterogeneity analysis. GSE114725 provides a complementary breast cancer dataset for comparison/validation.
 
-- **Progress so far:** I have loaded both datasets into AnnData objects and confirmed they can be processed locally. I have also completed exploratory QC, clustering, broad cell-type annotation, and initial T-cell/macrophage heterogeneity analyses.
+- **Progress so far:** I have loaded both datasets into AnnData objects and confirmed they can be processed locally. I have began QC also.
 
 - **Memory limits:** My laptop has 8 GB RAM, which is low for scRNA-seq, but it successfully handled the selected datasets using sparse AnnData objects and saved `.h5ad` intermediates. Very large integrations or heavier tools may need optimisation or higher-memory computing.
