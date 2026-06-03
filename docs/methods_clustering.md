@@ -35,8 +35,7 @@ Leiden clustering was performed across multiple resolutions to assess cluster st
 | 0.8        | 23       |
 | 1.0        | 27       |
 
-Resolution 0.6 was selected for both datasets as it provided a balance between preserving biological heterogeneity and avoiding excessive cluster fragmentation.
-
+Resolution 0.6 was selected for both datasets following visual inspection of UMAP plots across resolutions 0.2–1.0. At resolution 0.2–0.4, clusters were too broad and likely merged biologically distinct populations. At resolution 0.8–1.0, clusters became fragmented with no clear biological basis. Resolution 0.6 produced 11 clusters for GSE114725 and 21 for GSE176078, consistent with the expected diversity of immune and stromal cell types in the breast tumour microenvironment.
 ## Marker Gene Identification
 
 Cluster marker genes were identified using Scanpy's Wilcoxon rank-sum test:
