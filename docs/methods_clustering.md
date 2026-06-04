@@ -1,5 +1,7 @@
 # Clustering and Cell Type Annotation
-
+# Input Data
+Phase 2 analysis was performed using two processed AnnData objects derived from the Phase 1 quality control pipeline. For GSE114725, the input comprised 36,607 cells and 2,000 highly variable genes following QC filtering, doublet removal, normalisation, HVG selection, scaling, PCA, and Harmony batch correction. For GSE176078, the input comprised 82,931 cells and 2,000 highly variable genes processed through the same pipeline. These objects contained Harmony-corrected PCA embeddings (X_pca_harmony) used for all downstream neighbour graph construction and clustering.
+For CellTypist annotation, a separate set of full-gene QC objects was used (GSE114725_phase1_qc_fullgenes.h5ad, GSE176078_phase1_qc_fullgenes.h5ad), which retained all genes passing QC filtering (14,751 genes for GSE114725, 27,221 genes for GSE176078) but had not undergone scaling. These objects were subsetted to the post-doublet-removal cell barcodes present in the Harmony-corrected objects (removing 6 cells from GSE114725 and 102 cells from GSE176078 that had been flagged as doublets), normalised to 10,000 counts per cell and log1p transformed, and used exclusively for CellTypist input. UMAP coordinates and Leiden cluster labels were transferred from the Harmony-corrected objects into these full-gene objects prior to annotation to ensure spatial and cluster consistency across all analyses.
 ## Dimensionality Reduction
 
 Principal component analysis (PCA) was performed using highly variable genes.
