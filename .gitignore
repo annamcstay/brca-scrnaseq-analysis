@@ -4,10 +4,10 @@
 *.gz
 .ipynb_checkpoints/
 __pycache__/
-"backup_results/" 
-"recovered_notebook.ipynb" 
-"fixed_test.ipynb" 
-"notebooks/fixed_test.ipynb" 
-"test.ipynb" 
-"docs/.Rhistory" 
-"figures/.gitignore" 
+backup_results/ 
+recovered_notebook.ipynb 
+fixed_test.ipynb 
+notebooks/fixed_test.ipynb
+test.ipynb
+docs/.Rhistory 
+figures/.gitignore 
