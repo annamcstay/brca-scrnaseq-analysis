@@ -1,0 +1,27 @@
+cluster,cell_type,n_cells
+0,Endothelial cells,6045
+1,Endothelial cells,995
+2,CAFs,6453
+3,PVL,5051
+4,Basal epithelial,1074
+5,B cells,2791
+6,Cycling cells,1159
+7,Plasma cells,2583
+8,Cycling epithelial,3010
+9,CD8 T cells,9387
+10,NK cells,2438
+11,T cells,5989
+12,Naive/memory T cells,11590
+13,Luminal epithelial,4128
+14,Macrophages,8705
+15,Monocytes/DC,22
+16,Cycling myeloid,19
+17,pDC,315
+18,Luminal epithelial,18311
+19,Luminal epithelial,43
+20,Epithelial,525
+21,Epithelial,380
+22,Luminal epithelial,63
+23,Luminal epithelial,164
+24,Luminal epithelial,162
+25,Luminal epithelial,23
