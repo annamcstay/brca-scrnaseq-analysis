@@ -1,76 +1,15 @@
-# Clustering and Cell Type Annotation
-# Input Data
-Phase 2 analysis was performed using two processed AnnData objects derived from the Phase 1 quality control pipeline. For GSE114725, the input comprised 36,607 cells and 2,000 highly variable genes following QC filtering, doublet removal, normalisation, HVG selection, scaling, PCA, and Harmony batch correction. For GSE176078, the input comprised 82,931 cells and 2,000 highly variable genes processed through the same pipeline. These objects contained Harmony-corrected PCA embeddings (X_pca_harmony) used for all downstream neighbour graph construction and clustering.
-For CellTypist annotation, a separate set of full-gene QC objects was used (GSE114725_phase1_qc_fullgenes.h5ad, GSE176078_phase1_qc_fullgenes.h5ad), which retained all genes passing QC filtering (14,751 genes for GSE114725, 27,221 genes for GSE176078) but had not undergone scaling. These objects were subsetted to the post-doublet-removal cell barcodes present in the Harmony-corrected objects (removing 6 cells from GSE114725 and 102 cells from GSE176078 that had been flagged as doublets), normalised to 10,000 counts per cell and log1p transformed, and used exclusively for CellTypist input. UMAP coordinates and Leiden cluster labels were transferred from the Harmony-corrected objects into these full-gene objects prior to annotation to ensure spatial and cluster consistency across all analyses.
-
-The top 2,000 highly variable genes were selected prior to scaling, PCA, Harmony integration, and Scrublet doublet detection. This reduces computational memory requirements for these steps while retaining the genes carrying the most biological signal. Full-gene expression matrices were retained in separate objects for downstream analyses requiring the complete gene set, including CellTypist annotation and marker gene validation against canonical signatures.
-
-The presence of V(D)J variable region genes in the top 2,000 highly variable genes is a consequence of performing HVG selection prior to V(D)J filtering. These genes exhibit high variability across cells due to somatic recombination diversity within B and T cell clones rather than biologically meaningful cell-type differences. This is a known characteristic of datasets containing lymphocytes and has been reported in published breast cancer single-cell studies. For future analyses, V(D)J genes should be excluded from the gene list prior to HVG selection to prevent them from consuming variable gene slots that could otherwise capture informative biology.
-## Dimensionality Reduction
-
-Principal component analysis (PCA) was performed using highly variable genes.
-
-To reduce batch effects between patients/samples, Harmony integration was applied:
-
-* GSE114725: batch variable = `patient`
-* GSE176078: batch variable = `orig.ident`
-
-Neighbour graphs and UMAP embeddings were subsequently generated using the Harmony-corrected PCA representation.
-
-## Leiden Clustering
-
-Leiden clustering was performed across multiple resolutions to assess cluster stability and biological interpretability.
-
-### GSE114725
-
-| Resolution | Clusters |
-| ---------- | -------- |
-| 0.2        | 9        |
-| 0.4        | 10       |
-| 0.6        | 11       |
-| 0.8        | 14       |
-| 1.0        | 19       |
-
-### GSE176078
-
-| Resolution | Clusters |
-| ---------- | -------- |
-| 0.2        | 13       |
-| 0.4        | 17       |
-| 0.6        | 21       |
-| 0.8        | 23       |
-| 1.0        | 27       |
-
-Resolution 0.6 was selected for both datasets following visual inspection of UMAP plots across resolutions 0.2–1.0. At resolution 0.2–0.4, clusters were too broad and likely merged biologically distinct populations. At resolution 0.8–1.0, clusters became fragmented with no clear biological basis. Resolution 0.6 produced 11 clusters for GSE114725 and 21 for GSE176078, consistent with the expected diversity of immune and stromal cell types in the breast tumour microenvironment.
-## Marker Gene Identification
-
-Cluster marker genes were identified using Scanpy's Wilcoxon rank-sum test:
-
-```python
-sc.tl.rank_genes_groups(
-    adata,
-    groupby="leiden",
-    method="wilcoxon"
-)
-```
-
-Top marker genes were exported for manual inspection and cluster annotation.
-
-## Cell Type Annotation
-
-Cluster identities were assigned using:
-
-1. Cluster-specific marker genes.
-2. Canonical cell-type markers reported in the literature.
-3. Biological interpretation of marker gene combinations.
-
-Annotation remains ongoing and will be validated using automated reference-based annotation tools.
-
-Automated Annotation with CellTypist
-Automated cell type prediction was performed using CellTypist (Domínguez Conde et al., 2022) with the Immune_All_High reference model, which covers a broad range of human immune cell types derived from multi-tissue single-cell atlases.
-CellTypist requires log1p normalised expression in the input matrix. As the Harmony-corrected objects had undergone scaling (zero-centering and variance normalisation), annotation was performed on the full-gene QC objects normalised to 10,000 counts per cell prior to log1p transformation. UMAP coordinates and Leiden cluster labels were transferred from the Harmony-corrected objects to ensure spatial consistency.
-For GSE114725, CellTypist was run with majority voting enabled, which refines per-cell predictions by propagating the dominant label within each local neighbourhood. For GSE176078, memory constraints precluded running the full dataset in a single pass; annotation was therefore performed in sequential batches of 20,000 cells without majority voting, and per-cell predicted labels were concatenated across batches.
-Marker Gene Filtering
-For GSE176078, initial Wilcoxon marker gene results were dominated in several clusters by immunoglobulin and T-cell receptor variable region genes (prefixes IGHV, IGLV, IGKV, TRAV, TRBV, TRGV, TRDV). These genes reflect somatic V(D)J recombination diversity within B and T cell clones and are not informative for cell type classification. They were excluded from marker gene interpretation, after which cluster-specific markers matched canonical immune and stromal signatures cleanly.
+Input Data
+Phase 2 analysis was performed using two processed AnnData objects derived from the Phase 1 v2 QC pipeline. GSE114725 comprised 44,662 cells and 2,000 highly variable genes following QC filtering, doublet removal, normalisation, HVG selection, scaling, PCA, and Harmony batch correction. GSE176078 comprised 91,425 cells and 2,000 highly variable genes processed through the same pipeline. Both objects contained Harmony-corrected PCA embeddings (X_pca_harmony) and full-gene log-normalised counts stored in adata.raw (14,800 genes for GSE114725, 27,343 genes for GSE176078).
+Dimensionality Reduction and Clustering
+Neighbour graphs were constructed using the Harmony-corrected PCA embedding (use_rep="X_pca_harmony", k=15, 30 PCs) via sc.pp.neighbors. UMAP embeddings were computed with a fixed random seed (random_state=42) for reproducibility. Leiden clustering was performed at resolutions 0.2, 0.4, 0.6, 0.8, and 1.0 using the igraph implementation with n_iterations=2.
+Resolution 0.8 was selected for GSE114725 (6 clusters) and resolution 0.6 for GSE176078 (26 clusters) following visual inspection of UMAP plots across all resolutions. The lower cluster count for GSE114725 reflects the immune-enriched nature of the dataset — immune cell populations are transcriptionally more similar than the mixed TME populations in GSE176078.
+Marker Gene Identification
+Cluster marker genes were identified using Wilcoxon rank-sum tests (sc.tl.rank_genes_groups). All V(D)J variable region and constant region gene prefixes (IGHV, IGLV, IGKV, TRAV, TRBV, TRGV, TRDV, IGHD, IGHJ, IGLJ, IGKJ, TRAC, TRBC, TRGC, TRDC, IGHA, IGHE, IGHG, IGHM, IGLC, IGKC) were excluded from marker gene interpretation as these genes reflect clonal diversity rather than cell type identity.
+Cell Type Annotation
+Cluster identities were assigned using a combination of three approaches. First, cleaned Wilcoxon marker genes were matched against canonical cell type markers from the literature. Second, automated annotation was performed using CellTypist with the Immune_All_High reference model — annotation was run directly on adata.raw.to_adata() which contains log-normalised unscaled expression values as required by CellTypist, eliminating the need for separate data objects used in the original pipeline. GSE114725 was annotated with majority voting enabled; GSE176078 was processed in batches of 10,000 cells without majority voting due to memory constraints. Third, biological judgement was applied where automated and marker-based annotations disagreed, particularly for stromal populations absent from the Immune_All_High model.
 Annotation Validation
-CellTypist predictions for GSE176078 were cross-referenced against the published cell type labels provided with the dataset (Wu et al., 2021). Strong concordance was observed for all major populations including T cells, B cells, plasma cells, macrophages, and epithelial cells. The primary sources of disagreement were cancer-associated fibroblasts (CAFs) and perivascular-like cells (PVL), which were distributed across multiple CellTypist categories — consistent with the absence of dedicated stromal categories in the Immune_All_High model. These populations were annotated manually based on marker gene expression (CAFs: COL1A1, COL1A2, LUM; PVL: ACTA2, RGS5, BGN).
+CellTypist predictions for GSE176078 were cross-referenced against published cell type labels from Wu et al. 2021. Concordance exceeded 95% for all major immune populations including T cells, B cells, NK cells, macrophages, endothelial cells, and plasma cells. Discrepancies were limited to stromal populations (CAFs, PVL) where the Immune_All_High model lacks dedicated categories, and to small clusters (Cycling myeloid, n=19; Monocytes/DC, n=22) which showed mixed signal consistent with cluster boundary artefacts.
+Stretch Tasks
+T cell sub-clustering: T cells, NK/Cytotoxic T cells, and Activated T cells from GSE114725 (31,892 cells) were extracted and re-clustered independently using the same Harmony-corrected PCA embedding. Leiden clustering at resolution 0.7 identified 5 sub-populations: NK/Cytotoxic T cells (NKG7, GNLY, PRF1), Resting T cells (ribosomal gene signature), Naive/Memory T cells, Activated T cells (FOS, JUN, DUSP1, NFKBIA), and a small B cell contamination cluster at the cluster boundary.
+Cell type proportion analysis: Cell type proportions were quantified per patient for GSE114725 and per breast cancer subtype for GSE176078. Notable findings: BC3 and BC6 showed elevated macrophage/monocyte proportions (>30%) compared to other patients; ER+ tumours were dominated by luminal epithelial cells (39%) with lower immune infiltration; HER2+ tumours showed highest CD8 T cell (15.8%) and naive/memory T cell (24.9%) proportions; TNBC showed highest macrophage (14.9%) and cycling epithelial (6%) proportions.
+Reference atlas comparison: Our GSE176078 annotations were compared against the published Wu et al. 2021 cell type labels using cross-tabulation. Agreement exceeded 94% for B cells, basal epithelial, CAFs, endothelial cells, macrophages, PVL, plasma cells, and all T cell populations. Luminal epithelial cells spanned both Cancer Epithelial (85.8%) and Normal Epithelinal (14%) in the published labels, consistent with our use of a single luminal epithelial category at this resolution.
