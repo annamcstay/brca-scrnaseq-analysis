@@ -1,0 +1,10 @@
+celltype_major,B cells,B-cell lineage,Cycling cells,DC,Double-negative thymocytes,Double-positive thymocytes,ETP,Endothelial cells,Epithelial cells,Erythroid,Fibroblasts,HSC/MPP,ILC,MNP,Macrophages,Mast cells,Megakaryocytes/platelets,Mono-mac,Monocytes,Myelocytes,Plasma cells,T cells,pDC
+B-cells,2707,0,0,5,0,0,1,1,2,0,0,0,0,0,31,0,0,0,8,0,21,9,1
+CAFs,41,0,1,15,10,57,0,15,10,0,5628,3,82,0,111,2,0,1,9,0,2,18,0
+Cancer Epithelial,331,0,4,97,0,343,0,28,19738,2,159,9,525,0,1780,2,0,3,181,1,31,1111,0
+Endothelial,10,0,0,0,0,0,0,7027,2,0,0,0,1,0,12,1,0,0,0,0,0,2,0
+Myeloid,23,0,0,1306,0,4,2,17,3,0,2,0,5,9,6565,0,0,12,713,0,0,13,317
+Normal Epithelial,21,0,0,2,0,6,0,16,3972,0,6,0,80,0,59,0,0,1,19,0,0,74,0
+PVL,270,1,0,211,3,123,0,991,97,0,1795,7,667,0,175,1,1,0,184,11,2,279,1
+Plasmablasts,5,0,0,1,0,0,0,5,7,0,1,0,4,0,11,0,0,1,0,0,2474,36,0
+T-cells,28,0,21,8,0,13,0,12,6,0,1,0,2495,0,14,8,0,0,4,0,65,27948,0
