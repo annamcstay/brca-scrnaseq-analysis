@@ -13,3 +13,81 @@ Stretch Tasks
 T cell sub-clustering: T cells, NK/Cytotoxic T cells, and Activated T cells from GSE114725 (31,892 cells) were extracted and re-clustered independently using the same Harmony-corrected PCA embedding. Leiden clustering at resolution 0.7 identified 5 sub-populations: NK/Cytotoxic T cells (NKG7, GNLY, PRF1), Resting T cells (ribosomal gene signature), Naive/Memory T cells, Activated T cells (FOS, JUN, DUSP1, NFKBIA), and a small B cell contamination cluster at the cluster boundary.
 Cell type proportion analysis: Cell type proportions were quantified per patient for GSE114725 and per breast cancer subtype for GSE176078. Notable findings: BC3 and BC6 showed elevated macrophage/monocyte proportions (>30%) compared to other patients; ER+ tumours were dominated by luminal epithelial cells (39%) with lower immune infiltration; HER2+ tumours showed highest CD8 T cell (15.8%) and naive/memory T cell (24.9%) proportions; TNBC showed highest macrophage (14.9%) and cycling epithelial (6%) proportions.
 Reference atlas comparison: Our GSE176078 annotations were compared against the published Wu et al. 2021 cell type labels using cross-tabulation. Agreement exceeded 94% for B cells, basal epithelial, CAFs, endothelial cells, macrophages, PVL, plasma cells, and all T cell populations. Luminal epithelial cells spanned both Cancer Epithelial (85.8%) and Normal Epithelinal (14%) in the published labels, consistent with our use of a single luminal epithelial category at this resolution.
+
+
+Cluster Annotation Justifications
+GSE114725 (leiden_0.8, 6 clusters)
+Cluster 0 — T cells (resting)
+
+Marker genes: RPL/RPS ribosomal gene signature dominant, low activation markers. CellTypist confirmed T cell identity. Resting designation based on absence of activation (FOS, JUN) or cytotoxic (NKG7, GNLY) markers.
+Cluster 1 — T cells (naive/memory)
+
+Marker genes: CCR7, TCF7, LEF1 — canonical naive/central memory T cell markers. CellTypist confirmed. Distinct from resting cluster by higher CCR7 expression indicating lymph node homing capacity.
+Cluster 2 — NK/Cytotoxic T cells
+
+Marker genes: NKG7, GNLY, PRF1, KLRD1, CCL5, CST7. Strong cytotoxic effector signature. CellTypist confirmed NK/cytotoxic T cell identity. KLRD1 (CD94) expression consistent with NK cell fraction.
+Cluster 3 — Activated T cells
+
+Marker genes: FOS, JUN, JUNB, DUSP1, NFKBIA, ZFP36 — immediate early gene response signature indicating recent activation. CellTypist confirmed T cell identity. Immediate early gene signature consistent with recently stimulated T cells.
+Cluster 4 — Macrophages
+
+Marker genes: LYZ, CD68, TYROBP, AIF1, CD74. Classic myeloid/macrophage markers. CellTypist confirmed myeloid identity. CD68 and TYROBP co-expression confirms macrophage rather than monocyte identity.
+Cluster 5 — Monocytes/DC
+
+Marker genes: S100A8, S100A9, VCAN, FCN1. Classical monocyte markers. CellTypist confirmed. S100A8/A9 alarmin expression and VCAN distinguish from tissue-resident macrophages.
+
+GSE176078 (leiden_0.6, 26 clusters)
+Clusters 0-1 — Endothelial cells
+
+Marker genes: PECAM1, CD34, VWF. Canonical endothelial markers. Two clusters reflect endothelial heterogeneity consistent with Wu et al. 2021 (stalk-like vs tip-like states).
+Cluster 2 — CAFs
+
+Marker genes: COL1A1, PDGFRA, FAP, ACTA2. Cancer-associated fibroblast markers. Consistent with Wu et al. 2021 CAF populations.
+Cluster 3 — PVL
+
+Marker genes: MCAM, PDGFRB, RGS5, ACTA2. Perivascular-like cell markers. Distinct from CAFs by MCAM (CD146) expression.
+Cluster 4 — Basal epithelial
+
+Marker genes: KRT5, KRT14, TP63. Basal epithelial markers. Validated against Wu et al. 2021 Normal Epithelial category (94.8% concordance).
+Cluster 5 — B cells
+
+Marker genes: MS4A1, CD79A, CD19. Canonical B cell markers. 96.9% concordance with Wu et al. B-cells category.
+Cluster 6 — Cycling cells
+
+Marker genes: MKI67, TOP2A, PCNA. Proliferation markers. Mixed lineage cycling population — 96.7% map to T-cells in Wu et al. suggesting predominantly cycling T cells.
+Cluster 7 — Plasma cells
+
+Marker genes: JCHAIN, MZB1, IGKC. Plasma cell/plasmablast markers. 96.1% concordance with Wu et al. Plasmablasts category.
+Cluster 8 — Cycling epithelial
+
+Marker genes: MKI67 + epithelial markers. 98.5% concordance with Wu et al. Cancer Epithelial category.
+Cluster 9 — CD8 T cells
+
+Marker genes: CD8A, CD8B, GZMK. 99.9% concordance with Wu et al. T-cells category.
+Cluster 10 — NK cells
+
+Marker genes: NKG7, GNLY, KLRD1, NCAM1. 100% concordance with Wu et al. T-cells category (Wu et al. do not separate NK at major lineage level).
+Cluster 11 — T cells
+
+Marker genes: CD3D, CD3E, IL7R. 99.8% concordance with Wu et al. T-cells category.
+Cluster 12 — Naive/memory T cells
+
+Marker genes: CCR7, TCF7, SELL. 99.6% concordance with Wu et al. T-cells category.
+Cluster 13 — Luminal epithelial
+
+Marker genes: KRT8, KRT18, EPCAM. Luminal epithelial markers. 85.8% Cancer Epithelial + 14% Normal Epithelial in Wu et al. — single label spans both cancer and normal luminal cells at this resolution.
+Cluster 14 — Macrophages
+
+Marker genes: CD68, LYZ, TYROBP, AIF1. 98.8% concordance with Wu et al. Myeloid category.
+Cluster 15 — Monocytes/DC
+
+Marker genes: S100A8, S100A9, VCAN. 59.1% Myeloid + 31.8% CAFs in Wu et al. — small cluster (22 cells) likely represents a cluster boundary artefact.
+Cluster 16 — Cycling myeloid
+
+Marker genes: MKI67 + myeloid markers. Only 19 cells — likely artefactual cluster, noted as limitation.
+Cluster 17 — pDC
+
+Marker genes: IRF7, LILRA4, CLEC4C. Plasmacytoid dendritic cell markers. 99.7% concordance with Wu et al. Myeloid category.
+Clusters 18-25 — Luminal epithelial / Epithelial variants
+
+Marker genes: KRT8, KRT18, EPCAM variants. Multiple luminal and epithelial clusters reflecting tumour epithelial heterogeneity consistent with Wu et al. 2021.
