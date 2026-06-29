@@ -1,27 +1,27 @@
-cluster,cell_type,n_cells
-0,Endothelial cells,6045
-1,Endothelial cells,995
-2,CAFs,6453
-3,PVL,5051
-4,Basal epithelial,1074
-5,B cells,2791
-6,Cycling cells,1159
-7,Plasma cells,2583
-8,Cycling epithelial,3010
-9,CD8 T cells,9387
-10,NK cells,2438
-11,T cells,5989
-12,Naive/memory T cells,11590
-13,Luminal epithelial,4128
-14,Macrophages,8705
-15,Monocytes/DC,22
-16,Cycling myeloid,19
-17,pDC,315
-18,Luminal epithelial,18311
-19,Luminal epithelial,43
-20,Epithelial,525
-21,Epithelial,380
-22,Luminal epithelial,63
-23,Luminal epithelial,164
-24,Luminal epithelial,162
-25,Luminal epithelial,23
+,leiden_0.6,cell_type
+CID3586_AAGACCTCAGCATGAG,0,Endothelial cells
+CID3586_AACACGTAGTGGGTTG,1,Endothelial cells
+CID3586_ACATGGTTCTTACCTA,2,CAFs
+CID3586_AGTGGGATCCGTAGTA,3,PVL
+CID3586_TTCTCCTTCTGAAAGA,4,Basal epithelial
+CID3586_AAAGATGCAGGGAGAG,5,B cells
+CID3586_AAAGATGCAAGCGCTC,6,Cycling cells
+CID3586_TTCTTAGGTGCCTGTG,7,Plasma cells
+CID3586_CCCAATCGTAGAAGGA,8,Cycling epithelial
+CID3586_ACTTTCAAGCTCCCAG,9,CD8 T cells
+CID3586_CTGTTTAAGTTTGCGT,10,NK cells
+CID3586_CTGAAGTAGGCACATG,11,T cells
+CID3586_CCGTACTGTGTCCTCT,12,Naive/memory T cells
+CID3586_GCTTCCATCGATGAGG,13,Luminal epithelial
+CID3586_AACCATGCAGGTCGTC,14,Macrophages
+CID4495_CATCAAGCAGTGACAG,15,Monocytes/DC
+CID4495_TCTTTCCCACCACCAG,16,Cycling myeloid
+CID3586_ACGCCGAAGTTACCCA,17,pDC
+CID3586_AAACCTGTCGTAGATC,18,Luminal epithelial
+CID4530N_AAGACCTAGAATTCCC,19,Luminal epithelial
+CID3586_AGCTCTCGTCATATGC,20,Epithelial
+CID3921_ACATACGCAATGAATG,21,Epithelial
+CID3586_AACTCAGAGAGCTGGT,22,Luminal epithelial
+CID45171_GCTCTGTGTTACGCGC,23,Luminal epithelial
+CID4465_TGAGCCGAGATCTGAA,24,Luminal epithelial
+CID4535_ACCGTAAAGGATCGCA,25,Luminal epithelial

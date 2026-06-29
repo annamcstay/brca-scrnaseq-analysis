@@ -1,7 +1,7 @@
-cluster,cell_type,n_cells
-0,T cells (resting),11734
-1,T cells (naive/memory),4341
-2,NK/Cytotoxic T cells,8676
-3,Activated T cells,7141
-4,Macrophages,8691
-5,Monocytes/DC,4079
+cell_id,leiden_0.6,cell_type
+246,0,T cells
+260,1,Activated T cells
+188,2,NK/Cytotoxic T cells
+13,3,Macrophages
+204,4,B cells
+177,5,Monocytes/DC
