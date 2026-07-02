@@ -1,7 +1,38 @@
 cell_id,leiden_0.6,cell_type
 246,0,T cells
-260,1,Activated T cells
-188,2,NK/Cytotoxic T cells
-13,3,Macrophages
-204,4,B cells
-177,5,Monocytes/DC
+25989,0,CD8/Effector T cells
+34540,0,Mixed/stromal-contaminated (CD8+fibroblast signal)
+295,1,T cells
+33,1,CD8/Effector T cells
+34363,1,Mixed/stromal-contaminated (CD8+fibroblast signal)
+7974,2,NK/Cytotoxic T cells
+146,2,CD8/Effector T cells
+346,2,T cells
+188,3,NK/Cytotoxic T cells
+3368,3,T cells
+770,3,CD8/Effector T cells
+260,4,T cells
+113,4,CD8/Effector T cells
+4885,4,NK/Cytotoxic T cells
+13,5,B cells
+15083,6,Mixed/stromal-contaminated (CD8+fibroblast signal)
+211,6,CD8/Effector T cells
+1072,6,NK/Cytotoxic T cells
+1237,6,T cells
+904,7,T cells
+11443,7,B cells
+99,7,Macrophages
+2421,8,Mixed/stromal-contaminated (CD8+fibroblast signal)
+5800,8,T cells
+58,8,Macrophages
+41695,9,NK/Cytotoxic T cells
+3272,9,Macrophages
+5445,9,CD8/Effector T cells
+163,9,Mixed/stromal-contaminated (CD8+fibroblast signal)
+16363,9,T cells
+50137,10,Macrophages
+21,10,Monocytes/DC
+47,11,Mast cells
+229,12,pDC
+9791,12,B cells
+749,12,Macrophages
