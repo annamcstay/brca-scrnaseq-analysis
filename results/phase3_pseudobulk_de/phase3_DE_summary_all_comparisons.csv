@@ -1,0 +1,42 @@
+dataset,cell_type,comparison,n_genes_tested,n_significant_padj05
+GSE114725,T cells,Tumor_vs_Normal,6814,1
+GSE114725,CD8/Effector T cells,Tumor_vs_Normal,7346,0
+GSE114725,NK/Cytotoxic T cells,Tumor_vs_Normal,3945,1
+GSE114725,B cells,Tumor_vs_Normal,1622,1
+GSE114725,Macrophages,Tumor_vs_Normal,9284,12
+GSE176078,Endothelial cells,TNBC_vs_ER+,13289,1
+GSE176078,Endothelial cells,HER2+_vs_ER+,12523,0
+GSE176078,Endothelial cells,TNBC_vs_HER2+,11590,0
+GSE176078,CAFs,TNBC_vs_ER+,13733,11
+GSE176078,CAFs,HER2+_vs_ER+,11966,0
+GSE176078,CAFs,TNBC_vs_HER2+,12547,1
+GSE176078,PVL,TNBC_vs_ER+,12073,23
+GSE176078,PVL,HER2+_vs_ER+,10364,0
+GSE176078,PVL,TNBC_vs_HER2+,9889,13
+GSE176078,B cells,TNBC_vs_ER+,5879,82
+GSE176078,B cells,HER2+_vs_ER+,5102,0
+GSE176078,B cells,TNBC_vs_HER2+,3910,159
+GSE176078,CD8 T cells,TNBC_vs_ER+,10900,40
+GSE176078,CD8 T cells,HER2+_vs_ER+,10150,0
+GSE176078,CD8 T cells,TNBC_vs_HER2+,10787,36
+GSE176078,NK cells,TNBC_vs_ER+,9104,4
+GSE176078,NK cells,HER2+_vs_ER+,8072,0
+GSE176078,NK cells,TNBC_vs_HER2+,9279,13
+GSE176078,Memory T cells,TNBC_vs_ER+,10255,0
+GSE176078,Memory T cells,HER2+_vs_ER+,9634,0
+GSE176078,Memory T cells,TNBC_vs_HER2+,10298,6
+GSE176078,T cells,TNBC_vs_ER+,9955,18
+GSE176078,T cells,HER2+_vs_ER+,9048,6
+GSE176078,T cells,TNBC_vs_HER2+,9971,2
+GSE176078,Cycling epithelial,TNBC_vs_ER+,11341,453
+GSE176078,Cycling epithelial,HER2+_vs_ER+,4534,28
+GSE176078,Cycling epithelial,TNBC_vs_HER2+,9897,41
+GSE176078,Macrophages,TNBC_vs_ER+,13327,8
+GSE176078,Macrophages,HER2+_vs_ER+,12022,1
+GSE176078,Macrophages,TNBC_vs_HER2+,12618,0
+GSE176078,Epithelial (ambiguous),TNBC_vs_ER+,12556,287
+GSE176078,Epithelial (ambiguous),HER2+_vs_ER+,7848,15
+GSE176078,Epithelial (ambiguous),TNBC_vs_HER2+,11988,34
+GSE176078,Luminal epithelial,TNBC_vs_ER+,15800,1602
+GSE176078,Luminal epithelial,HER2+_vs_ER+,14376,565
+GSE176078,Luminal epithelial,TNBC_vs_HER2+,12131,17

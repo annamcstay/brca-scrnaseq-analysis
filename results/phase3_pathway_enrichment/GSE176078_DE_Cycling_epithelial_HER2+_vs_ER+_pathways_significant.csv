@@ -1,0 +1,2 @@
+Gene_set,Term,P-value,Adjusted P-value,Old P-value,Old adjusted P-value,Odds Ratio,Combined Score,Genes
+MSigDB_Hallmark_2020,Pperoxisome,0.00011089508908366003,0.002772377227091501,0,0,19.596491228070175,178.46379443452216,TOP2A;ACSL1;IDH2;PABPC1
