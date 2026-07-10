@@ -75,6 +75,27 @@ gives more directly interpretable results for the write-up (which specific pair 
 and in which direction) at the cost of more individual tests — mitigated by FDR correction
 applied within each comparison.
 
+### Design principle: pool to define cells, split to compare conditions
+
+Following a supervision review of the GSE114725 tissue-pooling approach (see
+`methods_clustering.md`, tissue-pooling sensitivity analysis), this principle was confirmed
+explicitly: **cell type definitions should be derived from pooled data (so a given cell type
+means the same thing across conditions), but comparisons between conditions should be run on
+the split, un-pooled subsets** — never comparing a condition against data that already
+includes it, and never pooling compartments with plausibly different immune states into a
+single comparison group.
+
+This is exactly the design already in place for GSE114725's DE analysis: clustering and
+annotation were performed on all four tissues pooled together (confirmed appropriate by the
+sensitivity check), but the Tumour-vs-Normal DE comparison itself uses only those two
+tissues' cells, split apart — Blood is excluded entirely from this comparison, not only for
+the sample-size reason given above (§1), but because blood represents a circulating immune
+reference compartment with a plausibly different baseline immune state to tissue-resident
+cells in the tumour microenvironment, and should not be pooled into either comparison group
+on principle, independent of sample size. The two justifications (power and principle)
+happen to point the same direction here, but the design would hold even if blood sample
+sizes had been larger.
+
 ## 2. Scope: broad cell types first, sub-cluster DE as a possible extension
 
 Pseudobulk DE was run on the broad Phase 2 `cell_type` labels (5 for GSE114725, 12 for
@@ -278,3 +299,29 @@ TNBC-vs-others difference.
 Added a pseudocount of 0.5"* — standard, expected handling for compositional models when
 a rare cell type (e.g. pDC, Basal epithelial) has zero cells in at least one sample; not
 indicative of an error.
+
+## 7. Supervisor-requested validation (mid-project review)
+
+Following a supervision review of clustering methodology, two additional validation steps
+were added to the Phase 2 clustering notebook (documented in `methods_clustering.md`), and
+the tissue-pooling design was explicitly confirmed as appropriate:
+
+- **Tissue-pooling sensitivity analysis** (GSE114725): each of the four tissues was
+  re-clustered independently and cross-checked against the pooled `cell_type` labels.
+  Every independently-derived cluster mapped cleanly (>70%, mostly >90%) onto an existing
+  pooled label — no tissue-specific population was found to be masked by pooling. Confirmed
+  appropriate to continue with pooled clustering, with the independent per-tissue analysis
+  retained as supporting evidence.
+- **Expanded canonical marker panel and marker matrix**: cluster identity re-validated
+  against a broader marker panel (12 lineage categories, including markers not in the
+  original validation set — TRAC, GZMK, NCAM1, KLRF1, CD79B, XBP1, DERL3, FCER1A, LILRA4,
+  CLEC4C, LUM, TOP2A), visualised as a dot plot (clusters × markers).
+- **Per-cluster signature scoring**: each cluster scored against all 12 panels (not just its
+  own), confirming specificity rather than just presence — every cluster's designated panel
+  scored highest specifically within that cluster, with no exceptions. Cluster 2
+  ("Mixed/stromal-contaminated") scoring highest on the stromal contamination-flag panel is
+  independent, formal confirmation of that label, not just a hedge.
+
+These results are documented in full in `methods_clustering.md`; noted here as they directly
+informed confidence in the pooled clustering underlying every DE, pathway, LIANA, and scCODA
+analysis in this document.
