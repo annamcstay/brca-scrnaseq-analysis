@@ -150,7 +150,88 @@ Macrophages (n=5,914; 84% tumour-derived) were extracted and re-clustered. Resol
 
 ---
 
-## 8. Summary of key methodological decisions
+## 8. Post-review validation (mid-project supervision feedback)
+
+Following supervisor review of the clustering approach, three additional checks were run.
+
+### Tissue-pooling sensitivity analysis
+
+**Concern raised:** GSE114725 clusters were derived by pooling all four tissue compartments
+(Blood, Lymphnode, Normal, Tumour) together — could this pooling mask a population that
+only exists in one compartment?
+
+**Method:** each tissue was re-clustered completely independently (fresh neighbour graph
+and Leiden clustering, same `X_pca_harmony` embedding, resolution 0.2, `random_state=0`),
+then every independently-derived cluster was cross-tabulated against the existing pooled
+`cell_type` labels to check whether it mapped cleanly onto one label or represented
+something new and unmatched.
+
+**Result:** every independently-derived cluster across all four tissues mapped cleanly onto
+an existing pooled label (lowest match 71.2% in Blood, most >90%; no cluster showed the
+"no dominant match" pattern that would indicate a hidden population).
+
+| Tissue | Cells | Clusters found alone | Clusters found pooled | Lowest match |
+|---|---|---|---|---|
+| Tumour | 19,594 | 9 | 9 | 92.6% |
+| Blood | 15,592 | 5 | 9 | 71.2% |
+| Normal | 4,340 | 8 | 9 | 80.8% |
+| Lymphnode | 5,136 | 5 | 9 | 89.0% |
+
+Fewer clusters emerge per-tissue in Blood and Lymphnode than in the pooled analysis —
+expected, not evidence of masking: these compartments genuinely lack certain tissue-resident
+populations (no distinct pDC or Mast cell cluster in Blood; no distinct Macrophage or NK
+cluster in Lymphnode), consistent with known immunology for those compartments rather than
+a clustering artefact.
+
+**Conclusion, confirmed by supervisor:** pooled clustering is appropriate and was not
+hiding tissue-specific structure. Retained as the approach for defining `cell_type`, with
+this independent per-tissue analysis kept as supporting evidence. Downstream comparative
+analyses (DE, LIANA, scCODA) additionally follow a **pool-to-define, split-to-compare**
+principle — see `methods_phase3.md` §1 for the corresponding DE design discussion,
+particularly the exclusion of Blood from the Tumour-vs-Normal comparison on both power and
+principled grounds.
+
+*(Figure: `GSE114725_tissue_pooling_sensitivity_umap.png`)*
+
+### Expanded marker matrix
+
+Cluster identities re-validated against a broader canonical marker panel spanning 12
+lineage categories (including several markers not in the original validation set: TRAC,
+GZMK, NCAM1, KLRF1, CD79B, XBP1, DERL3, FCER1A, LILRA4, CLEC4C, LUM, TOP2A), visualised as
+a dot plot (cluster × marker, mean expression and fraction of cells expressing). Every
+cluster's strongest signal fell exactly on its assigned lineage's marker columns, with no
+exceptions. Cluster 2 ("Mixed/stromal-contaminated") showed dots at both T-cell and
+stromal-contamination columns, visually confirming the mixed-identity label rather than
+suggesting a cleaner single label was missed.
+
+*(Figure: `GSE114725_marker_matrix_dotplot.png`)*
+
+### Per-cluster signature scoring
+
+Each cluster scored (via `sc.tl.score_genes`) against *all* 12 marker panels, not just its
+own assigned panel — testing specificity rather than presence. Every cluster's own assigned
+panel scored highest specifically within that cluster (see table below), with no exceptions.
+
+| Cluster | Assigned label | Top-scoring panel |
+|---|---|---|
+| 0 | T cells | Pan-T (anchor) |
+| 1 | CD8/Effector T cells | CD8 T |
+| 2 | Mixed/stromal-contaminated | Stromal (contam flag) |
+| 3 | NK/Cytotoxic T cells | Cytotoxic (shared) |
+| 4 | B cells | B cell |
+| 5 | Macrophages | Macrophage (vs mono) |
+| 6 | pDC | pDC (specific) |
+| 7 | Monocytes/DC | Monocyte/DC (vs mac) |
+| 8 | Mast cells | Mast |
+
+Cluster 2 scoring highest on the stromal contamination-flag panel is independent, formal
+confirmation of that label — not a hedge, but a specific, testable claim that held up.
+
+*(Results: `GSE114725_signature_scores_per_cluster.csv`)*
+
+---
+
+## 9. Summary of key methodological decisions
 
 1. `n_pcs=30` retained despite an empirical elbow at ~PC 8–12, justified by downstream biological validation rather than PC count alone.
 2. Random seeding (`random_state=0`) and single-threaded execution applied throughout to ensure reproducible clustering — without this, the pipeline produced materially different results between runs.
@@ -159,3 +240,4 @@ Macrophages (n=5,914; 84% tumour-derived) were extracted and re-clustered. Resol
 5. Two- to three-way triangulation (canonical markers, CellTypist, published reference labels) used wherever possible, catching one mislabelled artefact cluster and confirming the resolution correction.
 6. One prior finding (cytotoxic NKG7+ macrophages) was investigated further and retracted after being found to represent contamination rather than genuine biology.
 7. Statistical testing on cell-type proportions was applied where sample size allowed and honestly reported as non-significant after correction where that was the case, rather than relying on uncorrected p-values.
+8. A supervisor-raised concern about tissue pooling was tested directly (independent per-tissue re-clustering) rather than argued from principle alone, confirming pooled clustering did not mask any tissue-specific population; two further supervisor-requested validation steps (expanded marker matrix, per-cluster signature scoring) both confirmed every existing label with no exceptions.
