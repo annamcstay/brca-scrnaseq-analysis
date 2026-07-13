@@ -1,0 +1,29 @@
+Cluster A,Cluster B,Connectivity
+CD8/Effector T cells,NK/Cytotoxic T cells,0.16566545512361272
+B cells,pDC,0.1368105947215854
+CD8/Effector T cells,T cells,0.12838575312408915
+Macrophages,pDC,0.10350906207052864
+Macrophages,Monocytes/DC,0.057393849917527266
+CD8/Effector T cells,Monocytes/DC,0.020629790981818854
+Monocytes/DC,NK/Cytotoxic T cells,0.0153029565795296
+Mast cells,T cells,0.01396619549370059
+Monocytes/DC,T cells,0.010262096210180519
+B cells,Macrophages,0.009037908222064493
+T cells,pDC,0.008551085197960866
+CD8/Effector T cells,Mast cells,0.007670374219678246
+Mast cells,Monocytes/DC,0.007634440585070991
+NK/Cytotoxic T cells,T cells,0.0074471410819868826
+B cells,T cells,0.004851283518858969
+Macrophages,Mast cells,0.004634366198918644
+CD8/Effector T cells,Macrophages,0.0037568963286132746
+Macrophages,T cells,0.003590424370545004
+NK/Cytotoxic T cells,pDC,0.002922213517048471
+CD8/Effector T cells,pDC,0.0027484271261032788
+Mast cells,NK/Cytotoxic T cells,0.0022241949036644233
+B cells,CD8/Effector T cells,0.0015337022846762137
+B cells,NK/Cytotoxic T cells,0.001059942094934174
+Macrophages,NK/Cytotoxic T cells,0.0001393412600283512
+B cells,Mast cells,0.0
+B cells,Monocytes/DC,0.0
+Mast cells,pDC,0.0
+Monocytes/DC,pDC,0.0

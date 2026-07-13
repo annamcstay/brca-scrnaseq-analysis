@@ -1,0 +1,22 @@
+Cluster A,Cluster B,Connectivity
+LAM-like macrophages,Lipid-laden/Foam-cell macrophages,0.3068344780137226
+Complement-high macrophages,Lipid-laden/Foam-cell macrophages,0.2721287568897313
+Complement-high macrophages,LAM-like macrophages,0.23350441780320855
+Complement-high macrophages,Resting/Resident macrophages,0.2244093767156281
+LAM-like macrophages,Resting/Resident macrophages,0.17281914734866297
+Antigen-presenting macrophages,Monocyte-like macrophages,0.1552066448618173
+Monocyte-like macrophages,Non-classical monocytes (CD16+),0.15202148867666626
+Lipid-laden/Foam-cell macrophages,Monocyte-like macrophages,0.1516777940659421
+Antigen-presenting macrophages,LAM-like macrophages,0.15120145635095802
+Complement-high macrophages,Monocyte-like macrophages,0.08565496365144375
+Antigen-presenting macrophages,Complement-high macrophages,0.07992204479795428
+LAM-like macrophages,Non-classical monocytes (CD16+),0.06392898291366955
+LAM-like macrophages,Monocyte-like macrophages,0.051620695566164686
+Monocyte-like macrophages,Resting/Resident macrophages,0.03934575161292697
+Lipid-laden/Foam-cell macrophages,Resting/Resident macrophages,0.024178478869683107
+Antigen-presenting macrophages,Lipid-laden/Foam-cell macrophages,0.015233602589645158
+Antigen-presenting macrophages,Non-classical monocytes (CD16+),0.014588350590377445
+Antigen-presenting macrophages,Resting/Resident macrophages,0.008299323720918532
+Lipid-laden/Foam-cell macrophages,Non-classical monocytes (CD16+),0.006020881766511404
+Complement-high macrophages,Non-classical monocytes (CD16+),0.005031326176566066
+Non-classical monocytes (CD16+),Resting/Resident macrophages,0.0010505217603439044

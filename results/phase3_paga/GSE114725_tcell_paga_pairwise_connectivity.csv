@@ -1,0 +1,11 @@
+Cluster A,Cluster B,Connectivity
+Activated CD8 T cells,CD4 Activated T cells,0.25169433676131026
+CD4 Activated T cells,"Regulatory T cells (Tregs, CD4+)",0.23105673597880447
+CD4 Naive/Resting T cells,"Regulatory T cells (Tregs, CD4+)",0.21209327577033404
+CD4 Activated T cells,CD4 Naive/Resting T cells,0.20656434439252006
+Activated CD8 T cells,NK/Cytotoxic T cells,0.11740704203646923
+Activated CD8 T cells,"Regulatory T cells (Tregs, CD4+)",0.06363277253836316
+CD4 Activated T cells,NK/Cytotoxic T cells,0.03671727128625855
+Activated CD8 T cells,CD4 Naive/Resting T cells,0.030142226597471514
+NK/Cytotoxic T cells,"Regulatory T cells (Tregs, CD4+)",0.007815793035005413
+CD4 Naive/Resting T cells,NK/Cytotoxic T cells,0.0033061293225313385
