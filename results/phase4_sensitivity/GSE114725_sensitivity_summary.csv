@@ -1,0 +1,5 @@
+Configuration,Cells,Clusters (res 0.2)
+Loose QC (>100),46073,9
+"Baseline (>200, 1e4)",44662,9
+Strict QC (>350),35966,10
+Median norm (target_sum=None),44662,10

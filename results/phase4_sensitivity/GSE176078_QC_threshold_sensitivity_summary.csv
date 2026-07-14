@@ -1,0 +1,4 @@
+Threshold,Cells retained,Clusters (res 0.6)
+Loose (>300),98270,25
+Baseline (>500),91425,28
+Strict (>750),77876,32

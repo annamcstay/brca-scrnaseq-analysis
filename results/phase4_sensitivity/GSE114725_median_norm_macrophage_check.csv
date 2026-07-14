@@ -1,0 +1,4 @@
+,tumor_mean,normal_mean,elevated_in_tumor
+FN1,1.1885623,0.009781452,True
+HSPA1A,0.3494056,0.08293511,True
+HSPA1B,0.087644234,0.0147303725,True
