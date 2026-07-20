@@ -1,23 +1,23 @@
 comparison,n_significant_pathways,top_pathway,top_pathway_adj_pvalue
-GSE176078_DE_Luminal_epithelial_TNBC_vs_ER+,18,E2F Targets,6.739013953421778e-13
-GSE176078_DE_Epithelial_ambiguous_TNBC_vs_ER+,14,Estrogen Response Early,7.405430178991809e-07
-GSE176078_DE_B_cells_TNBC_vs_HER2+,12,TNF-alpha Signaling via NF-kB,2.4013943819820577e-12
-GSE176078_DE_B_cells_TNBC_vs_ER+,10,TNF-alpha Signaling via NF-kB,1.6929216029802255e-10
-GSE176078_DE_CD8_T_cells_TNBC_vs_ER+,9,Inflammatory Response,0.01645826673809223
-GSE176078_DE_Cycling_epithelial_TNBC_vs_ER+,4,Estrogen Response Early,0.0012788255772317432
-GSE176078_DE_Cycling_epithelial_TNBC_vs_HER2+,4,Epithelial Mesenchymal Transition,0.010066617070156346
-GSE176078_DE_PVL_TNBC_vs_HER2+,3,TNF-alpha Signaling via NF-kB,0.0007336641287097115
-GSE176078_DE_CD8_T_cells_TNBC_vs_HER2+,2,Interferon Alpha Response,0.002868795863057858
-GSE176078_DE_Luminal_epithelial_HER2+_vs_ER+,2,Estrogen Response Early,5.426551020453061e-08
-GSE176078_DE_T_cells_TNBC_vs_ER+,1,TNF-alpha Signaling via NF-kB,0.042462252245576475
-GSE176078_DE_CAFs_TNBC_vs_ER+,1,Epithelial Mesenchymal Transition,0.0037915418065411145
-GSE176078_DE_Memory_T_cells_TNBC_vs_HER2+,1,Interferon Alpha Response,0.005176388815969223
-GSE176078_DE_Cycling_epithelial_HER2+_vs_ER+,1,Pperoxisome,0.002772377227091501
-GSE114725_DE_Macrophages_tumor_vs_normal,0,Complement,0.08208675824959717
-GSE176078_DE_Epithelial_ambiguous_HER2+_vs_ER+,0,UV Response Dn,0.15504939657724254
-GSE176078_DE_Epithelial_ambiguous_TNBC_vs_HER2+,0,Estrogen Response Late,0.1294223553292056
-GSE176078_DE_Luminal_epithelial_TNBC_vs_HER2+,0,Apical Junction,0.16740400135398448
-GSE176078_DE_NK_cells_TNBC_vs_HER2+,0,Apical Surface,0.19560308840478025
-GSE176078_DE_Macrophages_TNBC_vs_ER+,0,Estrogen Response Early,0.10310463429364987
-GSE176078_DE_PVL_TNBC_vs_ER+,0,Myogenesis,0.24561416557894217
-GSE176078_DE_T_cells_HER2+_vs_ER+,0,Epithelial Mesenchymal Transition,0.07848444619598083
+GSE176078_DE_Luminal_epithelial_TNBC_vs_ER+,18,E2F Targets,7.606686364860106e-13
+GSE176078_DE_Epithelial_ambiguous_TNBC_vs_ER+,14,Estrogen Response Early,8.895846661841032e-07
+GSE176078_DE_B_cells_TNBC_vs_HER2+,12,TNF-alpha Signaling via NF-kB,4.109425326710098e-12
+GSE176078_DE_B_cells_TNBC_vs_ER+,10,TNF-alpha Signaling via NF-kB,1.3426104488599498e-09
+GSE176078_DE_Cycling_epithelial_TNBC_vs_ER+,9,Estrogen Response Early,8.440925664578261e-05
+GSE176078_DE_CD8_T_cells_TNBC_vs_HER2+,4,Interferon Alpha Response,0.004731941690680983
+GSE176078_DE_CD8_T_cells_TNBC_vs_ER+,4,Inflammatory Response,0.01789397317368895
+GSE176078_DE_Cycling_epithelial_TNBC_vs_HER2+,4,Epithelial Mesenchymal Transition,0.010131036743583163
+GSE176078_DE_PVL_TNBC_vs_HER2+,3,TNF-alpha Signaling via NF-kB,0.000738294184218955
+GSE176078_DE_Luminal_epithelial_HER2+_vs_ER+,2,Estrogen Response Early,4.9888806294770565e-08
+GSE176078_DE_T_cells_TNBC_vs_ER+,1,TNF-alpha Signaling via NF-kB,0.003104651449716977
+GSE176078_DE_CAFs_TNBC_vs_ER+,1,Epithelial Mesenchymal Transition,0.0038133642086962214
+GSE176078_DE_Memory_T_cells_TNBC_vs_HER2+,1,Interferon Alpha Response,0.005226462470791223
+GSE176078_DE_Cycling_epithelial_HER2+_vs_ER+,1,Pperoxisome,0.002803108287504568
+GSE114725_DE_Macrophages_tumor_vs_normal,0,Complement,0.08237314500143277
+GSE176078_DE_Epithelial_ambiguous_HER2+_vs_ER+,0,UV Response Dn,0.1555728786080296
+GSE176078_DE_Epithelial_ambiguous_TNBC_vs_HER2+,0,Estrogen Response Late,0.1299451722580343
+GSE176078_DE_Luminal_epithelial_TNBC_vs_HER2+,0,Apical Junction,0.16790197734170212
+GSE176078_DE_NK_cells_TNBC_vs_HER2+,0,Apical Surface,0.19614132887522556
+GSE176078_DE_Macrophages_TNBC_vs_ER+,0,Estrogen Response Early,0.11551294151747597
+GSE176078_DE_PVL_TNBC_vs_ER+,0,Unfolded Protein Response,0.32262342532057925
+GSE176078_DE_T_cells_HER2+_vs_ER+,0,Coagulation,0.09440594188441068
