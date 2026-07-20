@@ -1,0 +1,5 @@
+Dataset,Total genes,MT genes present,VDJ/constant genes present
+GSE114725 — raw (pre-QC),14875,12,42
+"GSE114725 — annotated (post-QC, feeds DE)",2000,0,0
+GSE176078 — raw (pre-QC),29733,13,372
+"GSE176078 — annotated (post-QC, feeds DE)",2000,0,0
