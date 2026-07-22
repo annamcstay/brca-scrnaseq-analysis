@@ -231,7 +231,121 @@ confirmation of that label — not a hedge, but a specific, testable claim that 
 
 ---
 
-## 9. Summary of key methodological decisions
+## 9. Fine-resolution annotation (`cell_type_fine`)
+
+Following supervisor review, a second, finer-resolution annotation layer (`cell_type_fine`)
+was built alongside the primary `cell_type` column. `cell_type` remains the primary
+resolution for all headline findings and is unaffected by anything in this section;
+`cell_type_fine` is an additive, optional layer used only where explicitly noted.
+
+### NK/cytotoxic T cell reclassification
+
+**Concern raised:** the original "NK/Cytotoxic T cells" label (both datasets) was validated
+using shared cytotoxic-function markers (NKG7, GNLY, PRF1, GZMB) — genes expressed by both
+true NK cells and cytotoxic CD8 T cells, since both kill via the same granule machinery.
+These markers cannot distinguish the two cell types; only T-cell-receptor genes (CD3D,
+CD3E) can.
+
+**Method:** cells in the original "NK/Cytotoxic T cells" cluster (both datasets) were
+re-classified using a per-cell marker check: CD3D/CD3E-positive cells were considered
+T-lineage; NCAM1/KLRF1/FCGR3A-positive cells were considered NK-lineage. This produces
+three groups — True NK (T-marker negative, NK-marker positive), NKT cells (both marker
+sets positive — a genuine, distinct innate-like lineage, not an artefact), and Cytotoxic
+CD8 T cells (T-marker positive, NK-marker negative, confirmed via elevated CD8A).
+
+**Results:**
+- GSE114725: of 4,929 cells, 2,192 (44.5%) True NK, 748 (15.2%) NKT, 843 (17.1%)
+  reclassified Cytotoxic CD8. Remaining 1,146 (23.3%) could not be confidently classified.
+- GSE176078: of 4,083 cells, 803 (19.7%) True NK, 504 (12.3%) NKT, 1,206 (29.5%)
+  reclassified Cytotoxic CD8, 570 (14.0%) retained at the coarse label. GSE176078 showed
+  substantially more contamination than GSE114725 (~48% vs ~32% of the original cluster
+  reclassified as CD8 or NKT), confirming this correction was necessary in both datasets.
+
+**Unresolved residual cells (GSE114725, n=1,146):** investigated directly rather than
+forced into a category. These cells showed (a) lower sequencing depth than the confidently
+classified groups (mean 442 genes/804 counts vs 510–586 genes/933–1,052 counts elsewhere),
+(b) intact core cytotoxic marker expression at rates matching the cluster overall (85.7%
+NKG7-positive vs 89.6% overall), and (c) a top differentially-expressed gene signature
+dominated by ribosomal protein genes — a recognised technical signature associated with
+lower transcriptional complexity, not a distinct biological state. Three independent
+attempts to resolve this group further (single-gene positivity at looser thresholds,
+background-corrected composite scoring, raw-sum multi-gene comparison) each failed to
+improve on or worsened the original split. **Conclusion: these cells are genuinely
+unclassifiable at this resolution given available sequencing depth — excluded from
+`cell_type_fine` (set to NaN) rather than force-assigned, while remaining fully valid
+in all `cell_type`-level analyses.**
+
+*(Results: `GSE114725_NK_cluster_3way_classification.csv`)*
+
+### CD8 T cell sub-clustering
+
+Following supervisor-provided marker panels (Naive, Central Memory/Effector, Tissue
+Resident Memory, Exhausted states), CD8 T cells were sub-clustered for both datasets using
+the same method validated for CD4/macrophage sub-clustering (resolution sweep, Harmony-
+corrected, seeded).
+
+**Critical prerequisite finding:** the CD8 population pool required combining three
+sources per dataset — the original parent-level CD8 cluster, cells reclassified from the
+NK/cytotoxic split (above), **and, for GSE114725, 1,090 cells (5.4% of the parent "T
+cells" cluster) that were found to be CD8A/CD8B-positive despite being labelled "T cells"
+at parent level.** This is a genuine, pre-existing property of the original resolution-0.2
+clustering (Section 3) — not a new error — reflecting that coarse-resolution clustering
+does not guarantee lineage purity within a correctly-identified broader population. It
+was only discovered because CD4 sub-clustering was rebuilt from the single, non-pooled
+parent "T cells" cluster (20,213 cells) rather than reusing an earlier sub-clustering
+result that had — separately — pooled and reshuffled cells across three parent clusters,
+an artefact of that earlier construction rather than of the underlying data.
+
+**Resolution and validation:** resolution 0.5 selected for both datasets (5–6 clusters).
+Marker-panel composite scoring proved unreliable where panels shared most of their genes
+(Naive and Central Memory panels overlap almost entirely) — ambiguous clusters were
+instead resolved via unbiased differential expression (Wilcoxon test, no pre-selected
+panel), revealing sharper, more specific signatures than panel scoring alone.
+
+**GSE114725 (5 states, from 9,794 pooled cells):** Activated (4,941, immediate-early/AP-1
+signature: CXCR4, DUSP1, CD69, FOS), Naive/Memory (2,246, CCR7/TCF7/SELL-high), Effector
+(1,668, GNLY/FGFBP2/GZMH terminal cytotoxic signature), NK-like (840, TYROBP/KLRD1/XCL1-2 —
+an innate-like CD8 phenotype, a recognised but less common population), Cycling (99,
+STMN1/TUBA1B/HMGB2 proliferation markers).
+
+**GSE176078 (6 states, from 10,916 cells):** Stress-Response/Activated (2,569, heat-shock
+protein signature: HSPA1A/B, DNAJB1), Resting/Memory-like (2,391), Effector (2,238,
+GZMA/GZMH/NKG7), GZMK+ (1,862), Exhausted (1,232, CXCL13/TIGIT/LAG3/HAVCR2 — a strong,
+specific exhaustion signature), Interferon-Response (624, ISG15/MX1/IFIT1/STAT1 — a
+type-I interferon-stimulated gene signature not anticipated in the original marker panel,
+representing a genuine additional finding).
+
+*(Files: `GSE114725_cd8_subclustered_v2.h5ad`, `GSE176078` fine labels within
+`GSE176078_phase2_v2_annotated_corrected_finelabels.h5ad`)*
+
+### Viability for downstream statistical analysis
+
+`cell_type_fine` categories were checked for adequate per-patient/per-sample
+representation (≥10 cells/sample, ≥3 viable samples per comparison group — identical
+threshold to the original Phase 3 viability checks) before any statistical analysis was
+attempted.
+
+- **GSE114725 (Tumour vs Normal):** 7 of 24 fine categories viable, reflecting the same
+  small Normal-tissue sample size (n=4 patients) that constrained the original
+  `cell_type`-level analysis.
+- **GSE176078 (pairwise subtypes):** 20 of 24 fine categories viable for at least one
+  comparison — substantially better supported, reflecting the larger sample base (26
+  samples vs 8 patients).
+
+`cell_type` was retained as the primary analytical resolution rather than being replaced,
+for two independent reasons: (1) all previously reported findings were derived from and
+validated against `cell_type`; (2) the viability results above confirm `cell_type_fine`
+does not achieve universal coverage and cannot support the same breadth of statistical
+testing — the two resolutions serve different analytical purposes (broad, fully-powered
+comparison vs specific, sample-permitting sub-lineage resolution) rather than one
+superseding the other.
+
+*(Results: `GSE114725_finelabels_viability_check.csv`,
+`GSE176078_finelabels_viability_check.csv`)*
+
+---
+
+## 10. Summary of key methodological decisions
 
 1. `n_pcs=30` retained despite an empirical elbow at ~PC 8–12, justified by downstream biological validation rather than PC count alone.
 2. Random seeding (`random_state=0`) and single-threaded execution applied throughout to ensure reproducible clustering — without this, the pipeline produced materially different results between runs.
@@ -241,3 +355,5 @@ confirmation of that label — not a hedge, but a specific, testable claim that 
 6. One prior finding (cytotoxic NKG7+ macrophages) was investigated further and retracted after being found to represent contamination rather than genuine biology.
 7. Statistical testing on cell-type proportions was applied where sample size allowed and honestly reported as non-significant after correction where that was the case, rather than relying on uncorrected p-values.
 8. A supervisor-raised concern about tissue pooling was tested directly (independent per-tissue re-clustering) rather than argued from principle alone, confirming pooled clustering did not mask any tissue-specific population; two further supervisor-requested validation steps (expanded marker matrix, per-cluster signature scoring) both confirmed every existing label with no exceptions.
+9. A supervisor comment on NK/cytotoxic marker ambiguity led to a full reclassification (both datasets) and CD8 sub-clustering, uncovering a genuine pre-existing lineage-purity limitation in the original resolution-0.2 clustering (~5% of one parent cluster) — corrected, documented, and folded into a new fine-resolution annotation layer (`cell_type_fine`) that supplements rather than replaces the primary annotation.
+10. An honest, unresolved residual (2.3% of one dataset's NK/cytotoxic population) was excluded from fine-resolution analysis rather than force-classified, after three independent classification approaches failed to improve on the original split and root-cause investigation confirmed a genuine sequencing-depth limitation.

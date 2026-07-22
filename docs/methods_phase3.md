@@ -325,3 +325,127 @@ the tissue-pooling design was explicitly confirmed as appropriate:
 These results are documented in full in `methods_clustering.md`; noted here as they directly
 informed confidence in the pooled clustering underlying every DE, pathway, LIANA, and scCODA
 analysis in this document.
+
+## 8. Pipeline check: MT/VDJ gene filtering gap in pseudobulk DE input
+
+A supervisor-requested pipeline check (confirming DE input data contains zero
+mitochondrial and zero VDJ/constant-region genes, as direct proof of correct QC
+application) revealed a genuine gap: while these gene categories were correctly removed
+during Phase 1 QC and are absent from the clustering object, the pseudobulk DE pipeline
+(`05_phase3_pseudobulk_DE.ipynb`) was reloading raw counts directly from the fully
+unfiltered original raw file, re-applying only cell-level QC filtering (matching
+QC-passed barcodes) but never re-applying the gene-level MT/VDJ filter. This meant MT and
+VDJ genes, while never expected to be tested, were technically present and available to
+PyDESeq2 across all 41 original comparisons.
+
+**Impact assessment:** checked every significant-gene result across all 41 comparisons.
+Zero MT genes were found in any result. Three VDJ genes (IGHG1, IGHG4, IGHV3-23) were
+found in exactly 2 of 41 comparisons — both in GSE176078 Luminal epithelial (HER2+ vs ER+,
+TNBC vs ER+) — representing 0.2–0.6% of the significant gene lists for those two
+comparisons; this population contains genuine plasma-cell/B-cell contamination or
+infiltration, making immunoglobulin genes a biologically plausible, non-random source of
+this contamination rather than a statistical artefact.
+
+**Root cause and fix:** `03_phase1_QC_V2.ipynb` was updated to save an explicit clean
+checkpoint — genuine raw integer counts, cell- and gene-filtered (MT/VDJ removed), saved
+*before* normalisation — for both datasets
+(`{dataset}_phase1_v2_clean_rawcounts.h5ad`). `05_phase3_pseudobulk_DE.ipynb` was updated
+to load from this checkpoint rather than reconstructing filtering from the original raw
+file, with a hard verification gate (raises an error if MT/VDJ genes are detected) added
+before any DE is attempted. All 41 comparisons were regenerated on the corrected input;
+the two affected comparisons' contamination was confirmed resolved, and both headline
+findings (macrophage reprogramming, HER2+ Memory T cells) were confirmed unchanged.
+Pathway enrichment (notebook 06) was also re-run in full for consistency; results were
+functionally identical (same pathway counts, same top hits, p-values shifted only in
+the 8th–13th decimal place).
+
+## 9. Fine-resolution Phase 3 analysis (`cell_type_fine`)
+
+Following the `cell_type_fine` construction documented in `methods_clustering.md` §9,
+core Phase 3 analyses were re-run at fine resolution, restricted to categories confirmed
+viable (§9's viability check: 7/24 GSE114725, 20/24 GSE176078).
+
+### Differential expression and pathway enrichment
+
+Both re-run successfully at fine resolution, using the same corrected pipeline (§8).
+**GSE114725:** all 7 viable categories tested (Tumour vs Normal); Monocyte-like
+macrophages showed the strongest signal (37 significant genes, exceeding the parent-level
+Macrophages result of 12) but did not map to any significant Hallmark pathway (top hit:
+Fatty Acid Metabolism, adj p=0.62) — consistent with the same limited Hallmark gene-set
+coverage already documented for the parent-level macrophage finding. **GSE176078:** 53 of
+57 attempted comparisons succeeded (4 failures reflect genuinely thin samples at the edge
+of the viability threshold, an expected limitation rather than an error).
+
+**New finding:** TNF-alpha signalling via NF-kB, previously identified as a robust
+TNBC-associated signature in B cells (replicated across both TNBC comparisons at parent
+level), was independently found in the newly-resolved Cytotoxic CD8 T cells (reclassified)
+population, again replicating across both TNBC comparisons (TNBC vs ER+ and TNBC vs
+HER2+). This extends the TNF-alpha/NF-kB signature beyond B cells to a second,
+independently-derived TNBC-infiltrating immune population.
+
+**Consistency check:** Cycling epithelial (GSE176078, never sub-clustered, identical cell
+population at both resolutions) produced identical results at fine and parent resolution
+(448/448 significant genes, 9/9 significant pathways, same top hit) — confirming the
+fine-resolution pipeline reproduces known results exactly where no biological change is
+expected, rather than introducing distortion.
+
+*(Results: `results/phase4_finelabels_DE/`, `results/phase4_finelabels_pathways/`)*
+
+### Compositional analysis (scCODA)
+
+Re-run at fine resolution for both datasets (reference cell types: "CD4 Naive/Resting T
+cells" for GSE114725, replacing the original "T cells" reference which no longer exists
+as a single category; "PVL" unchanged for GSE176078). No new credible findings emerged
+beyond the existing parent-level results. GSE114725 (Tumour vs Normal): no credible
+effects for any of 22 fine categories, consistent with the parent-level result. GSE176078:
+Memory T cells (unaffected by sub-clustering, present at parent resolution) remained the
+only credible finding across all three pairwise comparisons, replicating exactly (same
+direction, same comparisons) as the original parent-level result. None of the 6 new CD8
+sub-states or 3 NK/NKT-derived categories showed a credible compositional shift in either
+dataset — the HER2+ Memory T cell enrichment does not resolve into a more specific
+sub-population effect at this resolution.
+
+*(Results: `results/phase4_finelabels_sccoda/`)*
+
+### Cell-cell communication (LIANA) — structural limitation identified
+
+Fine-resolution LIANA was attempted but found unreliable, in contrast to DE and scCODA
+above. Full diagnostic detail:
+
+- GSE114725 Tumour (22 categories): `specificity_rank` computed successfully;
+  `magnitude_rank` returned NaN for all rows.
+- GSE114725 Normal (13 categories): both ranks returned NaN for all rows.
+- GSE176078 ER+ (24 categories, and both halves of a 12-category bisection test at
+  substantially different sample sizes — 31,034 and 2,518 cells): both ranks returned NaN
+  for all rows in every configuration tested.
+
+**Diagnostic steps:** confirmed no package version change from the original successful
+runs; identified 7,974 of 14,800 genes (54%) showing zero variance within at least one
+fine-grained group (an expected consequence of smaller group sizes, not a data quality
+issue) — filtering these did not resolve the failure; bisected GSE176078 ER+ into two
+independent halves of equal category count but very different cell numbers, both failed
+identically, ruling out both category count and sample size as the determining factor.
+
+**Conclusion:** the failure pattern tracks with dataset (GSE176078 failed in every
+configuration; GSE114725 partially succeeded for Tumour only) rather than any tested
+parameter. Root cause not fully isolated — full resolution would require inspecting
+LIANA's internal rank-aggregation logic, judged disproportionate given a fully valid
+alternative exists. **Decision: parent-level LIANA (`cell_type`) is retained as the
+primary and sole reported cell-cell communication analysis throughout this dissertation.**
+Fine-resolution LIANA was attempted and systematically diagnosed — this is a documented,
+examined limitation, not an unexplored gap.
+
+*(Results: `results/phase4_finelabels_liana/` — 3 of 5 originally planned condition-runs
+completed before the limitation was identified and further runs were judged not
+worthwhile to pursue.)*
+
+### Scope note: sensitivity analysis coverage
+
+Sensitivity analysis (QC threshold, normalisation method — see separate documentation)
+was performed on the two strongest, statistically-confirmed findings identified before
+this fine-resolution work began (GSE114725 macrophage reprogramming, GSE176078 HER2+
+Memory T cell enrichment). It was not extended to the new fine-resolution finding
+(Cytotoxic CD8 T cells, TNF-alpha/NF-kB) identified in this section — this was a
+deliberate scope decision given the substantial cost of each additional sensitivity
+configuration (a full pipeline re-run per configuration), raised with the supervisor for
+explicit direction on whether to extend coverage.
