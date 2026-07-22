@@ -1,0 +1,25 @@
+cell_type_fine,total_cells,TUMOR_viable_samples,NORMAL_viable_samples,VIABLE_FOR_DE
+Activated CD8 T cells,4941,8,4,True
+Antigen-presenting macrophages,910,7,2,False
+B cells,3369,8,3,True
+CD4 Activated T cells,8532,8,3,True
+CD4 Naive/Resting T cells,7555,7,2,False
+Complement-high macrophages,1075,8,2,False
+Cycling CD8 T cells,99,3,0,False
+Effector CD8 T cells,1668,7,2,False
+LAM-like macrophages,946,8,1,False
+Lipid-laden/Foam-cell macrophages,735,6,0,False
+Mast cells,494,6,1,False
+Mixed/stromal-contaminated (CD8+fibroblast signal),1335,3,1,False
+Monocyte-like macrophages,1265,7,3,True
+Monocytes/DC,359,3,2,False
+NK-like CD8 T cells,840,8,3,True
+NKT cells,748,6,1,False
+Naive/Memory CD8 T cells,2246,6,2,False
+Non-T-cell contamination (from T cells parent cluster),44,1,0,False
+Non-classical monocytes (CD16+),423,5,1,False
+"Regulatory T cells (Tregs, CD4+)",2992,8,2,False
+Resting/Resident macrophages,469,7,3,True
+True NK cells,2192,8,3,True
+"Unassigned (n=91, stromal/RBC contamination artefact)",91,1,0,False
+pDC,188,5,0,False

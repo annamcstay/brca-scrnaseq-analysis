@@ -1,0 +1,2 @@
+Gene_set,Term,P-value,Adjusted P-value,Old P-value,Old adjusted P-value,Odds Ratio,Combined Score,Genes
+MSigDB_Hallmark_2020,Interferon Alpha Response,0.0010452924941582447,0.005226462470791223,0,0,59.747058823529414,410.0714607645701,OAS1;RSAD2

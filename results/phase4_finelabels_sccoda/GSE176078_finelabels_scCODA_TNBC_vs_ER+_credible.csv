@@ -1,0 +1,25 @@
+Covariate,Cell Type,Final Parameter
+subtype[T.TNBC],B cells,False
+subtype[T.TNBC],Basal epithelial,False
+subtype[T.TNBC],CAFs,False
+subtype[T.TNBC],Cycling T cells,False
+subtype[T.TNBC],Cycling epithelial,False
+subtype[T.TNBC],Cytotoxic CD8 T cells (reclassified),False
+subtype[T.TNBC],Effector CD8 T cells,False
+subtype[T.TNBC],Endothelial cells,False
+subtype[T.TNBC],Epithelial (ambiguous),False
+subtype[T.TNBC],Exhausted CD8 T cells,False
+subtype[T.TNBC],GZMK+ CD8 T cells,False
+subtype[T.TNBC],Interferon-Response CD8 T cells,False
+subtype[T.TNBC],Luminal epithelial,False
+subtype[T.TNBC],Macrophages,False
+subtype[T.TNBC],Memory T cells,False
+subtype[T.TNBC],NK cells,False
+subtype[T.TNBC],NKT cells,False
+subtype[T.TNBC],PVL,False
+subtype[T.TNBC],Plasma cells,False
+subtype[T.TNBC],Resting/Memory-like CD8 T cells,False
+subtype[T.TNBC],Stress-Response/Activated CD8 T cells,False
+subtype[T.TNBC],T cells,False
+subtype[T.TNBC],True NK cells,False
+subtype[T.TNBC],pDC,False

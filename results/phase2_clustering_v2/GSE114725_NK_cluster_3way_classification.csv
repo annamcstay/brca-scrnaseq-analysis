@@ -1,0 +1,4930 @@
+cell_id,0
+188,True NK
+285,True NK
+77,True NK
+125,True NK
+82,Cytotoxic CD8 (mislabeled)
+124,Unclear
+265,Unclear
+51,True NK
+100,NKT
+194,Cytotoxic CD8 (mislabeled)
+44,NKT
+132,Unclear
+165,True NK
+294,Unclear
+2,True NK
+70,NKT
+110,True NK
+145,Unclear
+236,True NK
+289,True NK
+298,True NK
+328,True NK
+52,True NK
+79,True NK
+216,True NK
+5,True NK
+64,NKT
+119,True NK
+256,Unclear
+334,True NK
+549,True NK
+645,True NK
+439,True NK
+487,True NK
+444,Cytotoxic CD8 (mislabeled)
+486,Unclear
+625,Unclear
+413,True NK
+462,NKT
+555,Cytotoxic CD8 (mislabeled)
+406,NKT
+494,Unclear
+526,True NK
+654,Unclear
+364,True NK
+432,NKT
+472,True NK
+506,Unclear
+597,True NK
+649,True NK
+658,True NK
+688,True NK
+414,True NK
+441,True NK
+577,True NK
+367,True NK
+426,NKT
+481,True NK
+616,Unclear
+694,True NK
+758,Cytotoxic CD8 (mislabeled)
+891,True NK
+747,NKT
+968,True NK
+1004,NKT
+1105,True NK
+1107,Cytotoxic CD8 (mislabeled)
+1183,Unclear
+1189,True NK
+876,Unclear
+1066,True NK
+1072,NKT
+1201,Unclear
+814,Unclear
+1232,True NK
+1012,Unclear
+767,Unclear
+791,Cytotoxic CD8 (mislabeled)
+1186,Unclear
+1191,Unclear
+1193,Unclear
+906,Unclear
+931,NKT
+967,Cytotoxic CD8 (mislabeled)
+738,True NK
+744,True NK
+793,True NK
+870,True NK
+1013,True NK
+1074,True NK
+799,True NK
+841,True NK
+896,True NK
+1122,True NK
+1125,NKT
+1134,True NK
+1151,True NK
+1171,Unclear
+867,True NK
+1006,True NK
+1370,True NK
+1394,Unclear
+1481,NKT
+1543,True NK
+1547,NKT
+1595,True NK
+1650,True NK
+1761,Unclear
+1770,NKT
+1784,True NK
+1551,Cytotoxic CD8 (mislabeled)
+1706,Cytotoxic CD8 (mislabeled)
+1483,Cytotoxic CD8 (mislabeled)
+1292,NKT
+1478,True NK
+1709,NKT
+1579,Unclear
+1604,True NK
+1707,True NK
+1318,NKT
+1275,True NK
+1392,NKT
+1504,True NK
+1524,True NK
+1546,NKT
+1555,True NK
+1575,NKT
+1608,True NK
+1611,NKT
+1704,True NK
+1712,Unclear
+1786,True NK
+1787,NKT
+1612,True NK
+1300,True NK
+1323,True NK
+1398,True NK
+1409,Unclear
+1450,True NK
+1453,NKT
+1542,True NK
+1678,True NK
+1747,True NK
+1753,NKT
+1342,NKT
+1413,Cytotoxic CD8 (mislabeled)
+1480,Unclear
+1482,True NK
+1605,True NK
+1828,True NK
+1859,True NK
+1889,True NK
+1903,Unclear
+1947,True NK
+1950,True NK
+1958,True NK
+1974,Unclear
+2004,True NK
+2014,Unclear
+1836,Cytotoxic CD8 (mislabeled)
+1875,True NK
+1893,Cytotoxic CD8 (mislabeled)
+1907,Cytotoxic CD8 (mislabeled)
+1920,NKT
+1952,True NK
+1969,True NK
+1976,Cytotoxic CD8 (mislabeled)
+1991,NKT
+2015,Cytotoxic CD8 (mislabeled)
+2024,Unclear
+2027,NKT
+2035,True NK
+1878,Unclear
+1841,Unclear
+2060,Cytotoxic CD8 (mislabeled)
+2161,True NK
+2188,True NK
+2200,Cytotoxic CD8 (mislabeled)
+2282,NKT
+2324,True NK
+2664,Cytotoxic CD8 (mislabeled)
+2676,Unclear
+2700,True NK
+2391,True NK
+2677,Cytotoxic CD8 (mislabeled)
+2330,True NK
+2565,True NK
+2189,Unclear
+2272,Cytotoxic CD8 (mislabeled)
+2063,Unclear
+2119,Cytotoxic CD8 (mislabeled)
+2183,True NK
+2186,Cytotoxic CD8 (mislabeled)
+2206,True NK
+2222,True NK
+2223,Unclear
+2243,Cytotoxic CD8 (mislabeled)
+2256,True NK
+2277,True NK
+2361,NKT
+2377,NKT
+2409,NKT
+2438,NKT
+2441,NKT
+2445,True NK
+2455,Cytotoxic CD8 (mislabeled)
+2463,True NK
+2472,Unclear
+2489,Unclear
+2497,Unclear
+2529,Cytotoxic CD8 (mislabeled)
+2562,True NK
+2580,True NK
+2626,Cytotoxic CD8 (mislabeled)
+2636,NKT
+2658,Unclear
+2682,True NK
+2735,True NK
+2103,Cytotoxic CD8 (mislabeled)
+2210,True NK
+2209,Cytotoxic CD8 (mislabeled)
+3048,NKT
+2784,True NK
+2814,NKT
+2953,True NK
+2984,Unclear
+3093,True NK
+3305,Unclear
+3417,Cytotoxic CD8 (mislabeled)
+3458,True NK
+3496,Unclear
+3608,True NK
+3647,True NK
+3711,True NK
+3756,NKT
+2890,Unclear
+2904,Cytotoxic CD8 (mislabeled)
+3119,Unclear
+3370,Unclear
+3554,Unclear
+3588,True NK
+3590,True NK
+2853,Unclear
+2907,True NK
+2954,Unclear
+3665,Unclear
+3766,Unclear
+2972,Cytotoxic CD8 (mislabeled)
+3395,NKT
+3545,NKT
+2782,True NK
+2858,True NK
+2927,True NK
+2932,True NK
+2958,True NK
+3005,NKT
+3074,Unclear
+3090,Unclear
+3094,Unclear
+3120,True NK
+3133,True NK
+3142,True NK
+3151,True NK
+3155,True NK
+3181,True NK
+3227,Unclear
+3299,True NK
+3365,NKT
+3366,True NK
+3384,NKT
+3389,True NK
+3393,Unclear
+3397,True NK
+3408,Cytotoxic CD8 (mislabeled)
+3410,Unclear
+3490,True NK
+3491,Cytotoxic CD8 (mislabeled)
+3512,True NK
+3519,Unclear
+3523,Unclear
+3531,Unclear
+3548,NKT
+3571,Cytotoxic CD8 (mislabeled)
+3594,NKT
+3597,Unclear
+3598,Unclear
+3651,Unclear
+3676,Cytotoxic CD8 (mislabeled)
+3692,Unclear
+3726,True NK
+3743,Unclear
+3422,True NK
+3770,True NK
+3646,True NK
+3391,Unclear
+4621,True NK
+4974,True NK
+5048,NKT
+5116,True NK
+5195,NKT
+5119,Cytotoxic CD8 (mislabeled)
+4737,NKT
+4745,Unclear
+4877,Cytotoxic CD8 (mislabeled)
+4593,True NK
+4595,NKT
+4619,True NK
+4636,True NK
+4648,True NK
+4715,Unclear
+4769,True NK
+4776,True NK
+4791,True NK
+4805,NKT
+4846,True NK
+4852,True NK
+4866,True NK
+4867,NKT
+4885,NKT
+4886,Cytotoxic CD8 (mislabeled)
+4892,True NK
+4907,NKT
+4914,True NK
+4921,True NK
+4991,True NK
+5004,True NK
+5006,True NK
+5020,Unclear
+5044,Cytotoxic CD8 (mislabeled)
+5088,True NK
+5134,True NK
+5143,True NK
+5145,True NK
+5179,True NK
+5208,Cytotoxic CD8 (mislabeled)
+5245,Cytotoxic CD8 (mislabeled)
+5315,Unclear
+4716,True NK
+4752,NKT
+4859,Unclear
+4971,True NK
+5079,Cytotoxic CD8 (mislabeled)
+5236,True NK
+5063,True NK
+5474,Unclear
+5595,True NK
+5790,True NK
+5874,True NK
+6015,True NK
+6058,True NK
+5698,Cytotoxic CD8 (mislabeled)
+5442,Unclear
+5870,Cytotoxic CD8 (mislabeled)
+5929,NKT
+5954,Cytotoxic CD8 (mislabeled)
+6237,NKT
+5384,True NK
+5417,True NK
+5462,Unclear
+5511,True NK
+5514,True NK
+5520,True NK
+5535,Cytotoxic CD8 (mislabeled)
+5542,True NK
+5601,True NK
+5676,Unclear
+5729,True NK
+5855,Unclear
+5856,True NK
+5858,True NK
+5893,Unclear
+5924,NKT
+5975,True NK
+5999,True NK
+6067,True NK
+6076,NKT
+6127,True NK
+6130,NKT
+6180,True NK
+6250,True NK
+5552,True NK
+5621,True NK
+5788,True NK
+5942,True NK
+6115,Cytotoxic CD8 (mislabeled)
+6233,NKT
+5546,True NK
+6186,True NK
+6605,Cytotoxic CD8 (mislabeled)
+6610,True NK
+7063,True NK
+7218,Unclear
+7331,NKT
+7444,True NK
+7520,Unclear
+7751,Unclear
+7795,True NK
+7809,True NK
+7912,True NK
+7981,Unclear
+6467,True NK
+6650,Unclear
+6785,NKT
+7008,NKT
+7974,Cytotoxic CD8 (mislabeled)
+6295,NKT
+6306,True NK
+6320,True NK
+6370,Cytotoxic CD8 (mislabeled)
+6408,NKT
+6450,Unclear
+6522,True NK
+6532,True NK
+6534,True NK
+6561,True NK
+6568,True NK
+6579,Unclear
+6602,True NK
+6627,True NK
+6642,True NK
+6760,True NK
+6788,Unclear
+6800,True NK
+6818,NKT
+6829,NKT
+6835,Unclear
+6841,NKT
+6886,True NK
+6921,True NK
+6976,True NK
+6999,True NK
+7001,True NK
+7021,Cytotoxic CD8 (mislabeled)
+7039,NKT
+7071,NKT
+7095,True NK
+7105,True NK
+7116,True NK
+7134,Cytotoxic CD8 (mislabeled)
+7138,True NK
+7142,True NK
+7151,NKT
+7181,True NK
+7231,True NK
+7237,True NK
+7253,True NK
+7280,True NK
+7326,NKT
+7349,True NK
+7355,True NK
+7358,NKT
+7407,True NK
+7442,True NK
+7517,True NK
+7593,True NK
+7645,True NK
+7655,True NK
+7659,True NK
+7793,NKT
+7861,Unclear
+8018,True NK
+8032,True NK
+8043,True NK
+8047,True NK
+8069,Cytotoxic CD8 (mislabeled)
+6362,NKT
+6936,NKT
+7079,NKT
+7698,Cytotoxic CD8 (mislabeled)
+7884,Unclear
+8067,Cytotoxic CD8 (mislabeled)
+6613,True NK
+6754,True NK
+7303,True NK
+7833,Unclear
+7875,NKT
+7675,Unclear
+7153,True NK
+8509,True NK
+9591,Cytotoxic CD8 (mislabeled)
+10228,Unclear
+10617,Unclear
+10180,True NK
+11031,Unclear
+11009,True NK
+11412,Unclear
+10801,Unclear
+11113,True NK
+11504,True NK
+11690,True NK
+11715,NKT
+11960,True NK
+12522,Unclear
+13036,True NK
+13160,Cytotoxic CD8 (mislabeled)
+13499,Unclear
+13561,True NK
+13566,True NK
+13579,True NK
+13585,Unclear
+13603,Unclear
+13605,True NK
+13607,True NK
+13609,True NK
+13613,True NK
+13616,True NK
+13619,True NK
+13629,True NK
+13653,Unclear
+13662,True NK
+13666,Unclear
+13668,Unclear
+13671,Unclear
+13673,True NK
+13677,True NK
+13678,True NK
+13691,True NK
+13693,True NK
+13695,True NK
+13709,Unclear
+13715,True NK
+13727,True NK
+13739,True NK
+13743,Unclear
+13744,Unclear
+13749,NKT
+13766,True NK
+13769,True NK
+13771,True NK
+13775,True NK
+13784,Cytotoxic CD8 (mislabeled)
+13785,Unclear
+13787,Unclear
+13795,Cytotoxic CD8 (mislabeled)
+13796,True NK
+13805,True NK
+13807,Unclear
+13812,True NK
+13824,Unclear
+13830,True NK
+13837,True NK
+13840,True NK
+13844,Unclear
+13851,True NK
+13887,True NK
+13888,True NK
+13889,True NK
+13892,Cytotoxic CD8 (mislabeled)
+13904,True NK
+13930,Cytotoxic CD8 (mislabeled)
+13943,True NK
+13952,True NK
+13953,True NK
+13954,True NK
+13964,Unclear
+13970,Unclear
+13975,True NK
+13978,True NK
+13980,NKT
+13567,Unclear
+13578,Unclear
+13676,Cytotoxic CD8 (mislabeled)
+13681,True NK
+13923,Cytotoxic CD8 (mislabeled)
+13973,Cytotoxic CD8 (mislabeled)
+13573,True NK
+13583,Cytotoxic CD8 (mislabeled)
+13591,NKT
+13593,True NK
+13597,Unclear
+13600,Cytotoxic CD8 (mislabeled)
+13602,Unclear
+13627,Unclear
+13630,True NK
+13631,NKT
+13633,Unclear
+13636,Cytotoxic CD8 (mislabeled)
+13638,True NK
+13645,Unclear
+13646,NKT
+13656,True NK
+13657,True NK
+13660,True NK
+13664,True NK
+13667,Cytotoxic CD8 (mislabeled)
+13672,Cytotoxic CD8 (mislabeled)
+13688,Cytotoxic CD8 (mislabeled)
+13690,True NK
+13706,True NK
+13711,True NK
+13714,True NK
+13717,NKT
+13725,True NK
+13728,Unclear
+13738,NKT
+13740,True NK
+13757,True NK
+13760,NKT
+13786,True NK
+13798,Unclear
+13803,True NK
+13838,NKT
+13839,Cytotoxic CD8 (mislabeled)
+13842,Cytotoxic CD8 (mislabeled)
+13843,Cytotoxic CD8 (mislabeled)
+13852,Unclear
+13858,Cytotoxic CD8 (mislabeled)
+13859,True NK
+13874,Unclear
+13883,Unclear
+13885,NKT
+13901,True NK
+13909,True NK
+13914,Unclear
+13915,NKT
+13919,Cytotoxic CD8 (mislabeled)
+13931,NKT
+13938,True NK
+13939,Unclear
+13959,True NK
+13981,True NK
+13984,Cytotoxic CD8 (mislabeled)
+13987,Cytotoxic CD8 (mislabeled)
+13846,Unclear
+13997,True NK
+13999,True NK
+14009,True NK
+14011,Unclear
+14014,True NK
+14019,True NK
+14020,Unclear
+14034,True NK
+14037,True NK
+14053,True NK
+14055,Unclear
+14057,Unclear
+14060,Unclear
+14068,True NK
+14081,Unclear
+14083,True NK
+14085,Unclear
+14086,Cytotoxic CD8 (mislabeled)
+14091,Unclear
+14098,True NK
+14101,Cytotoxic CD8 (mislabeled)
+14102,Unclear
+14108,Unclear
+14110,True NK
+14113,Cytotoxic CD8 (mislabeled)
+14129,True NK
+14136,True NK
+14138,Cytotoxic CD8 (mislabeled)
+14147,Cytotoxic CD8 (mislabeled)
+14150,Unclear
+14155,True NK
+14166,True NK
+14209,Unclear
+14214,True NK
+14215,True NK
+14217,Unclear
+14218,Cytotoxic CD8 (mislabeled)
+14222,Unclear
+14224,True NK
+14230,Unclear
+14234,Unclear
+14259,Unclear
+14260,True NK
+14261,True NK
+14271,True NK
+14283,True NK
+14284,Unclear
+14294,True NK
+14306,True NK
+14312,Unclear
+14315,Cytotoxic CD8 (mislabeled)
+14316,True NK
+14320,Unclear
+14327,True NK
+14332,True NK
+14341,Unclear
+14347,Unclear
+14354,True NK
+14362,Cytotoxic CD8 (mislabeled)
+14371,Unclear
+14372,Cytotoxic CD8 (mislabeled)
+14379,Unclear
+14384,Unclear
+14385,Cytotoxic CD8 (mislabeled)
+14387,Unclear
+14392,True NK
+14416,True NK
+14417,True NK
+14420,True NK
+14116,Cytotoxic CD8 (mislabeled)
+14122,True NK
+14208,Unclear
+14236,Cytotoxic CD8 (mislabeled)
+14304,Unclear
+14313,Cytotoxic CD8 (mislabeled)
+14344,Unclear
+14365,Unclear
+14398,Unclear
+14000,True NK
+13996,Cytotoxic CD8 (mislabeled)
+14001,Unclear
+14005,Unclear
+14017,Unclear
+14022,True NK
+14024,Unclear
+14026,True NK
+14031,Unclear
+14036,Cytotoxic CD8 (mislabeled)
+14042,Unclear
+14059,Unclear
+14064,Unclear
+14067,Unclear
+14071,Unclear
+14076,Cytotoxic CD8 (mislabeled)
+14079,Cytotoxic CD8 (mislabeled)
+14080,NKT
+14103,NKT
+14112,Unclear
+14124,Cytotoxic CD8 (mislabeled)
+14130,Cytotoxic CD8 (mislabeled)
+14142,Cytotoxic CD8 (mislabeled)
+14151,True NK
+14153,Cytotoxic CD8 (mislabeled)
+14157,Cytotoxic CD8 (mislabeled)
+14159,Unclear
+14173,True NK
+14175,Cytotoxic CD8 (mislabeled)
+14178,NKT
+14179,True NK
+14180,Unclear
+14188,Unclear
+14192,Unclear
+14195,True NK
+14213,True NK
+14220,Unclear
+14238,Unclear
+14240,True NK
+14245,True NK
+14254,Cytotoxic CD8 (mislabeled)
+14256,NKT
+14282,Unclear
+14301,Unclear
+14309,Cytotoxic CD8 (mislabeled)
+14350,Unclear
+14368,NKT
+14389,True NK
+14408,True NK
+14414,True NK
+14900,NKT
+14424,Unclear
+14431,True NK
+14434,Unclear
+14438,True NK
+14443,Unclear
+14446,Unclear
+14449,Unclear
+14450,Unclear
+14461,Unclear
+14475,True NK
+14487,Unclear
+14498,Unclear
+14499,True NK
+14503,True NK
+14514,Unclear
+14525,Cytotoxic CD8 (mislabeled)
+14531,True NK
+14533,True NK
+14536,Unclear
+14543,True NK
+14545,True NK
+14547,True NK
+14549,True NK
+14552,NKT
+14554,True NK
+14560,True NK
+14564,True NK
+14571,NKT
+14572,NKT
+14577,Unclear
+14588,True NK
+14596,Unclear
+14601,Unclear
+14613,Unclear
+14614,Cytotoxic CD8 (mislabeled)
+14621,True NK
+14629,True NK
+14634,True NK
+14636,Unclear
+14641,Unclear
+14649,Cytotoxic CD8 (mislabeled)
+14653,Unclear
+14668,True NK
+14673,True NK
+14679,True NK
+14688,True NK
+14691,Cytotoxic CD8 (mislabeled)
+14695,Unclear
+14707,Unclear
+14711,True NK
+14713,True NK
+14715,Unclear
+14716,Unclear
+14720,True NK
+14721,True NK
+14729,True NK
+14737,Unclear
+14740,True NK
+14744,Cytotoxic CD8 (mislabeled)
+14749,True NK
+14751,True NK
+14756,Unclear
+14758,True NK
+14761,True NK
+14783,Unclear
+14785,Unclear
+14786,True NK
+14802,True NK
+14808,Unclear
+14812,True NK
+14815,Unclear
+14823,True NK
+14842,True NK
+14843,Unclear
+14847,Unclear
+14848,Cytotoxic CD8 (mislabeled)
+14854,True NK
+14858,True NK
+14862,True NK
+14864,True NK
+14865,True NK
+14878,True NK
+14882,Unclear
+14884,True NK
+14890,True NK
+14899,Unclear
+14906,True NK
+14911,True NK
+14920,True NK
+14926,True NK
+14929,True NK
+14930,Unclear
+14932,True NK
+14551,Cytotoxic CD8 (mislabeled)
+14617,Cytotoxic CD8 (mislabeled)
+14640,True NK
+14820,True NK
+14833,Cytotoxic CD8 (mislabeled)
+14873,Unclear
+14893,Unclear
+14908,Unclear
+14736,NKT
+14506,Cytotoxic CD8 (mislabeled)
+14530,Cytotoxic CD8 (mislabeled)
+14779,NKT
+14844,Unclear
+14897,Cytotoxic CD8 (mislabeled)
+14430,Cytotoxic CD8 (mislabeled)
+14473,True NK
+14493,True NK
+14535,Cytotoxic CD8 (mislabeled)
+14542,Unclear
+14548,Unclear
+14569,Cytotoxic CD8 (mislabeled)
+14579,True NK
+14580,Unclear
+14602,True NK
+14616,Cytotoxic CD8 (mislabeled)
+14618,True NK
+14665,NKT
+14672,Cytotoxic CD8 (mislabeled)
+14675,Cytotoxic CD8 (mislabeled)
+14677,Unclear
+14693,Unclear
+14705,True NK
+14709,Cytotoxic CD8 (mislabeled)
+14731,Unclear
+14739,True NK
+14743,Unclear
+14759,Unclear
+14771,Cytotoxic CD8 (mislabeled)
+14811,Cytotoxic CD8 (mislabeled)
+14839,True NK
+14923,True NK
+14927,Unclear
+14456,Unclear
+14502,Unclear
+14889,True NK
+15027,True NK
+15037,Cytotoxic CD8 (mislabeled)
+15190,True NK
+15223,Cytotoxic CD8 (mislabeled)
+15225,Cytotoxic CD8 (mislabeled)
+15573,True NK
+15182,Unclear
+15198,Unclear
+15206,Cytotoxic CD8 (mislabeled)
+15461,Unclear
+15466,True NK
+15594,Cytotoxic CD8 (mislabeled)
+14936,Unclear
+14964,Cytotoxic CD8 (mislabeled)
+15141,NKT
+15226,True NK
+15265,NKT
+15280,Cytotoxic CD8 (mislabeled)
+15309,True NK
+15371,True NK
+15475,Cytotoxic CD8 (mislabeled)
+15455,Unclear
+15041,Cytotoxic CD8 (mislabeled)
+15047,True NK
+15063,True NK
+15383,True NK
+15233,True NK
+15368,NKT
+15860,Unclear
+15755,NKT
+15881,True NK
+15971,True NK
+15974,Unclear
+16007,True NK
+16030,Unclear
+16161,Unclear
+15675,Unclear
+15949,Unclear
+16022,Cytotoxic CD8 (mislabeled)
+15989,Cytotoxic CD8 (mislabeled)
+15634,Cytotoxic CD8 (mislabeled)
+15665,True NK
+15688,True NK
+15766,NKT
+15817,Cytotoxic CD8 (mislabeled)
+15846,True NK
+15876,Unclear
+15934,Cytotoxic CD8 (mislabeled)
+15978,Unclear
+15985,Unclear
+16042,True NK
+16053,True NK
+16117,True NK
+16150,Cytotoxic CD8 (mislabeled)
+15708,True NK
+15900,Unclear
+15940,NKT
+16265,Unclear
+16830,Cytotoxic CD8 (mislabeled)
+16501,True NK
+16528,True NK
+16631,True NK
+16740,True NK
+16776,NKT
+16857,Unclear
+16248,Cytotoxic CD8 (mislabeled)
+16299,Cytotoxic CD8 (mislabeled)
+16566,Unclear
+16762,Unclear
+16914,Cytotoxic CD8 (mislabeled)
+16221,True NK
+16206,Cytotoxic CD8 (mislabeled)
+16223,True NK
+16262,NKT
+16310,Unclear
+16347,True NK
+16368,Cytotoxic CD8 (mislabeled)
+16417,True NK
+16437,Unclear
+16538,Cytotoxic CD8 (mislabeled)
+16649,Unclear
+16770,Cytotoxic CD8 (mislabeled)
+16799,True NK
+16922,Cytotoxic CD8 (mislabeled)
+16422,Cytotoxic CD8 (mislabeled)
+16440,Unclear
+16488,Unclear
+16557,Unclear
+16823,True NK
+16408,NKT
+16421,True NK
+16832,True NK
+16871,Unclear
+16957,Unclear
+17064,Unclear
+17118,NKT
+17080,Unclear
+17179,Unclear
+17060,True NK
+17191,Cytotoxic CD8 (mislabeled)
+17085,True NK
+17243,Cytotoxic CD8 (mislabeled)
+17298,Unclear
+17950,Cytotoxic CD8 (mislabeled)
+18028,Cytotoxic CD8 (mislabeled)
+17468,Cytotoxic CD8 (mislabeled)
+17217,True NK
+17222,Unclear
+17236,True NK
+17248,Unclear
+17252,Unclear
+17283,Unclear
+17286,True NK
+17289,True NK
+17291,True NK
+17293,Cytotoxic CD8 (mislabeled)
+17294,Unclear
+17304,True NK
+17309,Cytotoxic CD8 (mislabeled)
+17323,Unclear
+17334,Cytotoxic CD8 (mislabeled)
+17366,True NK
+17367,Cytotoxic CD8 (mislabeled)
+17371,Cytotoxic CD8 (mislabeled)
+17377,True NK
+17398,Cytotoxic CD8 (mislabeled)
+17402,Unclear
+17409,NKT
+17413,True NK
+17424,Cytotoxic CD8 (mislabeled)
+17425,True NK
+17428,Cytotoxic CD8 (mislabeled)
+17437,Cytotoxic CD8 (mislabeled)
+17441,Cytotoxic CD8 (mislabeled)
+17451,Cytotoxic CD8 (mislabeled)
+17453,Unclear
+17454,True NK
+17460,Unclear
+17464,Unclear
+17473,True NK
+17474,Cytotoxic CD8 (mislabeled)
+17476,True NK
+17481,Unclear
+17485,True NK
+17494,Unclear
+17517,True NK
+17518,NKT
+17523,NKT
+17536,Unclear
+17543,NKT
+17544,True NK
+17550,Cytotoxic CD8 (mislabeled)
+17553,Cytotoxic CD8 (mislabeled)
+17556,Unclear
+17561,Cytotoxic CD8 (mislabeled)
+17569,Cytotoxic CD8 (mislabeled)
+17572,Cytotoxic CD8 (mislabeled)
+17579,Unclear
+17584,True NK
+17585,Unclear
+17600,True NK
+17609,True NK
+17613,Unclear
+17627,True NK
+17628,Unclear
+17629,NKT
+17636,True NK
+17640,True NK
+17645,Cytotoxic CD8 (mislabeled)
+17647,Unclear
+17648,True NK
+17650,Cytotoxic CD8 (mislabeled)
+17660,True NK
+17662,True NK
+17664,Unclear
+17668,Unclear
+17669,True NK
+17672,Cytotoxic CD8 (mislabeled)
+17679,Unclear
+17682,True NK
+17689,True NK
+17694,Unclear
+17706,Unclear
+17723,Cytotoxic CD8 (mislabeled)
+17741,Unclear
+17759,Unclear
+17761,NKT
+17762,NKT
+17765,Cytotoxic CD8 (mislabeled)
+17772,True NK
+17775,Unclear
+17780,True NK
+17799,True NK
+17800,Cytotoxic CD8 (mislabeled)
+17801,True NK
+17804,Unclear
+17824,Cytotoxic CD8 (mislabeled)
+17832,Unclear
+17833,True NK
+17834,NKT
+17847,Cytotoxic CD8 (mislabeled)
+17849,Unclear
+17854,Cytotoxic CD8 (mislabeled)
+17856,Unclear
+17867,Unclear
+17870,True NK
+17873,Cytotoxic CD8 (mislabeled)
+17877,NKT
+17896,Unclear
+17897,Unclear
+17903,Cytotoxic CD8 (mislabeled)
+17905,NKT
+17913,NKT
+17914,Cytotoxic CD8 (mislabeled)
+17916,Unclear
+17927,Cytotoxic CD8 (mislabeled)
+17928,NKT
+17946,NKT
+17953,Cytotoxic CD8 (mislabeled)
+17955,Unclear
+17960,Cytotoxic CD8 (mislabeled)
+17963,Unclear
+17965,Unclear
+17978,Cytotoxic CD8 (mislabeled)
+17981,True NK
+17992,Unclear
+17994,True NK
+17999,Unclear
+18000,Unclear
+18007,Cytotoxic CD8 (mislabeled)
+18008,Unclear
+18012,True NK
+18015,Unclear
+18023,Unclear
+18029,Cytotoxic CD8 (mislabeled)
+18047,Cytotoxic CD8 (mislabeled)
+18050,Cytotoxic CD8 (mislabeled)
+18073,Unclear
+18074,True NK
+18080,True NK
+18085,True NK
+18095,True NK
+18098,True NK
+18104,Unclear
+18105,Unclear
+18110,Unclear
+18117,Unclear
+18121,True NK
+18123,True NK
+18126,NKT
+18129,True NK
+18132,Unclear
+18147,True NK
+18149,Unclear
+18150,Cytotoxic CD8 (mislabeled)
+18151,NKT
+18164,True NK
+18172,Unclear
+18189,True NK
+18200,Unclear
+18201,True NK
+18203,True NK
+18205,NKT
+18207,True NK
+18215,NKT
+18226,Cytotoxic CD8 (mislabeled)
+18233,True NK
+18242,True NK
+18245,True NK
+18253,True NK
+18272,Cytotoxic CD8 (mislabeled)
+18274,NKT
+18276,True NK
+18280,NKT
+18290,Cytotoxic CD8 (mislabeled)
+18296,True NK
+18298,Cytotoxic CD8 (mislabeled)
+18303,True NK
+18309,Unclear
+18310,True NK
+18325,True NK
+18347,True NK
+18348,True NK
+18351,True NK
+18358,NKT
+18360,Unclear
+18362,Unclear
+18363,Cytotoxic CD8 (mislabeled)
+18368,Unclear
+18377,True NK
+18385,Cytotoxic CD8 (mislabeled)
+18387,NKT
+18389,NKT
+18392,Unclear
+18393,Cytotoxic CD8 (mislabeled)
+18394,NKT
+18395,Cytotoxic CD8 (mislabeled)
+18401,True NK
+18414,Cytotoxic CD8 (mislabeled)
+18416,Unclear
+18420,True NK
+18421,Unclear
+18423,Unclear
+18424,NKT
+18425,NKT
+18427,Unclear
+18428,Cytotoxic CD8 (mislabeled)
+18458,Cytotoxic CD8 (mislabeled)
+17229,Unclear
+18184,True NK
+17204,Unclear
+17326,True NK
+17448,NKT
+17837,Unclear
+18093,Cytotoxic CD8 (mislabeled)
+17881,Cytotoxic CD8 (mislabeled)
+18241,NKT
+17651,True NK
+20187,Unclear
+18512,Cytotoxic CD8 (mislabeled)
+20236,Unclear
+20589,Cytotoxic CD8 (mislabeled)
+18464,NKT
+18466,True NK
+18468,Cytotoxic CD8 (mislabeled)
+18471,True NK
+18476,Unclear
+18480,Cytotoxic CD8 (mislabeled)
+18484,NKT
+18495,Unclear
+18506,Unclear
+18509,True NK
+18515,True NK
+18523,NKT
+18532,NKT
+18537,True NK
+18545,NKT
+18550,True NK
+18560,Unclear
+18564,Unclear
+18568,Unclear
+18569,Cytotoxic CD8 (mislabeled)
+18576,True NK
+18577,True NK
+18581,Unclear
+18582,NKT
+18586,True NK
+18587,True NK
+18590,Unclear
+18593,True NK
+18594,True NK
+18598,Cytotoxic CD8 (mislabeled)
+18599,Unclear
+18600,Unclear
+18601,True NK
+18612,True NK
+18621,Unclear
+18630,NKT
+18642,True NK
+18648,Cytotoxic CD8 (mislabeled)
+18652,True NK
+18655,True NK
+18661,True NK
+18664,True NK
+18667,True NK
+18668,True NK
+18671,Cytotoxic CD8 (mislabeled)
+18673,True NK
+18676,Cytotoxic CD8 (mislabeled)
+18684,True NK
+18706,True NK
+18707,True NK
+18718,Unclear
+18724,Unclear
+18732,True NK
+18733,True NK
+18734,Cytotoxic CD8 (mislabeled)
+18737,True NK
+18742,Unclear
+18746,True NK
+18758,Cytotoxic CD8 (mislabeled)
+18759,Unclear
+18761,Unclear
+18762,NKT
+18767,True NK
+18770,True NK
+18774,True NK
+18780,True NK
+18784,True NK
+18786,Unclear
+18796,True NK
+18807,Cytotoxic CD8 (mislabeled)
+18808,Cytotoxic CD8 (mislabeled)
+18813,Unclear
+18822,True NK
+18836,True NK
+18856,NKT
+18879,NKT
+18886,True NK
+18888,Unclear
+18893,NKT
+18898,True NK
+18901,True NK
+18907,Cytotoxic CD8 (mislabeled)
+18909,Unclear
+18912,Unclear
+18916,True NK
+18922,True NK
+18923,True NK
+18929,Unclear
+18937,NKT
+18953,True NK
+18958,True NK
+18962,True NK
+18970,NKT
+18977,True NK
+18980,True NK
+18981,Cytotoxic CD8 (mislabeled)
+18986,True NK
+18987,NKT
+18990,Unclear
+18993,NKT
+19004,True NK
+19005,NKT
+19007,True NK
+19015,NKT
+19016,Unclear
+19017,NKT
+19041,True NK
+19042,True NK
+19043,Unclear
+19045,True NK
+19046,Cytotoxic CD8 (mislabeled)
+19047,True NK
+19049,Cytotoxic CD8 (mislabeled)
+19055,Cytotoxic CD8 (mislabeled)
+19059,NKT
+19064,Unclear
+19071,True NK
+19076,Cytotoxic CD8 (mislabeled)
+19080,True NK
+19081,Unclear
+19085,NKT
+19091,True NK
+19096,Unclear
+19097,Cytotoxic CD8 (mislabeled)
+19110,True NK
+19115,Unclear
+19116,True NK
+19119,NKT
+19126,True NK
+19130,True NK
+19159,NKT
+19169,NKT
+19175,Unclear
+19177,True NK
+19181,Unclear
+19188,NKT
+19191,NKT
+19194,NKT
+19195,True NK
+19199,Cytotoxic CD8 (mislabeled)
+19207,True NK
+19230,Unclear
+19253,NKT
+19254,True NK
+19262,NKT
+19264,True NK
+19265,True NK
+19270,True NK
+19277,NKT
+19279,True NK
+19281,True NK
+19283,True NK
+19291,Unclear
+19293,Unclear
+19296,Unclear
+19297,Cytotoxic CD8 (mislabeled)
+19299,True NK
+19307,Cytotoxic CD8 (mislabeled)
+19309,NKT
+19314,Cytotoxic CD8 (mislabeled)
+19316,NKT
+19330,Unclear
+19334,Unclear
+19338,Cytotoxic CD8 (mislabeled)
+19339,True NK
+19347,True NK
+19348,NKT
+19351,Unclear
+19354,True NK
+19369,True NK
+19370,Unclear
+19373,NKT
+19387,True NK
+19388,True NK
+19392,Unclear
+19401,Unclear
+19422,True NK
+19429,True NK
+19441,Unclear
+19443,Cytotoxic CD8 (mislabeled)
+19445,Cytotoxic CD8 (mislabeled)
+19452,True NK
+19455,NKT
+19459,Cytotoxic CD8 (mislabeled)
+19460,True NK
+19462,True NK
+19487,True NK
+19508,True NK
+19509,Unclear
+19524,Cytotoxic CD8 (mislabeled)
+19528,Cytotoxic CD8 (mislabeled)
+19544,NKT
+19553,Cytotoxic CD8 (mislabeled)
+19557,True NK
+19558,True NK
+19560,Unclear
+19566,Unclear
+19568,True NK
+19575,Unclear
+19577,Cytotoxic CD8 (mislabeled)
+19579,NKT
+19586,True NK
+19597,True NK
+19598,Unclear
+19600,Cytotoxic CD8 (mislabeled)
+19612,True NK
+19614,Cytotoxic CD8 (mislabeled)
+19618,Cytotoxic CD8 (mislabeled)
+19619,Unclear
+19623,NKT
+19626,NKT
+19634,NKT
+19638,True NK
+19640,NKT
+19642,True NK
+19644,True NK
+19648,True NK
+19677,Unclear
+19678,Unclear
+19682,True NK
+19685,NKT
+19691,Cytotoxic CD8 (mislabeled)
+19692,Unclear
+19693,True NK
+19696,True NK
+19701,True NK
+19707,Unclear
+19709,Unclear
+19713,True NK
+19719,NKT
+19727,True NK
+19734,True NK
+19748,Cytotoxic CD8 (mislabeled)
+19749,Unclear
+19756,True NK
+19758,True NK
+19760,True NK
+19761,True NK
+19764,Cytotoxic CD8 (mislabeled)
+19767,True NK
+19770,Cytotoxic CD8 (mislabeled)
+19771,Unclear
+19776,Cytotoxic CD8 (mislabeled)
+19778,Unclear
+19783,NKT
+19812,Cytotoxic CD8 (mislabeled)
+19828,True NK
+19832,True NK
+19841,True NK
+19842,True NK
+19847,Cytotoxic CD8 (mislabeled)
+19848,True NK
+19851,True NK
+19860,NKT
+19867,Cytotoxic CD8 (mislabeled)
+19872,Unclear
+19874,True NK
+19885,Cytotoxic CD8 (mislabeled)
+19886,Unclear
+19891,Unclear
+19894,Unclear
+19905,NKT
+19916,True NK
+19930,True NK
+19935,True NK
+19940,Cytotoxic CD8 (mislabeled)
+19944,Unclear
+19951,Cytotoxic CD8 (mislabeled)
+19962,Cytotoxic CD8 (mislabeled)
+19973,True NK
+19975,True NK
+19988,Unclear
+19991,Unclear
+20003,Unclear
+20016,NKT
+20018,True NK
+20021,True NK
+20022,Unclear
+20027,True NK
+20033,Unclear
+20038,Unclear
+20039,Unclear
+20049,True NK
+20052,NKT
+20053,True NK
+20062,NKT
+20066,Cytotoxic CD8 (mislabeled)
+20072,Unclear
+20090,True NK
+20093,True NK
+20100,NKT
+20102,Unclear
+20105,Cytotoxic CD8 (mislabeled)
+20107,Cytotoxic CD8 (mislabeled)
+20112,Cytotoxic CD8 (mislabeled)
+20113,True NK
+20118,True NK
+20121,True NK
+20123,True NK
+20128,NKT
+20131,Cytotoxic CD8 (mislabeled)
+20140,Unclear
+20144,True NK
+20155,NKT
+20159,Unclear
+20162,Cytotoxic CD8 (mislabeled)
+20174,Cytotoxic CD8 (mislabeled)
+20200,NKT
+20202,True NK
+20203,NKT
+20204,True NK
+20228,NKT
+20235,Cytotoxic CD8 (mislabeled)
+20237,True NK
+20240,True NK
+20246,True NK
+20257,Cytotoxic CD8 (mislabeled)
+20263,True NK
+20265,True NK
+20270,Cytotoxic CD8 (mislabeled)
+20278,Cytotoxic CD8 (mislabeled)
+20279,Cytotoxic CD8 (mislabeled)
+20287,Unclear
+20301,Cytotoxic CD8 (mislabeled)
+20315,True NK
+20322,True NK
+20333,True NK
+20338,Unclear
+20349,Cytotoxic CD8 (mislabeled)
+20353,NKT
+20354,Unclear
+20363,Cytotoxic CD8 (mislabeled)
+20365,Cytotoxic CD8 (mislabeled)
+20367,Cytotoxic CD8 (mislabeled)
+20378,Unclear
+20382,True NK
+20388,True NK
+20389,NKT
+20391,NKT
+20395,True NK
+20411,True NK
+20440,Unclear
+20441,NKT
+20443,True NK
+20451,True NK
+20456,Cytotoxic CD8 (mislabeled)
+20471,NKT
+20473,True NK
+20486,True NK
+20513,Unclear
+20522,True NK
+20532,NKT
+20545,Unclear
+20550,NKT
+20551,NKT
+20564,True NK
+20566,Unclear
+20567,True NK
+20572,Unclear
+20582,True NK
+20586,Unclear
+20592,Unclear
+20612,True NK
+20620,Cytotoxic CD8 (mislabeled)
+20635,True NK
+20638,Unclear
+20639,NKT
+20649,Unclear
+20663,Unclear
+20667,True NK
+20672,Cytotoxic CD8 (mislabeled)
+20674,Unclear
+20703,True NK
+20708,True NK
+20710,True NK
+20720,Unclear
+20722,Unclear
+20728,Unclear
+20731,Cytotoxic CD8 (mislabeled)
+20734,NKT
+20735,Unclear
+20738,True NK
+20739,True NK
+20742,True NK
+20743,NKT
+20745,Unclear
+20748,True NK
+20754,Cytotoxic CD8 (mislabeled)
+20759,True NK
+20763,True NK
+20765,True NK
+20768,True NK
+20769,Unclear
+20771,True NK
+20778,Cytotoxic CD8 (mislabeled)
+20784,Cytotoxic CD8 (mislabeled)
+20798,NKT
+20801,Cytotoxic CD8 (mislabeled)
+20807,True NK
+20809,True NK
+20833,True NK
+20839,Unclear
+20841,Unclear
+20846,Unclear
+20853,True NK
+20858,Unclear
+20861,Unclear
+20871,True NK
+20883,Cytotoxic CD8 (mislabeled)
+20886,NKT
+20887,Cytotoxic CD8 (mislabeled)
+20892,True NK
+20896,True NK
+20903,Cytotoxic CD8 (mislabeled)
+20904,Unclear
+20909,Cytotoxic CD8 (mislabeled)
+20911,True NK
+20913,True NK
+20915,Cytotoxic CD8 (mislabeled)
+20917,True NK
+20918,Cytotoxic CD8 (mislabeled)
+20923,NKT
+20925,True NK
+20926,Unclear
+20931,Cytotoxic CD8 (mislabeled)
+20932,Cytotoxic CD8 (mislabeled)
+20936,Cytotoxic CD8 (mislabeled)
+18717,Unclear
+19236,True NK
+18475,Unclear
+18683,Cytotoxic CD8 (mislabeled)
+18768,True NK
+18839,NKT
+18847,Cytotoxic CD8 (mislabeled)
+19165,True NK
+19621,Unclear
+19705,Unclear
+19739,NKT
+19768,Unclear
+19810,Unclear
+20025,True NK
+20134,NKT
+20328,NKT
+20517,Unclear
+20618,NKT
+20828,Unclear
+20882,Cytotoxic CD8 (mislabeled)
+20930,Unclear
+18527,True NK
+18805,Unclear
+19506,NKT
+19814,True NK
+20509,True NK
+19541,Unclear
+21714,NKT
+22096,Cytotoxic CD8 (mislabeled)
+20937,True NK
+20939,Unclear
+20942,Unclear
+20952,True NK
+20957,NKT
+20959,Cytotoxic CD8 (mislabeled)
+20960,NKT
+20972,True NK
+20975,True NK
+20977,True NK
+20978,Unclear
+20979,True NK
+20996,Cytotoxic CD8 (mislabeled)
+21004,True NK
+21006,Unclear
+21007,Cytotoxic CD8 (mislabeled)
+21008,Unclear
+21011,Unclear
+21021,True NK
+21025,True NK
+21027,NKT
+21030,Unclear
+21031,NKT
+21035,True NK
+21042,True NK
+21043,Cytotoxic CD8 (mislabeled)
+21045,True NK
+21058,Unclear
+21059,True NK
+21068,NKT
+21069,Unclear
+21078,Cytotoxic CD8 (mislabeled)
+21079,Cytotoxic CD8 (mislabeled)
+21088,NKT
+21105,True NK
+21120,Unclear
+21124,True NK
+21130,True NK
+21131,True NK
+21134,NKT
+21146,NKT
+21155,True NK
+21160,Unclear
+21162,True NK
+21170,Cytotoxic CD8 (mislabeled)
+21173,Unclear
+21180,Unclear
+21181,True NK
+21183,NKT
+21185,Unclear
+21191,True NK
+21195,Unclear
+21199,True NK
+21222,Cytotoxic CD8 (mislabeled)
+21237,NKT
+21242,Cytotoxic CD8 (mislabeled)
+21243,True NK
+21244,Unclear
+21251,Unclear
+21253,True NK
+21254,True NK
+21269,Unclear
+21280,True NK
+21285,Cytotoxic CD8 (mislabeled)
+21288,True NK
+21295,Unclear
+21299,Unclear
+21302,True NK
+21303,Unclear
+21304,True NK
+21307,True NK
+21311,Unclear
+21313,Cytotoxic CD8 (mislabeled)
+21319,Cytotoxic CD8 (mislabeled)
+21340,True NK
+21370,True NK
+21374,Cytotoxic CD8 (mislabeled)
+21378,Unclear
+21387,Cytotoxic CD8 (mislabeled)
+21389,NKT
+21404,True NK
+21410,Cytotoxic CD8 (mislabeled)
+21420,True NK
+21421,True NK
+21440,Cytotoxic CD8 (mislabeled)
+21444,True NK
+21449,NKT
+21451,True NK
+21459,Unclear
+21468,True NK
+21469,True NK
+21480,True NK
+21503,True NK
+21512,Unclear
+21517,NKT
+21524,NKT
+21529,NKT
+21537,Unclear
+21539,True NK
+21560,True NK
+21566,Unclear
+21575,NKT
+21581,True NK
+21585,NKT
+21588,Unclear
+21593,Cytotoxic CD8 (mislabeled)
+21606,Cytotoxic CD8 (mislabeled)
+21607,True NK
+21610,True NK
+21621,True NK
+21632,True NK
+21635,True NK
+21639,True NK
+21642,Unclear
+21645,Unclear
+21649,Unclear
+21654,NKT
+21656,True NK
+21657,True NK
+21658,Cytotoxic CD8 (mislabeled)
+21661,Unclear
+21667,NKT
+21669,Cytotoxic CD8 (mislabeled)
+21688,NKT
+21692,True NK
+21709,True NK
+21710,Unclear
+21713,Cytotoxic CD8 (mislabeled)
+21716,True NK
+21721,Unclear
+21723,True NK
+21732,True NK
+21736,True NK
+21737,True NK
+21740,Unclear
+21762,NKT
+21763,Unclear
+21764,True NK
+21775,True NK
+21777,Unclear
+21781,Unclear
+21784,NKT
+21790,NKT
+21798,Cytotoxic CD8 (mislabeled)
+21812,Unclear
+21819,True NK
+21838,Cytotoxic CD8 (mislabeled)
+21843,Unclear
+21844,NKT
+21846,Unclear
+21849,True NK
+21858,True NK
+21864,Unclear
+21866,True NK
+21881,True NK
+21891,Cytotoxic CD8 (mislabeled)
+21899,Unclear
+21903,NKT
+21906,True NK
+21918,True NK
+21924,Unclear
+21928,True NK
+21944,True NK
+21952,True NK
+21957,True NK
+21961,True NK
+21965,NKT
+21967,True NK
+21995,True NK
+21997,Cytotoxic CD8 (mislabeled)
+22000,True NK
+22011,True NK
+22012,True NK
+22013,Unclear
+22015,True NK
+22016,Unclear
+22028,True NK
+22031,True NK
+22032,NKT
+22034,True NK
+22035,Cytotoxic CD8 (mislabeled)
+22036,Cytotoxic CD8 (mislabeled)
+22037,True NK
+22048,True NK
+22053,Cytotoxic CD8 (mislabeled)
+22058,NKT
+22073,True NK
+22076,Unclear
+22084,Unclear
+22098,True NK
+22103,NKT
+22110,NKT
+22111,Cytotoxic CD8 (mislabeled)
+22116,Cytotoxic CD8 (mislabeled)
+22130,True NK
+22132,NKT
+22139,NKT
+22148,Cytotoxic CD8 (mislabeled)
+22164,True NK
+22165,Cytotoxic CD8 (mislabeled)
+22167,Unclear
+22172,True NK
+22176,NKT
+22194,Unclear
+22195,NKT
+22197,Cytotoxic CD8 (mislabeled)
+22210,True NK
+22216,Unclear
+22218,True NK
+22222,True NK
+22227,Unclear
+22232,Unclear
+22238,True NK
+22251,NKT
+22256,NKT
+22267,True NK
+22268,Cytotoxic CD8 (mislabeled)
+22274,NKT
+22281,NKT
+22286,NKT
+22292,Cytotoxic CD8 (mislabeled)
+22321,NKT
+22327,NKT
+22331,NKT
+22332,Cytotoxic CD8 (mislabeled)
+22333,True NK
+22341,NKT
+22346,Unclear
+22353,True NK
+22356,True NK
+22357,True NK
+22369,True NK
+22374,True NK
+22376,Cytotoxic CD8 (mislabeled)
+22379,Cytotoxic CD8 (mislabeled)
+22381,Cytotoxic CD8 (mislabeled)
+22390,Unclear
+22397,NKT
+22403,True NK
+22405,Unclear
+22406,True NK
+22409,True NK
+22410,True NK
+22413,True NK
+22415,Cytotoxic CD8 (mislabeled)
+22421,True NK
+22425,True NK
+22443,True NK
+22447,Unclear
+22453,Cytotoxic CD8 (mislabeled)
+22457,True NK
+22458,NKT
+22464,NKT
+22466,True NK
+22478,True NK
+22479,True NK
+22480,Cytotoxic CD8 (mislabeled)
+22486,Unclear
+22494,NKT
+22503,True NK
+22513,True NK
+22514,Unclear
+22518,Unclear
+22519,True NK
+22524,True NK
+22525,Unclear
+22532,True NK
+22545,Unclear
+22551,Cytotoxic CD8 (mislabeled)
+22553,True NK
+22556,Cytotoxic CD8 (mislabeled)
+22557,Unclear
+22560,NKT
+22561,Unclear
+22569,Unclear
+22581,True NK
+22586,Unclear
+22590,True NK
+22591,Unclear
+22593,Cytotoxic CD8 (mislabeled)
+22596,True NK
+22614,Cytotoxic CD8 (mislabeled)
+22615,True NK
+22618,NKT
+22627,True NK
+22631,Cytotoxic CD8 (mislabeled)
+22636,True NK
+22641,Unclear
+22642,NKT
+22644,Cytotoxic CD8 (mislabeled)
+22645,Cytotoxic CD8 (mislabeled)
+22648,Unclear
+22659,Unclear
+22665,Cytotoxic CD8 (mislabeled)
+22673,True NK
+22680,Cytotoxic CD8 (mislabeled)
+22681,Cytotoxic CD8 (mislabeled)
+22695,Unclear
+22698,True NK
+22701,True NK
+22721,True NK
+22729,Unclear
+22731,True NK
+22732,True NK
+22735,True NK
+22739,True NK
+22745,True NK
+22746,Cytotoxic CD8 (mislabeled)
+22752,Cytotoxic CD8 (mislabeled)
+22753,True NK
+22754,True NK
+22755,True NK
+22761,Cytotoxic CD8 (mislabeled)
+22763,True NK
+22764,Cytotoxic CD8 (mislabeled)
+22769,NKT
+22778,True NK
+22782,Cytotoxic CD8 (mislabeled)
+22787,True NK
+22789,Unclear
+22791,True NK
+22793,Unclear
+22795,Unclear
+22798,True NK
+22805,Unclear
+22807,True NK
+22812,Cytotoxic CD8 (mislabeled)
+22815,NKT
+22818,Unclear
+22827,True NK
+22828,NKT
+22842,Cytotoxic CD8 (mislabeled)
+22852,True NK
+22854,Cytotoxic CD8 (mislabeled)
+22857,True NK
+22860,True NK
+22861,Cytotoxic CD8 (mislabeled)
+22872,NKT
+22873,Unclear
+22876,Unclear
+22897,Unclear
+22913,Unclear
+22919,True NK
+22932,True NK
+22938,NKT
+22946,True NK
+22954,Unclear
+22956,Cytotoxic CD8 (mislabeled)
+22967,NKT
+22973,Cytotoxic CD8 (mislabeled)
+22974,True NK
+22975,True NK
+22989,Cytotoxic CD8 (mislabeled)
+23003,Cytotoxic CD8 (mislabeled)
+23005,True NK
+23008,Cytotoxic CD8 (mislabeled)
+23011,Unclear
+23015,Cytotoxic CD8 (mislabeled)
+23017,Cytotoxic CD8 (mislabeled)
+23025,Unclear
+23027,NKT
+23029,True NK
+23032,Cytotoxic CD8 (mislabeled)
+23039,True NK
+23043,Unclear
+23053,NKT
+23058,Cytotoxic CD8 (mislabeled)
+23062,True NK
+23068,True NK
+23076,True NK
+23094,Cytotoxic CD8 (mislabeled)
+23101,NKT
+23103,Unclear
+23107,True NK
+23110,True NK
+23114,NKT
+23128,Unclear
+23129,True NK
+23132,NKT
+23133,True NK
+23134,Cytotoxic CD8 (mislabeled)
+23141,Unclear
+23143,True NK
+23146,NKT
+23150,True NK
+23155,True NK
+23160,Unclear
+23177,Cytotoxic CD8 (mislabeled)
+22965,Cytotoxic CD8 (mislabeled)
+21190,True NK
+21373,Unclear
+21406,True NK
+21591,True NK
+21680,Cytotoxic CD8 (mislabeled)
+21848,Unclear
+22137,Cytotoxic CD8 (mislabeled)
+22259,Cytotoxic CD8 (mislabeled)
+22282,Cytotoxic CD8 (mislabeled)
+22350,NKT
+23167,Cytotoxic CD8 (mislabeled)
+21573,True NK
+21603,Unclear
+21773,True NK
+22362,True NK
+22583,True NK
+22606,Unclear
+22649,Unclear
+22696,True NK
+22709,Cytotoxic CD8 (mislabeled)
+21139,Cytotoxic CD8 (mislabeled)
+22942,Cytotoxic CD8 (mislabeled)
+23427,Cytotoxic CD8 (mislabeled)
+23502,True NK
+24004,Cytotoxic CD8 (mislabeled)
+24064,Cytotoxic CD8 (mislabeled)
+24089,Cytotoxic CD8 (mislabeled)
+24796,NKT
+25232,Unclear
+23188,Unclear
+23193,Unclear
+23208,Cytotoxic CD8 (mislabeled)
+23214,True NK
+23218,True NK
+23235,Cytotoxic CD8 (mislabeled)
+23238,True NK
+23242,Cytotoxic CD8 (mislabeled)
+23243,True NK
+23246,Unclear
+23248,Cytotoxic CD8 (mislabeled)
+23254,NKT
+23259,Unclear
+23262,True NK
+23264,True NK
+23287,True NK
+23289,NKT
+23298,Cytotoxic CD8 (mislabeled)
+23305,Cytotoxic CD8 (mislabeled)
+23307,Cytotoxic CD8 (mislabeled)
+23312,Unclear
+23313,True NK
+23321,Unclear
+23334,Cytotoxic CD8 (mislabeled)
+23349,Cytotoxic CD8 (mislabeled)
+23351,True NK
+23352,True NK
+23361,True NK
+23362,Unclear
+23368,Unclear
+23373,Unclear
+23387,Unclear
+23388,True NK
+23389,Unclear
+23391,Unclear
+23395,True NK
+23400,True NK
+23403,Cytotoxic CD8 (mislabeled)
+23415,Cytotoxic CD8 (mislabeled)
+23417,NKT
+23425,True NK
+23431,NKT
+23434,True NK
+23438,True NK
+23441,True NK
+23448,True NK
+23452,Cytotoxic CD8 (mislabeled)
+23468,Unclear
+23471,NKT
+23479,Cytotoxic CD8 (mislabeled)
+23491,True NK
+23497,NKT
+23499,Cytotoxic CD8 (mislabeled)
+23501,Unclear
+23505,Unclear
+23520,True NK
+23529,Cytotoxic CD8 (mislabeled)
+23537,Cytotoxic CD8 (mislabeled)
+23541,True NK
+23547,True NK
+23553,Unclear
+23556,True NK
+23562,Unclear
+23581,NKT
+23582,Unclear
+23585,Cytotoxic CD8 (mislabeled)
+23587,Cytotoxic CD8 (mislabeled)
+23591,Cytotoxic CD8 (mislabeled)
+23601,Unclear
+23606,True NK
+23612,NKT
+23615,True NK
+23620,Cytotoxic CD8 (mislabeled)
+23626,Unclear
+23639,Cytotoxic CD8 (mislabeled)
+23644,Cytotoxic CD8 (mislabeled)
+23647,Cytotoxic CD8 (mislabeled)
+23652,Cytotoxic CD8 (mislabeled)
+23653,NKT
+23656,NKT
+23657,True NK
+23664,Unclear
+23665,Cytotoxic CD8 (mislabeled)
+23666,True NK
+23672,True NK
+23688,True NK
+23696,True NK
+23704,NKT
+23710,True NK
+23713,NKT
+23715,True NK
+23718,True NK
+23729,Cytotoxic CD8 (mislabeled)
+23731,True NK
+23734,Unclear
+23736,NKT
+23747,Unclear
+23753,True NK
+23757,NKT
+23759,Unclear
+23775,True NK
+23781,True NK
+23784,Unclear
+23787,NKT
+23792,True NK
+23795,True NK
+23803,Unclear
+23806,True NK
+23809,True NK
+23810,Unclear
+23821,NKT
+23832,True NK
+23857,Unclear
+23861,True NK
+23863,True NK
+23871,True NK
+23873,True NK
+23875,True NK
+23885,Unclear
+23886,NKT
+23887,Unclear
+23892,True NK
+23895,Unclear
+23903,Unclear
+23904,True NK
+23909,True NK
+23933,Unclear
+23943,NKT
+23947,Cytotoxic CD8 (mislabeled)
+23949,Cytotoxic CD8 (mislabeled)
+23956,Cytotoxic CD8 (mislabeled)
+23961,True NK
+23966,Cytotoxic CD8 (mislabeled)
+23967,True NK
+23983,True NK
+23988,Unclear
+23994,Cytotoxic CD8 (mislabeled)
+24001,Cytotoxic CD8 (mislabeled)
+24002,Cytotoxic CD8 (mislabeled)
+24009,Cytotoxic CD8 (mislabeled)
+24015,Cytotoxic CD8 (mislabeled)
+24020,Unclear
+24034,Cytotoxic CD8 (mislabeled)
+24037,Cytotoxic CD8 (mislabeled)
+24040,Unclear
+24041,True NK
+24045,NKT
+24074,Unclear
+24085,Unclear
+24090,Cytotoxic CD8 (mislabeled)
+24091,Cytotoxic CD8 (mislabeled)
+24101,True NK
+24118,Unclear
+24120,Unclear
+24122,NKT
+24128,True NK
+24132,Unclear
+24141,True NK
+24142,True NK
+24152,Unclear
+24157,Cytotoxic CD8 (mislabeled)
+24163,Cytotoxic CD8 (mislabeled)
+24168,Cytotoxic CD8 (mislabeled)
+24173,Cytotoxic CD8 (mislabeled)
+24180,True NK
+24183,Cytotoxic CD8 (mislabeled)
+24190,Cytotoxic CD8 (mislabeled)
+24199,NKT
+24200,NKT
+24203,Unclear
+24204,NKT
+24215,NKT
+24230,NKT
+24249,Cytotoxic CD8 (mislabeled)
+24282,True NK
+24286,True NK
+24299,NKT
+24301,Cytotoxic CD8 (mislabeled)
+24304,Cytotoxic CD8 (mislabeled)
+24316,True NK
+24323,Unclear
+24326,True NK
+24331,NKT
+24338,Unclear
+24343,True NK
+24353,Cytotoxic CD8 (mislabeled)
+24356,Cytotoxic CD8 (mislabeled)
+24365,Cytotoxic CD8 (mislabeled)
+24376,NKT
+24377,Cytotoxic CD8 (mislabeled)
+24378,Unclear
+24379,Cytotoxic CD8 (mislabeled)
+24380,True NK
+24383,Cytotoxic CD8 (mislabeled)
+24387,True NK
+24391,Unclear
+24402,Cytotoxic CD8 (mislabeled)
+24412,Cytotoxic CD8 (mislabeled)
+24413,Cytotoxic CD8 (mislabeled)
+24414,True NK
+24415,Cytotoxic CD8 (mislabeled)
+24418,True NK
+24420,Unclear
+24426,NKT
+24428,True NK
+24431,Unclear
+24433,True NK
+24434,True NK
+24435,True NK
+24438,Cytotoxic CD8 (mislabeled)
+24455,Unclear
+24461,NKT
+24462,NKT
+24480,Cytotoxic CD8 (mislabeled)
+24481,True NK
+24483,Unclear
+24495,True NK
+24496,Unclear
+24497,True NK
+24498,True NK
+24510,True NK
+24524,Unclear
+24539,True NK
+24541,True NK
+24543,True NK
+24554,True NK
+24555,Cytotoxic CD8 (mislabeled)
+24556,Unclear
+24566,True NK
+24590,True NK
+24592,NKT
+24602,True NK
+24607,Unclear
+24610,True NK
+24611,True NK
+24613,Unclear
+24615,True NK
+24628,NKT
+24642,True NK
+24649,Cytotoxic CD8 (mislabeled)
+24654,True NK
+24655,True NK
+24657,True NK
+24662,Cytotoxic CD8 (mislabeled)
+24671,Cytotoxic CD8 (mislabeled)
+24681,True NK
+24687,Cytotoxic CD8 (mislabeled)
+24693,Unclear
+24696,Cytotoxic CD8 (mislabeled)
+24705,NKT
+24707,Unclear
+24711,NKT
+24712,True NK
+24716,Cytotoxic CD8 (mislabeled)
+24721,True NK
+24724,True NK
+24725,True NK
+24729,Unclear
+24746,True NK
+24751,NKT
+24763,Cytotoxic CD8 (mislabeled)
+24768,Unclear
+24780,True NK
+24794,NKT
+24804,Unclear
+24815,True NK
+24816,True NK
+24822,NKT
+24827,NKT
+24850,Unclear
+24874,True NK
+24878,Unclear
+24881,NKT
+24888,True NK
+24891,Unclear
+24922,Unclear
+24925,Unclear
+24926,Unclear
+24931,True NK
+24937,Unclear
+24941,True NK
+24947,True NK
+24950,Cytotoxic CD8 (mislabeled)
+24962,Unclear
+24968,Cytotoxic CD8 (mislabeled)
+24970,Cytotoxic CD8 (mislabeled)
+24971,True NK
+24995,NKT
+25000,NKT
+25003,Unclear
+25005,True NK
+25009,True NK
+25011,True NK
+25017,Unclear
+25022,True NK
+25027,Cytotoxic CD8 (mislabeled)
+25031,NKT
+25036,True NK
+25041,True NK
+25054,NKT
+25080,True NK
+25086,NKT
+25089,Unclear
+25095,Cytotoxic CD8 (mislabeled)
+25096,Unclear
+25099,True NK
+25108,Cytotoxic CD8 (mislabeled)
+25110,True NK
+25118,Cytotoxic CD8 (mislabeled)
+25119,NKT
+25124,True NK
+25127,True NK
+25135,Cytotoxic CD8 (mislabeled)
+25145,Cytotoxic CD8 (mislabeled)
+25153,True NK
+25165,True NK
+25169,Unclear
+25171,Unclear
+25172,Unclear
+25173,True NK
+25177,Unclear
+25181,True NK
+25185,Unclear
+25210,True NK
+25215,True NK
+25218,Cytotoxic CD8 (mislabeled)
+25219,NKT
+25221,NKT
+25242,True NK
+25255,True NK
+25257,Unclear
+25261,Unclear
+25263,Cytotoxic CD8 (mislabeled)
+25266,Unclear
+25286,True NK
+25330,True NK
+25333,True NK
+25344,Unclear
+25353,Cytotoxic CD8 (mislabeled)
+25355,True NK
+25360,Unclear
+25362,Unclear
+25368,Cytotoxic CD8 (mislabeled)
+25390,Cytotoxic CD8 (mislabeled)
+25400,Cytotoxic CD8 (mislabeled)
+25408,Unclear
+25415,Unclear
+25417,True NK
+25421,NKT
+25430,NKT
+25446,True NK
+25450,True NK
+25233,Unclear
+24488,True NK
+24490,Unclear
+24906,Unclear
+25249,True NK
+25293,Unclear
+23568,True NK
+23616,Unclear
+23630,Cytotoxic CD8 (mislabeled)
+23953,True NK
+24231,True NK
+24504,Unclear
+24545,NKT
+24651,Cytotoxic CD8 (mislabeled)
+24801,True NK
+24830,True NK
+25019,Unclear
+25225,True NK
+23187,True NK
+23384,True NK
+23693,Unclear
+24055,Cytotoxic CD8 (mislabeled)
+24617,Unclear
+23876,Unclear
+25618,Cytotoxic CD8 (mislabeled)
+25661,NKT
+26632,NKT
+26752,Cytotoxic CD8 (mislabeled)
+26868,NKT
+27071,Cytotoxic CD8 (mislabeled)
+27158,Cytotoxic CD8 (mislabeled)
+25458,True NK
+25485,True NK
+25506,Cytotoxic CD8 (mislabeled)
+25513,True NK
+25514,Unclear
+25517,True NK
+25520,NKT
+25521,True NK
+25536,Cytotoxic CD8 (mislabeled)
+25538,NKT
+25552,True NK
+25564,True NK
+25570,True NK
+25572,Unclear
+25574,True NK
+25579,Cytotoxic CD8 (mislabeled)
+25581,True NK
+25592,True NK
+25594,Cytotoxic CD8 (mislabeled)
+25599,Cytotoxic CD8 (mislabeled)
+25600,NKT
+25604,Cytotoxic CD8 (mislabeled)
+25607,True NK
+25627,True NK
+25630,Unclear
+25634,True NK
+25648,NKT
+25649,True NK
+25654,NKT
+25667,True NK
+25676,True NK
+25678,True NK
+25682,True NK
+25686,True NK
+25687,Cytotoxic CD8 (mislabeled)
+25692,Unclear
+25696,True NK
+25701,NKT
+25702,Unclear
+25726,Cytotoxic CD8 (mislabeled)
+25731,Unclear
+25751,Cytotoxic CD8 (mislabeled)
+25757,True NK
+25764,Unclear
+25775,True NK
+25777,Cytotoxic CD8 (mislabeled)
+25779,NKT
+25781,NKT
+25784,Cytotoxic CD8 (mislabeled)
+25791,NKT
+25804,True NK
+25807,Unclear
+25809,Unclear
+25810,Cytotoxic CD8 (mislabeled)
+25816,NKT
+25818,Unclear
+25821,Unclear
+25829,Cytotoxic CD8 (mislabeled)
+25842,Unclear
+25845,Cytotoxic CD8 (mislabeled)
+25849,Unclear
+25852,True NK
+25853,True NK
+25857,NKT
+25869,Cytotoxic CD8 (mislabeled)
+25878,True NK
+25880,Unclear
+25887,True NK
+25908,Unclear
+25914,Unclear
+25917,Cytotoxic CD8 (mislabeled)
+25924,True NK
+25931,True NK
+25932,True NK
+25941,NKT
+25943,NKT
+25964,Cytotoxic CD8 (mislabeled)
+25965,NKT
+25968,True NK
+25972,True NK
+25975,True NK
+25976,True NK
+25977,True NK
+25979,True NK
+25994,True NK
+26005,Unclear
+26007,Unclear
+26024,Unclear
+26027,True NK
+26035,True NK
+26041,True NK
+26042,True NK
+26050,Unclear
+26053,True NK
+26055,Unclear
+26058,True NK
+26060,Unclear
+26063,Unclear
+26077,Unclear
+26078,NKT
+26083,Unclear
+26088,Cytotoxic CD8 (mislabeled)
+26092,True NK
+26093,True NK
+26098,Cytotoxic CD8 (mislabeled)
+26100,True NK
+26107,Unclear
+26110,Unclear
+26114,NKT
+26117,True NK
+26120,NKT
+26122,True NK
+26129,True NK
+26135,Cytotoxic CD8 (mislabeled)
+26140,Unclear
+26144,Unclear
+26166,Unclear
+26168,Cytotoxic CD8 (mislabeled)
+26176,Cytotoxic CD8 (mislabeled)
+26181,Cytotoxic CD8 (mislabeled)
+26184,Cytotoxic CD8 (mislabeled)
+26187,Unclear
+26189,True NK
+26191,Cytotoxic CD8 (mislabeled)
+26193,Cytotoxic CD8 (mislabeled)
+26195,True NK
+26200,Cytotoxic CD8 (mislabeled)
+26207,Cytotoxic CD8 (mislabeled)
+26216,True NK
+26218,True NK
+26223,True NK
+26225,True NK
+26229,NKT
+26230,Cytotoxic CD8 (mislabeled)
+26231,NKT
+26236,Unclear
+26240,Cytotoxic CD8 (mislabeled)
+26241,True NK
+26242,Unclear
+26251,Unclear
+26254,Unclear
+26257,True NK
+26259,NKT
+26261,True NK
+26266,Unclear
+26275,NKT
+26278,NKT
+26283,NKT
+26290,Unclear
+26292,True NK
+26293,Cytotoxic CD8 (mislabeled)
+26304,True NK
+26313,Unclear
+26316,Unclear
+26320,NKT
+26330,True NK
+26333,True NK
+26336,Unclear
+26342,True NK
+26349,Unclear
+26354,Unclear
+26355,True NK
+26357,Cytotoxic CD8 (mislabeled)
+26363,NKT
+26376,True NK
+26379,Unclear
+26386,True NK
+26394,True NK
+26398,Cytotoxic CD8 (mislabeled)
+26402,Unclear
+26406,True NK
+26408,True NK
+26413,True NK
+26417,NKT
+26426,Unclear
+26430,Cytotoxic CD8 (mislabeled)
+26434,NKT
+26443,True NK
+26451,Unclear
+26459,True NK
+26461,NKT
+26465,True NK
+26466,True NK
+26468,Unclear
+26471,NKT
+26473,True NK
+26474,True NK
+26486,True NK
+26488,True NK
+26491,True NK
+26501,True NK
+26504,Cytotoxic CD8 (mislabeled)
+26522,Unclear
+26523,Unclear
+26533,Cytotoxic CD8 (mislabeled)
+26541,Cytotoxic CD8 (mislabeled)
+26543,Unclear
+26547,Unclear
+26548,Cytotoxic CD8 (mislabeled)
+26550,True NK
+26554,True NK
+26558,NKT
+26561,True NK
+26575,True NK
+26582,True NK
+26584,Cytotoxic CD8 (mislabeled)
+26592,Unclear
+26599,Cytotoxic CD8 (mislabeled)
+26600,Unclear
+26624,Unclear
+26625,Cytotoxic CD8 (mislabeled)
+26635,NKT
+26637,NKT
+26639,True NK
+26653,True NK
+26664,True NK
+26666,Cytotoxic CD8 (mislabeled)
+26673,True NK
+26682,Cytotoxic CD8 (mislabeled)
+26684,Unclear
+26685,True NK
+26694,True NK
+26699,True NK
+26700,True NK
+26701,NKT
+26705,Cytotoxic CD8 (mislabeled)
+26706,NKT
+26714,NKT
+26717,True NK
+26718,True NK
+26721,Unclear
+26735,True NK
+26741,True NK
+26750,NKT
+26762,Unclear
+26763,Cytotoxic CD8 (mislabeled)
+26779,True NK
+26789,True NK
+26797,Unclear
+26800,True NK
+26802,Cytotoxic CD8 (mislabeled)
+26813,Cytotoxic CD8 (mislabeled)
+26817,Unclear
+26839,True NK
+26842,True NK
+26844,Unclear
+26846,Unclear
+26859,Unclear
+26882,True NK
+26887,True NK
+26896,NKT
+26899,NKT
+26901,Cytotoxic CD8 (mislabeled)
+26904,True NK
+26914,True NK
+26917,Cytotoxic CD8 (mislabeled)
+26919,True NK
+26930,Cytotoxic CD8 (mislabeled)
+26942,Unclear
+26947,True NK
+26972,Cytotoxic CD8 (mislabeled)
+26973,True NK
+26982,NKT
+26984,True NK
+26985,True NK
+26986,Cytotoxic CD8 (mislabeled)
+26993,True NK
+27000,Cytotoxic CD8 (mislabeled)
+27001,True NK
+27010,Unclear
+27017,Unclear
+27021,True NK
+27023,True NK
+27027,True NK
+27029,NKT
+27033,Unclear
+27035,Unclear
+27039,Unclear
+27042,True NK
+27045,True NK
+27047,True NK
+27049,NKT
+27051,True NK
+27063,NKT
+27081,True NK
+27089,True NK
+27092,Unclear
+27095,True NK
+27097,Cytotoxic CD8 (mislabeled)
+27102,True NK
+27105,Unclear
+27111,Unclear
+27113,True NK
+27122,True NK
+27131,Cytotoxic CD8 (mislabeled)
+27137,True NK
+27142,True NK
+27147,True NK
+27149,True NK
+27172,True NK
+27179,NKT
+27182,True NK
+27186,Unclear
+27192,Cytotoxic CD8 (mislabeled)
+27201,NKT
+27212,True NK
+27216,NKT
+27221,True NK
+27230,True NK
+27237,Unclear
+27244,True NK
+27250,True NK
+27254,Cytotoxic CD8 (mislabeled)
+27265,Cytotoxic CD8 (mislabeled)
+27279,Unclear
+27286,True NK
+27288,Unclear
+27290,NKT
+27295,True NK
+27301,True NK
+27327,Unclear
+27338,True NK
+27340,True NK
+27348,True NK
+25812,NKT
+26879,Cytotoxic CD8 (mislabeled)
+25665,Unclear
+26085,Cytotoxic CD8 (mislabeled)
+26295,Cytotoxic CD8 (mislabeled)
+26520,Unclear
+27136,NKT
+27322,NKT
+27343,Unclear
+25498,True NK
+25542,True NK
+26661,NKT
+25974,Cytotoxic CD8 (mislabeled)
+26238,Unclear
+26469,True NK
+26477,NKT
+27372,NKT
+28701,Cytotoxic CD8 (mislabeled)
+28995,Cytotoxic CD8 (mislabeled)
+29261,Cytotoxic CD8 (mislabeled)
+29285,Cytotoxic CD8 (mislabeled)
+27349,True NK
+27352,NKT
+27381,True NK
+27383,Cytotoxic CD8 (mislabeled)
+27384,True NK
+27393,Unclear
+27399,True NK
+27400,Unclear
+27403,True NK
+27414,True NK
+27427,True NK
+27428,Unclear
+27445,Unclear
+27449,NKT
+27453,True NK
+27454,True NK
+27456,True NK
+27462,True NK
+27469,True NK
+27478,Cytotoxic CD8 (mislabeled)
+27479,True NK
+27481,Cytotoxic CD8 (mislabeled)
+27486,Unclear
+27492,Unclear
+27493,Unclear
+27501,Cytotoxic CD8 (mislabeled)
+27506,Unclear
+27511,True NK
+27514,Cytotoxic CD8 (mislabeled)
+27516,True NK
+27520,Unclear
+27523,Unclear
+27525,Unclear
+27526,Unclear
+27528,Cytotoxic CD8 (mislabeled)
+27529,NKT
+27550,Cytotoxic CD8 (mislabeled)
+27553,Unclear
+27554,NKT
+27557,Cytotoxic CD8 (mislabeled)
+27560,Cytotoxic CD8 (mislabeled)
+27562,NKT
+27566,Unclear
+27581,Unclear
+27586,True NK
+27591,Cytotoxic CD8 (mislabeled)
+27592,True NK
+27593,Cytotoxic CD8 (mislabeled)
+27595,Cytotoxic CD8 (mislabeled)
+27596,Unclear
+27601,True NK
+27602,Unclear
+27615,True NK
+27616,True NK
+27617,Cytotoxic CD8 (mislabeled)
+27621,Cytotoxic CD8 (mislabeled)
+27623,Unclear
+27630,NKT
+27650,True NK
+27655,True NK
+27661,Cytotoxic CD8 (mislabeled)
+27665,Cytotoxic CD8 (mislabeled)
+27666,NKT
+27675,True NK
+27677,Cytotoxic CD8 (mislabeled)
+27679,Unclear
+27682,Unclear
+27695,Unclear
+27714,Unclear
+27722,True NK
+27723,Cytotoxic CD8 (mislabeled)
+27724,NKT
+27729,True NK
+27735,Unclear
+27741,Cytotoxic CD8 (mislabeled)
+27745,Cytotoxic CD8 (mislabeled)
+27747,True NK
+27751,NKT
+27757,NKT
+27762,Unclear
+27768,True NK
+27784,Unclear
+27785,True NK
+27790,NKT
+27800,True NK
+27807,NKT
+27809,True NK
+27871,True NK
+27874,Unclear
+27894,True NK
+27896,Cytotoxic CD8 (mislabeled)
+27905,Unclear
+27906,Cytotoxic CD8 (mislabeled)
+27913,True NK
+27916,Unclear
+27917,Unclear
+27920,True NK
+27921,Cytotoxic CD8 (mislabeled)
+27927,True NK
+27928,True NK
+27933,True NK
+27938,Cytotoxic CD8 (mislabeled)
+27939,NKT
+27941,True NK
+27945,True NK
+27949,NKT
+27950,True NK
+27963,NKT
+27965,NKT
+27968,True NK
+27978,NKT
+27982,Unclear
+27989,True NK
+28009,Unclear
+28020,Unclear
+28031,True NK
+28047,NKT
+28050,NKT
+28051,True NK
+28057,Cytotoxic CD8 (mislabeled)
+28059,NKT
+28062,True NK
+28067,True NK
+28069,Unclear
+28071,True NK
+28072,True NK
+28077,Cytotoxic CD8 (mislabeled)
+28080,NKT
+28090,True NK
+28095,Cytotoxic CD8 (mislabeled)
+28099,True NK
+28103,NKT
+28107,True NK
+28110,Unclear
+28111,Cytotoxic CD8 (mislabeled)
+28125,True NK
+28130,True NK
+28133,True NK
+28138,True NK
+28141,True NK
+28161,Unclear
+28162,Unclear
+28171,Cytotoxic CD8 (mislabeled)
+28174,True NK
+28175,Cytotoxic CD8 (mislabeled)
+28176,NKT
+28183,NKT
+28185,True NK
+28198,NKT
+28199,Cytotoxic CD8 (mislabeled)
+28211,Cytotoxic CD8 (mislabeled)
+28215,Unclear
+28219,Unclear
+28231,Unclear
+28240,True NK
+28241,True NK
+28242,Cytotoxic CD8 (mislabeled)
+28243,Cytotoxic CD8 (mislabeled)
+28251,True NK
+28252,True NK
+28254,Cytotoxic CD8 (mislabeled)
+28257,Unclear
+28258,Unclear
+28264,NKT
+28267,True NK
+28280,True NK
+28286,True NK
+28293,NKT
+28296,True NK
+28303,NKT
+28311,Unclear
+28327,True NK
+28329,Cytotoxic CD8 (mislabeled)
+28331,NKT
+28339,True NK
+28344,Unclear
+28345,Unclear
+28351,True NK
+28359,Unclear
+28362,Cytotoxic CD8 (mislabeled)
+28384,Unclear
+28409,True NK
+28417,True NK
+28419,Cytotoxic CD8 (mislabeled)
+28425,NKT
+28428,True NK
+28430,Unclear
+28441,NKT
+28442,Unclear
+28443,Cytotoxic CD8 (mislabeled)
+28448,True NK
+28459,Unclear
+28460,True NK
+28496,True NK
+28509,Cytotoxic CD8 (mislabeled)
+28513,Cytotoxic CD8 (mislabeled)
+28526,Unclear
+28527,True NK
+28543,NKT
+28547,NKT
+28551,NKT
+28555,True NK
+28560,True NK
+28565,NKT
+28567,NKT
+28599,True NK
+28609,True NK
+28629,Cytotoxic CD8 (mislabeled)
+28636,True NK
+28644,NKT
+28650,NKT
+28654,True NK
+28655,NKT
+28667,NKT
+28672,True NK
+28673,Unclear
+28691,True NK
+28696,NKT
+28707,Cytotoxic CD8 (mislabeled)
+28709,True NK
+28722,NKT
+28735,True NK
+28749,Cytotoxic CD8 (mislabeled)
+28757,Unclear
+28770,NKT
+28779,NKT
+28781,NKT
+28783,True NK
+28784,Unclear
+28787,Cytotoxic CD8 (mislabeled)
+28788,True NK
+28797,NKT
+28807,NKT
+28812,NKT
+28816,Unclear
+28819,Unclear
+28820,True NK
+28824,True NK
+28833,NKT
+28835,True NK
+28842,Cytotoxic CD8 (mislabeled)
+28850,Cytotoxic CD8 (mislabeled)
+28851,True NK
+28853,True NK
+28860,NKT
+28861,True NK
+28864,Unclear
+28868,NKT
+28869,True NK
+28873,True NK
+28878,Unclear
+28880,NKT
+28884,Unclear
+28887,Unclear
+28889,Cytotoxic CD8 (mislabeled)
+28891,True NK
+28920,Cytotoxic CD8 (mislabeled)
+28928,True NK
+28939,True NK
+28949,Cytotoxic CD8 (mislabeled)
+28962,NKT
+28963,NKT
+28972,True NK
+28975,Unclear
+28981,NKT
+28985,True NK
+28997,True NK
+28999,True NK
+29005,Cytotoxic CD8 (mislabeled)
+29013,NKT
+29014,Cytotoxic CD8 (mislabeled)
+29016,True NK
+29020,NKT
+29024,True NK
+29030,Unclear
+29032,True NK
+29033,NKT
+29037,Cytotoxic CD8 (mislabeled)
+29038,Unclear
+29040,Cytotoxic CD8 (mislabeled)
+29042,True NK
+29047,Cytotoxic CD8 (mislabeled)
+29048,True NK
+29052,Cytotoxic CD8 (mislabeled)
+29062,Unclear
+29079,Cytotoxic CD8 (mislabeled)
+29080,Cytotoxic CD8 (mislabeled)
+29085,Cytotoxic CD8 (mislabeled)
+29106,Cytotoxic CD8 (mislabeled)
+29107,Unclear
+29113,NKT
+29121,NKT
+29124,Cytotoxic CD8 (mislabeled)
+29133,True NK
+29135,Cytotoxic CD8 (mislabeled)
+29152,True NK
+29163,NKT
+29183,True NK
+29196,True NK
+29208,NKT
+29209,True NK
+29225,Unclear
+29230,Cytotoxic CD8 (mislabeled)
+29234,True NK
+29235,True NK
+29236,Unclear
+29240,True NK
+29250,True NK
+29255,NKT
+29263,NKT
+29274,True NK
+29275,Unclear
+29277,NKT
+29278,Cytotoxic CD8 (mislabeled)
+29279,True NK
+29308,True NK
+29313,NKT
+29319,Cytotoxic CD8 (mislabeled)
+29330,Cytotoxic CD8 (mislabeled)
+29334,Cytotoxic CD8 (mislabeled)
+29338,Unclear
+29345,True NK
+29347,Unclear
+29349,NKT
+29352,True NK
+29353,NKT
+29354,NKT
+29357,True NK
+29359,True NK
+29364,NKT
+29374,Cytotoxic CD8 (mislabeled)
+29393,Cytotoxic CD8 (mislabeled)
+29397,NKT
+29406,Unclear
+29407,NKT
+29417,Cytotoxic CD8 (mislabeled)
+29420,Unclear
+29426,True NK
+29429,Unclear
+29436,Unclear
+29446,NKT
+29447,Cytotoxic CD8 (mislabeled)
+29450,Unclear
+29475,Cytotoxic CD8 (mislabeled)
+29480,True NK
+29481,Unclear
+29485,True NK
+29499,Unclear
+29502,True NK
+29506,True NK
+29507,True NK
+27370,Cytotoxic CD8 (mislabeled)
+29019,True NK
+29315,Unclear
+28611,True NK
+27573,NKT
+27743,Unclear
+27975,True NK
+28004,Cytotoxic CD8 (mislabeled)
+28262,NKT
+29018,NKT
+27648,Cytotoxic CD8 (mislabeled)
+27753,Cytotoxic CD8 (mislabeled)
+27923,Cytotoxic CD8 (mislabeled)
+28274,True NK
+28439,Cytotoxic CD8 (mislabeled)
+28692,NKT
+28918,Cytotoxic CD8 (mislabeled)
+29306,NKT
+27351,True NK
+28146,NKT
+28341,True NK
+28494,NKT
+29529,Unclear
+29597,Unclear
+30090,Unclear
+30411,Unclear
+29524,True NK
+29531,True NK
+29532,True NK
+29536,NKT
+29538,Unclear
+29540,Unclear
+29541,True NK
+29548,True NK
+29553,True NK
+29560,Unclear
+29567,True NK
+29570,True NK
+29575,NKT
+29593,True NK
+29603,Unclear
+29606,True NK
+29620,True NK
+29624,True NK
+29632,Cytotoxic CD8 (mislabeled)
+29637,Unclear
+29639,Cytotoxic CD8 (mislabeled)
+29641,True NK
+29645,Unclear
+29647,True NK
+29654,Unclear
+29675,Unclear
+29683,NKT
+29705,Unclear
+29708,Unclear
+29709,Unclear
+29719,True NK
+29720,True NK
+29727,Unclear
+29735,True NK
+29744,Unclear
+29745,Cytotoxic CD8 (mislabeled)
+29750,NKT
+29751,NKT
+29755,NKT
+29764,Unclear
+29767,True NK
+29768,Cytotoxic CD8 (mislabeled)
+29771,Unclear
+29772,NKT
+29784,Cytotoxic CD8 (mislabeled)
+29791,Cytotoxic CD8 (mislabeled)
+29792,Unclear
+29796,Cytotoxic CD8 (mislabeled)
+29798,Cytotoxic CD8 (mislabeled)
+29800,Unclear
+29801,Unclear
+29812,Cytotoxic CD8 (mislabeled)
+29816,True NK
+29828,Unclear
+29829,True NK
+29831,True NK
+29844,Unclear
+29856,Unclear
+29864,Cytotoxic CD8 (mislabeled)
+29870,True NK
+29874,Cytotoxic CD8 (mislabeled)
+29890,Unclear
+29904,Unclear
+29905,Unclear
+29912,Unclear
+29917,True NK
+29918,NKT
+29920,Unclear
+29923,Unclear
+29924,Unclear
+29937,Unclear
+29938,True NK
+29943,Unclear
+29972,Cytotoxic CD8 (mislabeled)
+29973,Unclear
+29989,Cytotoxic CD8 (mislabeled)
+29990,Cytotoxic CD8 (mislabeled)
+29991,Cytotoxic CD8 (mislabeled)
+29992,Cytotoxic CD8 (mislabeled)
+29994,True NK
+29999,True NK
+30001,True NK
+30016,True NK
+30021,Unclear
+30023,Unclear
+30031,NKT
+30032,NKT
+30033,True NK
+30053,True NK
+30056,Unclear
+30058,Cytotoxic CD8 (mislabeled)
+30071,Cytotoxic CD8 (mislabeled)
+30075,Unclear
+30076,True NK
+30078,NKT
+30079,True NK
+30080,Unclear
+30085,Unclear
+30088,Unclear
+30097,Unclear
+30104,True NK
+30107,True NK
+30109,True NK
+30110,NKT
+30121,True NK
+30125,True NK
+30132,NKT
+30140,Cytotoxic CD8 (mislabeled)
+30145,Unclear
+30150,True NK
+30160,NKT
+30173,Cytotoxic CD8 (mislabeled)
+30176,NKT
+30185,Unclear
+30191,Unclear
+30202,True NK
+30214,True NK
+30219,True NK
+30229,Unclear
+30232,Unclear
+30239,Unclear
+30243,True NK
+30244,Unclear
+30249,Unclear
+30251,Unclear
+30261,Unclear
+30266,True NK
+30270,Unclear
+30272,NKT
+30288,True NK
+30297,True NK
+30320,NKT
+30332,True NK
+30335,True NK
+30340,Unclear
+30346,Unclear
+30353,NKT
+30362,Cytotoxic CD8 (mislabeled)
+30365,True NK
+30366,NKT
+30368,Cytotoxic CD8 (mislabeled)
+30382,Cytotoxic CD8 (mislabeled)
+30384,Cytotoxic CD8 (mislabeled)
+30391,Cytotoxic CD8 (mislabeled)
+30397,Cytotoxic CD8 (mislabeled)
+30399,NKT
+30401,Cytotoxic CD8 (mislabeled)
+30412,Cytotoxic CD8 (mislabeled)
+30417,True NK
+30418,True NK
+30435,True NK
+30438,True NK
+30445,True NK
+30449,True NK
+30453,Unclear
+30468,Unclear
+30482,True NK
+30488,Cytotoxic CD8 (mislabeled)
+30497,True NK
+30507,NKT
+29580,True NK
+29586,True NK
+29610,True NK
+29739,Cytotoxic CD8 (mislabeled)
+29960,True NK
+29964,True NK
+30084,Cytotoxic CD8 (mislabeled)
+30328,True NK
+29585,Unclear
+29615,NKT
+30135,True NK
+30047,Cytotoxic CD8 (mislabeled)
+30536,True NK
+30552,Cytotoxic CD8 (mislabeled)
+30562,True NK
+30572,Unclear
+30581,True NK
+30587,Unclear
+30627,NKT
+30644,True NK
+30658,NKT
+30667,True NK
+30681,True NK
+30689,Cytotoxic CD8 (mislabeled)
+30706,Cytotoxic CD8 (mislabeled)
+30709,Unclear
+30732,True NK
+30747,True NK
+30763,Unclear
+30771,True NK
+30781,NKT
+30806,NKT
+30809,True NK
+30816,Unclear
+30885,True NK
+30905,Unclear
+30911,NKT
+30922,True NK
+30986,True NK
+30992,Cytotoxic CD8 (mislabeled)
+31005,True NK
+31018,Cytotoxic CD8 (mislabeled)
+31053,NKT
+31055,NKT
+31056,NKT
+31060,NKT
+31061,Cytotoxic CD8 (mislabeled)
+31088,True NK
+31089,Unclear
+31115,Unclear
+31117,True NK
+31172,True NK
+31173,NKT
+31197,Cytotoxic CD8 (mislabeled)
+31198,NKT
+31222,True NK
+31225,NKT
+31232,Cytotoxic CD8 (mislabeled)
+31235,True NK
+31257,NKT
+31336,Unclear
+31346,Cytotoxic CD8 (mislabeled)
+31353,True NK
+31358,True NK
+31382,True NK
+31390,Unclear
+31407,True NK
+31410,True NK
+31423,True NK
+31458,Cytotoxic CD8 (mislabeled)
+31489,True NK
+31524,Cytotoxic CD8 (mislabeled)
+31549,NKT
+31615,Cytotoxic CD8 (mislabeled)
+31635,Cytotoxic CD8 (mislabeled)
+31649,Cytotoxic CD8 (mislabeled)
+31655,True NK
+31671,True NK
+31672,True NK
+31690,NKT
+31700,True NK
+31707,True NK
+31746,True NK
+31752,Unclear
+31757,Unclear
+31767,True NK
+30862,Cytotoxic CD8 (mislabeled)
+31034,Unclear
+31085,Unclear
+31303,Cytotoxic CD8 (mislabeled)
+31440,Cytotoxic CD8 (mislabeled)
+31611,NKT
+31718,Cytotoxic CD8 (mislabeled)
+30532,NKT
+31460,Cytotoxic CD8 (mislabeled)
+31782,NKT
+30564,True NK
+30567,Cytotoxic CD8 (mislabeled)
+30577,Cytotoxic CD8 (mislabeled)
+30594,NKT
+30597,Unclear
+30698,Cytotoxic CD8 (mislabeled)
+30735,Unclear
+30770,True NK
+30780,True NK
+30786,Unclear
+30803,True NK
+30813,True NK
+30826,NKT
+30836,NKT
+30858,NKT
+30903,Cytotoxic CD8 (mislabeled)
+30995,True NK
+31000,NKT
+31083,True NK
+31094,NKT
+31132,Unclear
+31148,True NK
+31183,Cytotoxic CD8 (mislabeled)
+31215,True NK
+31241,NKT
+31372,NKT
+31388,Cytotoxic CD8 (mislabeled)
+31404,True NK
+31413,Unclear
+31433,NKT
+31521,Unclear
+31607,Cytotoxic CD8 (mislabeled)
+31627,True NK
+31711,Unclear
+31724,Cytotoxic CD8 (mislabeled)
+31727,True NK
+31743,NKT
+31806,True NK
+31279,Cytotoxic CD8 (mislabeled)
+31714,NKT
+30869,Cytotoxic CD8 (mislabeled)
+31742,Cytotoxic CD8 (mislabeled)
+34252,Cytotoxic CD8 (mislabeled)
+34304,Cytotoxic CD8 (mislabeled)
+34328,True NK
+34347,True NK
+34381,True NK
+34423,NKT
+34433,Unclear
+34471,True NK
+34484,NKT
+34518,Unclear
+34527,True NK
+34559,Cytotoxic CD8 (mislabeled)
+34572,True NK
+34597,Cytotoxic CD8 (mislabeled)
+34660,Cytotoxic CD8 (mislabeled)
+34716,NKT
+34756,True NK
+34761,True NK
+34804,Cytotoxic CD8 (mislabeled)
+34811,Cytotoxic CD8 (mislabeled)
+34859,True NK
+34911,Cytotoxic CD8 (mislabeled)
+34916,True NK
+35027,True NK
+35046,True NK
+35050,NKT
+35052,Cytotoxic CD8 (mislabeled)
+35055,NKT
+35061,True NK
+35097,Unclear
+35113,Unclear
+35114,True NK
+35127,True NK
+35136,Cytotoxic CD8 (mislabeled)
+35151,True NK
+35169,True NK
+35192,Cytotoxic CD8 (mislabeled)
+35222,Unclear
+35229,True NK
+35232,NKT
+35259,Unclear
+35262,True NK
+35310,NKT
+35319,Cytotoxic CD8 (mislabeled)
+35331,NKT
+35340,NKT
+35366,True NK
+35408,True NK
+35440,True NK
+35506,NKT
+35507,NKT
+35583,True NK
+35596,True NK
+35627,True NK
+35634,True NK
+35654,True NK
+35659,True NK
+35716,True NK
+35765,Unclear
+35769,True NK
+34878,Unclear
+35123,Cytotoxic CD8 (mislabeled)
+35576,Cytotoxic CD8 (mislabeled)
+34868,NKT
+35164,Cytotoxic CD8 (mislabeled)
+35379,Unclear
+35511,Cytotoxic CD8 (mislabeled)
+34309,Unclear
+34318,Unclear
+34334,NKT
+34342,NKT
+34374,NKT
+34409,True NK
+34476,Cytotoxic CD8 (mislabeled)
+34483,Cytotoxic CD8 (mislabeled)
+34513,Unclear
+34521,True NK
+34526,True NK
+34551,Cytotoxic CD8 (mislabeled)
+34586,Cytotoxic CD8 (mislabeled)
+34591,NKT
+34622,NKT
+34630,Cytotoxic CD8 (mislabeled)
+34682,NKT
+34697,NKT
+34735,True NK
+34762,Cytotoxic CD8 (mislabeled)
+34840,NKT
+34841,Cytotoxic CD8 (mislabeled)
+34845,NKT
+34885,Cytotoxic CD8 (mislabeled)
+34897,Cytotoxic CD8 (mislabeled)
+34898,NKT
+34901,NKT
+34913,Cytotoxic CD8 (mislabeled)
+34940,NKT
+34956,Cytotoxic CD8 (mislabeled)
+34960,NKT
+34990,Cytotoxic CD8 (mislabeled)
+35033,Cytotoxic CD8 (mislabeled)
+35040,NKT
+35054,NKT
+35071,Unclear
+35078,Cytotoxic CD8 (mislabeled)
+35092,True NK
+35093,NKT
+35094,NKT
+35103,Cytotoxic CD8 (mislabeled)
+35130,Cytotoxic CD8 (mislabeled)
+35213,NKT
+35248,NKT
+35294,Cytotoxic CD8 (mislabeled)
+35298,NKT
+35369,Unclear
+35387,NKT
+35497,True NK
+35526,NKT
+35597,True NK
+35613,Unclear
+35625,Cytotoxic CD8 (mislabeled)
+35649,True NK
+35681,Unclear
+35688,True NK
+35700,Cytotoxic CD8 (mislabeled)
+35711,Cytotoxic CD8 (mislabeled)
+35735,Cytotoxic CD8 (mislabeled)
+35768,NKT
+35772,True NK
+35773,NKT
+35786,True NK
+35808,NKT
+35840,Cytotoxic CD8 (mislabeled)
+35863,True NK
+35888,True NK
+35903,Cytotoxic CD8 (mislabeled)
+35915,Cytotoxic CD8 (mislabeled)
+35949,True NK
+35957,True NK
+35973,NKT
+35999,True NK
+36059,Unclear
+36069,True NK
+36071,True NK
+36072,True NK
+36075,Unclear
+36105,True NK
+36116,True NK
+36132,Unclear
+36150,Unclear
+36164,NKT
+36179,True NK
+36194,NKT
+36205,NKT
+36249,NKT
+36293,Unclear
+36334,NKT
+36362,True NK
+36399,True NK
+36424,Cytotoxic CD8 (mislabeled)
+36457,Cytotoxic CD8 (mislabeled)
+36488,True NK
+36573,True NK
+36589,True NK
+36599,True NK
+36602,NKT
+36619,True NK
+36623,Cytotoxic CD8 (mislabeled)
+36634,True NK
+36635,Cytotoxic CD8 (mislabeled)
+36646,True NK
+36678,True NK
+36679,Cytotoxic CD8 (mislabeled)
+36705,Unclear
+36733,NKT
+36754,True NK
+36765,NKT
+36768,True NK
+36779,True NK
+36790,Unclear
+36807,True NK
+36824,True NK
+36850,NKT
+36950,Cytotoxic CD8 (mislabeled)
+36989,NKT
+37031,Cytotoxic CD8 (mislabeled)
+37121,NKT
+37123,NKT
+37124,True NK
+37162,True NK
+37202,True NK
+37221,True NK
+37222,Cytotoxic CD8 (mislabeled)
+37230,NKT
+37247,True NK
+37250,True NK
+37288,Cytotoxic CD8 (mislabeled)
+37318,True NK
+37332,True NK
+37340,True NK
+37351,True NK
+37440,NKT
+37471,True NK
+37484,Cytotoxic CD8 (mislabeled)
+37505,NKT
+37511,True NK
+37529,True NK
+37539,Cytotoxic CD8 (mislabeled)
+37542,True NK
+37590,NKT
+37600,True NK
+37612,True NK
+37614,True NK
+37644,NKT
+37661,Unclear
+37769,True NK
+37773,Cytotoxic CD8 (mislabeled)
+37853,NKT
+37873,Unclear
+37901,True NK
+37913,Cytotoxic CD8 (mislabeled)
+37932,True NK
+37976,True NK
+38005,Cytotoxic CD8 (mislabeled)
+38029,NKT
+38030,Unclear
+38037,True NK
+38050,True NK
+36003,Cytotoxic CD8 (mislabeled)
+36240,Unclear
+36264,NKT
+36582,True NK
+37087,Cytotoxic CD8 (mislabeled)
+37297,Cytotoxic CD8 (mislabeled)
+37801,Unclear
+38044,Cytotoxic CD8 (mislabeled)
+36343,NKT
+37824,True NK
+36023,Cytotoxic CD8 (mislabeled)
+36085,True NK
+36165,NKT
+35798,Cytotoxic CD8 (mislabeled)
+35814,Cytotoxic CD8 (mislabeled)
+35820,NKT
+35943,True NK
+35979,NKT
+35998,Unclear
+36025,Cytotoxic CD8 (mislabeled)
+36034,Cytotoxic CD8 (mislabeled)
+36061,Unclear
+36152,Unclear
+36173,Unclear
+36230,Cytotoxic CD8 (mislabeled)
+36275,True NK
+36299,NKT
+36309,NKT
+36333,NKT
+36350,NKT
+36378,Unclear
+36406,Cytotoxic CD8 (mislabeled)
+36481,True NK
+36499,NKT
+36506,True NK
+36541,NKT
+36595,Unclear
+36607,NKT
+36652,Cytotoxic CD8 (mislabeled)
+36662,Unclear
+36720,NKT
+36777,NKT
+36825,NKT
+36873,Cytotoxic CD8 (mislabeled)
+36996,Unclear
+37039,NKT
+37118,Cytotoxic CD8 (mislabeled)
+37142,Cytotoxic CD8 (mislabeled)
+37153,Cytotoxic CD8 (mislabeled)
+37165,True NK
+37260,NKT
+37271,True NK
+37356,Cytotoxic CD8 (mislabeled)
+37402,Cytotoxic CD8 (mislabeled)
+37408,True NK
+37457,Cytotoxic CD8 (mislabeled)
+37475,Cytotoxic CD8 (mislabeled)
+37487,Cytotoxic CD8 (mislabeled)
+37521,Unclear
+37567,Cytotoxic CD8 (mislabeled)
+37584,NKT
+37589,Unclear
+37647,NKT
+37654,NKT
+37670,NKT
+37716,NKT
+37872,True NK
+37909,NKT
+37968,True NK
+37980,NKT
+37982,True NK
+38015,Cytotoxic CD8 (mislabeled)
+38018,True NK
+38043,Cytotoxic CD8 (mislabeled)
+37621,True NK
+37074,Cytotoxic CD8 (mislabeled)
+37503,NKT
+38062,True NK
+38130,True NK
+38131,True NK
+38142,Unclear
+38172,Cytotoxic CD8 (mislabeled)
+38176,NKT
+38260,Cytotoxic CD8 (mislabeled)
+38262,Unclear
+38273,NKT
+38300,NKT
+38317,True NK
+38346,True NK
+38348,True NK
+38380,Unclear
+38385,True NK
+38390,Cytotoxic CD8 (mislabeled)
+38423,True NK
+38431,True NK
+38447,Cytotoxic CD8 (mislabeled)
+38449,Unclear
+38451,True NK
+38471,Cytotoxic CD8 (mislabeled)
+38513,Cytotoxic CD8 (mislabeled)
+38562,True NK
+38565,NKT
+38584,NKT
+38590,Unclear
+38636,Unclear
+38644,NKT
+38669,True NK
+38740,True NK
+38753,True NK
+38756,True NK
+38788,True NK
+38802,NKT
+38817,True NK
+38896,True NK
+38910,True NK
+38952,Unclear
+39016,True NK
+39075,True NK
+39121,True NK
+39131,Unclear
+39214,NKT
+39250,True NK
+39299,True NK
+39303,Unclear
+39308,True NK
+39311,True NK
+39314,True NK
+39315,Unclear
+39325,Unclear
+39470,NKT
+39479,True NK
+39554,Cytotoxic CD8 (mislabeled)
+39565,Unclear
+39566,True NK
+39580,Cytotoxic CD8 (mislabeled)
+39584,NKT
+39603,Unclear
+39611,Cytotoxic CD8 (mislabeled)
+39613,NKT
+39619,True NK
+39641,True NK
+39653,NKT
+39677,True NK
+39726,NKT
+39729,True NK
+39736,True NK
+39744,True NK
+39756,Cytotoxic CD8 (mislabeled)
+39783,NKT
+39790,Cytotoxic CD8 (mislabeled)
+39805,Unclear
+39828,NKT
+39831,True NK
+39836,True NK
+39839,True NK
+39848,True NK
+39861,True NK
+39916,Unclear
+39921,Cytotoxic CD8 (mislabeled)
+39958,NKT
+39973,True NK
+39994,True NK
+40013,True NK
+38188,True NK
+38303,Cytotoxic CD8 (mislabeled)
+38721,True NK
+38945,Cytotoxic CD8 (mislabeled)
+39317,True NK
+39334,Unclear
+39562,Unclear
+39589,Cytotoxic CD8 (mislabeled)
+39702,NKT
+39829,Unclear
+38057,True NK
+38121,True NK
+38128,True NK
+38132,Unclear
+38181,NKT
+38212,Cytotoxic CD8 (mislabeled)
+38236,NKT
+38275,NKT
+38278,NKT
+38308,True NK
+38367,Unclear
+38406,Unclear
+38428,NKT
+38434,NKT
+38463,Cytotoxic CD8 (mislabeled)
+38501,NKT
+38530,Cytotoxic CD8 (mislabeled)
+38567,NKT
+38606,NKT
+38610,Cytotoxic CD8 (mislabeled)
+38690,Unclear
+38763,Unclear
+38818,Unclear
+38842,Unclear
+38869,NKT
+38895,NKT
+38897,True NK
+38949,True NK
+38962,NKT
+38965,NKT
+38990,Unclear
+39054,Unclear
+39064,True NK
+39285,Unclear
+39319,NKT
+39320,True NK
+39354,True NK
+39372,Cytotoxic CD8 (mislabeled)
+39473,True NK
+39511,Cytotoxic CD8 (mislabeled)
+39544,NKT
+39576,NKT
+39577,True NK
+39583,Cytotoxic CD8 (mislabeled)
+39587,Unclear
+39647,NKT
+39649,Cytotoxic CD8 (mislabeled)
+39703,NKT
+39750,True NK
+39766,NKT
+39767,Cytotoxic CD8 (mislabeled)
+39792,Cytotoxic CD8 (mislabeled)
+39824,NKT
+39844,NKT
+39971,NKT
+39795,True NK
+40022,NKT
+40027,NKT
+40034,NKT
+40049,True NK
+40050,True NK
+40054,True NK
+40071,True NK
+40079,Unclear
+40086,Cytotoxic CD8 (mislabeled)
+40093,True NK
+40099,Cytotoxic CD8 (mislabeled)
+40105,True NK
+40157,True NK
+40299,Unclear
+40312,True NK
+40368,Cytotoxic CD8 (mislabeled)
+40380,True NK
+40433,True NK
+40454,True NK
+40473,True NK
+40479,NKT
+40510,Unclear
+40526,NKT
+40530,True NK
+40538,True NK
+40555,True NK
+40562,True NK
+40580,True NK
+40585,Cytotoxic CD8 (mislabeled)
+40614,True NK
+40626,Cytotoxic CD8 (mislabeled)
+40643,Unclear
+40648,NKT
+40665,True NK
+40693,NKT
+40710,Unclear
+40743,Cytotoxic CD8 (mislabeled)
+40744,True NK
+40747,True NK
+40786,Cytotoxic CD8 (mislabeled)
+40787,True NK
+40846,Cytotoxic CD8 (mislabeled)
+40848,Unclear
+40896,True NK
+40926,NKT
+40931,True NK
+40942,Cytotoxic CD8 (mislabeled)
+40961,True NK
+40970,Unclear
+40983,Cytotoxic CD8 (mislabeled)
+40988,Cytotoxic CD8 (mislabeled)
+41004,True NK
+41008,True NK
+41066,NKT
+41072,Unclear
+41105,Unclear
+41112,True NK
+41157,True NK
+41158,True NK
+41171,True NK
+41200,NKT
+41215,Unclear
+41262,True NK
+41268,True NK
+41274,Cytotoxic CD8 (mislabeled)
+41302,NKT
+41304,Unclear
+41354,True NK
+41376,True NK
+41379,Cytotoxic CD8 (mislabeled)
+41391,True NK
+41412,NKT
+41460,Unclear
+41477,True NK
+41490,Cytotoxic CD8 (mislabeled)
+41513,Unclear
+41522,True NK
+41531,Unclear
+41541,Unclear
+41582,NKT
+41587,Unclear
+41598,NKT
+41600,Unclear
+41648,Cytotoxic CD8 (mislabeled)
+41657,Unclear
+41658,Unclear
+41685,Unclear
+41720,True NK
+40325,Cytotoxic CD8 (mislabeled)
+40523,Cytotoxic CD8 (mislabeled)
+40550,Unclear
+41432,Unclear
+41443,Unclear
+41508,True NK
+40622,True NK
+40873,Cytotoxic CD8 (mislabeled)
+40080,NKT
+40082,True NK
+40087,True NK
+40136,Cytotoxic CD8 (mislabeled)
+40284,Cytotoxic CD8 (mislabeled)
+40387,Cytotoxic CD8 (mislabeled)
+40452,True NK
+40493,Unclear
+40561,Unclear
+40567,NKT
+40676,True NK
+40699,True NK
+40833,NKT
+40874,Cytotoxic CD8 (mislabeled)
+40936,NKT
+40981,True NK
+41023,True NK
+41069,Unclear
+41117,Unclear
+41161,NKT
+41179,True NK
+41180,True NK
+41203,NKT
+41206,Cytotoxic CD8 (mislabeled)
+41213,Unclear
+41221,Cytotoxic CD8 (mislabeled)
+41261,True NK
+41317,NKT
+41364,Cytotoxic CD8 (mislabeled)
+41399,Cytotoxic CD8 (mislabeled)
+41492,Cytotoxic CD8 (mislabeled)
+41550,True NK
+41563,NKT
+41673,Unclear
+41718,True NK
+41695,Cytotoxic CD8 (mislabeled)
+42161,True NK
+42172,Unclear
+42220,True NK
+42247,True NK
+42604,Unclear
+42646,True NK
+42684,True NK
+42731,Cytotoxic CD8 (mislabeled)
+42794,NKT
+43038,True NK
+43195,Cytotoxic CD8 (mislabeled)
+42084,True NK
+42085,NKT
+42092,True NK
+42097,True NK
+42115,Unclear
+42136,True NK
+42155,True NK
+42157,NKT
+42170,Cytotoxic CD8 (mislabeled)
+42213,NKT
+42221,True NK
+42227,Cytotoxic CD8 (mislabeled)
+42256,True NK
+42258,True NK
+42290,True NK
+42314,NKT
+42315,NKT
+42334,Unclear
+42343,NKT
+42350,True NK
+42364,True NK
+42377,True NK
+42417,NKT
+42419,NKT
+42437,True NK
+42459,True NK
+42491,True NK
+42494,True NK
+42509,True NK
+42510,True NK
+42545,Unclear
+42548,NKT
+42557,True NK
+42632,Cytotoxic CD8 (mislabeled)
+42643,NKT
+42667,True NK
+42673,True NK
+42683,NKT
+42722,True NK
+42737,True NK
+42776,Unclear
+42792,NKT
+42816,True NK
+42870,True NK
+42926,Unclear
+42939,True NK
+42942,True NK
+42978,Unclear
+43029,NKT
+43031,True NK
+43067,True NK
+43070,True NK
+43086,True NK
+43098,True NK
+43118,True NK
+43119,True NK
+43141,True NK
+43202,NKT
+43205,NKT
+43208,True NK
+43217,True NK
+43223,Cytotoxic CD8 (mislabeled)
+43227,True NK
+42222,NKT
+42252,NKT
+42285,Cytotoxic CD8 (mislabeled)
+42380,NKT
+42404,Cytotoxic CD8 (mislabeled)
+42580,NKT
+42606,Cytotoxic CD8 (mislabeled)
+42644,Unclear
+42747,NKT
+42778,NKT
+42829,NKT
+42839,NKT
+42848,NKT
+43040,True NK
+43171,NKT
+42685,True NK
+42710,True NK
+42715,Cytotoxic CD8 (mislabeled)
+42795,True NK
+42844,True NK
+42301,True NK
+42622,NKT
+43055,Cytotoxic CD8 (mislabeled)
+42406,Unclear
+43249,True NK
+43343,NKT
+43734,True NK
+43495,Cytotoxic CD8 (mislabeled)
+43865,True NK
+43773,Unclear
+43289,NKT
+43313,True NK
+43318,NKT
+43321,True NK
+43356,True NK
+43365,True NK
+43388,True NK
+43395,Cytotoxic CD8 (mislabeled)
+43411,Cytotoxic CD8 (mislabeled)
+43414,True NK
+43432,True NK
+43446,True NK
+43466,NKT
+43483,True NK
+43491,Cytotoxic CD8 (mislabeled)
+43556,NKT
+43583,True NK
+43608,True NK
+43615,NKT
+43643,True NK
+43726,True NK
+43730,NKT
+43731,True NK
+43732,Cytotoxic CD8 (mislabeled)
+43784,NKT
+43786,True NK
+43887,True NK
+43900,True NK
+43922,True NK
+43929,NKT
+43946,True NK
+43954,True NK
+43956,NKT
+43985,True NK
+43458,True NK
+43473,NKT
+44094,True NK
+44232,Cytotoxic CD8 (mislabeled)
+44284,True NK
+44407,Cytotoxic CD8 (mislabeled)
+44512,True NK
+44006,True NK
+44012,True NK
+44018,Unclear
+44050,NKT
+44066,Cytotoxic CD8 (mislabeled)
+44068,True NK
+44084,True NK
+44146,NKT
+44149,True NK
+44162,Cytotoxic CD8 (mislabeled)
+44163,True NK
+44223,NKT
+44234,True NK
+44254,NKT
+44296,True NK
+44302,True NK
+44306,True NK
+44313,True NK
+44329,NKT
+44334,True NK
+44339,NKT
+44355,True NK
+44376,True NK
+44383,True NK
+44389,NKT
+44417,True NK
+44429,Cytotoxic CD8 (mislabeled)
+44466,NKT
+44470,Cytotoxic CD8 (mislabeled)
+44475,True NK
+44476,True NK
+44498,True NK
+44507,True NK
+44550,True NK
+44602,NKT
+44608,True NK
+44623,True NK
+44646,True NK
+44016,NKT
+44138,Unclear
+44258,Cytotoxic CD8 (mislabeled)
+44252,True NK
+44526,True NK
+44047,Cytotoxic CD8 (mislabeled)
+45275,True NK
+45324,Unclear
+45540,True NK
+46014,True NK
+47079,True NK
+47115,True NK
+47147,Unclear
+47331,True NK
+47930,True NK
+48278,True NK
+47411,True NK
+48250,Cytotoxic CD8 (mislabeled)
+47223,Unclear
+47227,True NK
+47282,Unclear
+47312,True NK
+47326,Unclear
+47347,Unclear
+47384,Unclear
+47439,Unclear
+47453,Unclear
+47466,Unclear
+47499,Unclear
+47532,True NK
+47548,True NK
+47613,Unclear
+47658,Unclear
+47789,Unclear
+47860,True NK
+47899,Unclear
+47934,Unclear
+47977,True NK
+47987,Unclear
+48034,Unclear
+48049,NKT
+48051,True NK
+48068,True NK
+48078,NKT
+48151,Unclear
+48169,Cytotoxic CD8 (mislabeled)
+48226,Unclear
+48253,Unclear
+48311,Unclear
+48313,True NK
+48327,True NK
+48419,Unclear
+48420,Unclear
+48456,True NK
+48469,Unclear
+48473,True NK
+48508,Unclear
+48509,Unclear
+48531,True NK
+48548,Unclear
+47672,True NK
+47966,Unclear
+48992,True NK
+49001,Unclear
+49267,True NK
+49317,Unclear
+49380,Unclear
+49458,True NK
+49499,True NK
+49588,Unclear
+49603,True NK
+49695,Unclear
+49794,True NK
+49891,Unclear
+49902,Unclear
+49984,Unclear
+49140,Unclear
+49254,True NK
+49693,True NK
+49839,Unclear
+50077,Unclear
+48725,Cytotoxic CD8 (mislabeled)
+49585,NKT
+49632,Unclear
+48683,Unclear
+48704,Unclear
+48706,Unclear
+48708,True NK
+48712,True NK
+48714,True NK
+48719,Unclear
+48720,True NK
+48736,True NK
+48739,True NK
+48754,True NK
+48757,Unclear
+48761,Unclear
+48781,True NK
+48804,True NK
+48812,True NK
+48817,Unclear
+48821,True NK
+48824,True NK
+48830,Unclear
+48831,Unclear
+48837,True NK
+48841,Unclear
+48847,True NK
+48853,True NK
+48860,True NK
+48871,True NK
+48876,True NK
+48892,True NK
+48895,True NK
+48910,True NK
+48913,Unclear
+48914,True NK
+48917,NKT
+48918,True NK
+48932,True NK
+48934,True NK
+48936,Unclear
+48940,Unclear
+48942,True NK
+48951,Unclear
+48955,True NK
+48957,True NK
+48967,True NK
+48976,True NK
+48985,True NK
+48988,True NK
+49006,True NK
+49013,True NK
+49014,Unclear
+49018,True NK
+49024,True NK
+49033,Unclear
+49034,True NK
+49040,True NK
+49045,True NK
+49046,True NK
+49049,NKT
+49059,True NK
+49066,True NK
+49069,Unclear
+49077,True NK
+49086,Unclear
+49090,NKT
+49092,True NK
+49100,True NK
+49101,True NK
+49112,True NK
+49113,True NK
+49119,Unclear
+49124,True NK
+49128,True NK
+49135,True NK
+49137,True NK
+49153,True NK
+49163,True NK
+49166,Unclear
+49177,True NK
+49184,True NK
+49187,True NK
+49192,True NK
+49201,Unclear
+49211,Cytotoxic CD8 (mislabeled)
+49212,True NK
+49217,True NK
+49219,True NK
+49220,Unclear
+49222,True NK
+49235,True NK
+49237,True NK
+49238,True NK
+49245,Unclear
+49246,True NK
+49248,NKT
+49259,Unclear
+49263,True NK
+49264,True NK
+49286,True NK
+49296,Cytotoxic CD8 (mislabeled)
+49297,True NK
+49313,True NK
+49315,True NK
+49327,True NK
+49333,True NK
+49334,True NK
+49336,True NK
+49354,True NK
+49363,True NK
+49364,Cytotoxic CD8 (mislabeled)
+49377,True NK
+49396,True NK
+49399,True NK
+49400,NKT
+49405,True NK
+49413,NKT
+49426,True NK
+49428,True NK
+49430,True NK
+49437,True NK
+49445,True NK
+49455,Unclear
+49464,True NK
+49486,Unclear
+49487,NKT
+49488,Unclear
+49498,NKT
+49503,True NK
+49506,True NK
+49507,True NK
+49530,True NK
+49542,NKT
+49553,Unclear
+49565,True NK
+49571,Unclear
+49572,True NK
+49573,Unclear
+49576,True NK
+49583,NKT
+49593,Unclear
+49596,True NK
+49598,True NK
+49602,True NK
+49611,Unclear
+49612,Unclear
+49616,True NK
+49620,True NK
+49622,NKT
+49624,Cytotoxic CD8 (mislabeled)
+49628,True NK
+49643,True NK
+49652,True NK
+49661,True NK
+49663,Unclear
+49664,True NK
+49671,NKT
+49680,True NK
+49685,True NK
+49688,True NK
+49691,True NK
+49692,True NK
+49701,True NK
+49703,True NK
+49706,NKT
+49710,True NK
+49717,True NK
+49720,Unclear
+49722,True NK
+49726,True NK
+49728,True NK
+49737,True NK
+49739,True NK
+49744,True NK
+49746,True NK
+49748,NKT
+49752,NKT
+49753,True NK
+49755,True NK
+49757,True NK
+49759,Unclear
+49760,True NK
+49761,Unclear
+49766,True NK
+49767,True NK
+49768,Unclear
+49782,True NK
+49789,True NK
+49803,True NK
+49807,True NK
+49811,True NK
+49821,True NK
+49827,True NK
+49852,True NK
+49855,True NK
+49862,True NK
+49867,True NK
+49871,Unclear
+49874,True NK
+49881,Unclear
+49886,True NK
+49894,True NK
+49900,Unclear
+49903,NKT
+49904,True NK
+49905,True NK
+49907,True NK
+49909,True NK
+49911,True NK
+49913,NKT
+49925,True NK
+49930,True NK
+49941,True NK
+49947,Unclear
+49950,True NK
+49955,NKT
+49964,Unclear
+49966,True NK
+49979,True NK
+49980,True NK
+49985,True NK
+49989,True NK
+50004,Unclear
+50019,True NK
+50023,Unclear
+50034,Unclear
+50035,True NK
+50037,True NK
+50041,True NK
+50051,True NK
+50063,True NK
+50069,True NK
+50070,True NK
+50076,True NK
+50079,True NK
+50123,Unclear
+50125,True NK
+50129,True NK
+50131,True NK
+50136,Unclear
+50138,True NK
+50157,True NK
+50173,True NK
+50176,Unclear
+50180,True NK
+50200,True NK
+50223,True NK
+50231,True NK
+50236,Unclear
+50243,True NK
+50249,Unclear
+50250,Unclear
+50257,True NK
+50261,Unclear
+50267,True NK
+50280,True NK
+50291,True NK
+50296,True NK
+50306,True NK
+50309,True NK
+50323,True NK
+50326,True NK
+50328,True NK
+50331,True NK
+50346,Unclear
+50352,Unclear
+50354,True NK
+50363,True NK
+50367,True NK
+50379,True NK
+50388,True NK
+50404,True NK
+50413,True NK
+50430,True NK
+50436,True NK
+50446,True NK
+50452,True NK
+50457,True NK
+50458,True NK
+50459,True NK
+50462,True NK
+50480,True NK
+50490,True NK
+50499,Unclear
+50505,True NK
+50514,True NK
+50515,True NK
+50527,True NK
+50537,True NK
+50545,True NK
+50548,Unclear
+50562,True NK
+50576,Unclear
+50586,True NK
+50593,True NK
+50596,True NK
+50601,True NK
+50611,Unclear
+50621,True NK
+50625,True NK
+50627,True NK
+50629,Unclear
+50631,True NK
+50645,True NK
+50647,True NK
+50656,True NK
+50663,True NK
+50669,Unclear
+50673,True NK
+50674,True NK
+50677,True NK
+50695,True NK
+50702,Cytotoxic CD8 (mislabeled)
+50703,True NK
+50719,True NK
+50722,True NK
+50724,Unclear
+50734,True NK
+50739,True NK
+50740,True NK
+50742,True NK
+50761,True NK
+50769,True NK
+50783,True NK
+50786,Unclear
+50801,True NK
+50804,True NK
+50833,True NK
+50835,True NK
+50851,True NK
+50859,Unclear
+50861,True NK
+50892,Unclear
+50906,True NK
+50927,True NK
+50948,Unclear
+50960,True NK
+50967,True NK
+50983,True NK
+50988,Unclear
+50991,Unclear
+50993,True NK
+51011,True NK
+51016,NKT
+51021,True NK
+51046,True NK
+51054,True NK
+51056,Unclear
+51057,True NK
+51063,NKT
+51072,True NK
+51077,True NK
+51084,True NK
+51085,True NK
+51087,Unclear
+51092,True NK
+51095,True NK
+51102,True NK
+51109,True NK
+51114,Unclear
+51116,True NK
+51117,True NK
+51121,True NK
+51123,True NK
+51131,True NK
+51133,True NK
+51138,True NK
+51140,True NK
+51149,True NK
+51151,True NK
+51155,Unclear
+51162,Unclear
+51178,True NK
+51183,True NK
+51196,True NK
+51200,True NK
+51209,True NK
+51214,True NK
+51225,Unclear
+51236,True NK
+51238,True NK
+51244,Unclear
+51249,True NK
+51264,Unclear
+51269,Unclear
+51274,Unclear
+51277,True NK
+51283,Unclear
+51287,True NK
+51289,True NK
+51290,True NK
+51292,True NK
+51297,NKT
+51308,True NK
+51314,True NK
+51326,True NK
+51334,True NK
+51347,Unclear
+51349,True NK
+51358,True NK
+51359,True NK
+51363,Unclear
+51367,True NK
+51379,True NK
+51411,Unclear
+51412,True NK
+51413,True NK
+51417,True NK
+51440,True NK
+51447,True NK
+51448,True NK
+51454,True NK
+51456,Unclear
+51458,True NK
+50882,Unclear
+51154,True NK
+51192,True NK
+51338,NKT
+50121,Unclear
+50154,True NK
+50348,Unclear
+50369,True NK
+50418,True NK
+50426,Unclear
+50445,Unclear
+50473,True NK
+50503,NKT
+50526,True NK
+50620,Cytotoxic CD8 (mislabeled)
+50655,Unclear
+50658,NKT
+50688,True NK
+50818,NKT
+50866,True NK
+50891,NKT
+50902,NKT
+50937,NKT
+50966,Unclear
+50970,True NK
+50978,NKT
+50980,NKT
+51006,Unclear
+51018,Unclear
+51098,True NK
+51142,NKT
+51146,Cytotoxic CD8 (mislabeled)
+51153,Unclear
+51161,True NK
+51257,True NK
+51288,NKT
+51331,True NK
+51398,True NK
+50101,Unclear
+50240,True NK
+50398,True NK
+50401,True NK
+50425,Unclear
+50482,True NK
+50544,True NK
+50573,Unclear
+50648,True NK
+50805,True NK
+50831,True NK
+50997,True NK
+51007,Unclear
+51037,True NK
+51080,True NK
+51083,True NK
+51147,True NK
+51295,Unclear
+51384,Unclear
+51427,True NK
+51516,True NK
+51521,True NK
+51533,True NK
+51570,True NK
+51622,True NK
+51692,True NK
+51710,True NK
+51734,Unclear
+51737,True NK
+51819,Cytotoxic CD8 (mislabeled)
+51891,True NK
+51914,True NK
+51915,True NK
+51921,Unclear
+52051,True NK
+52113,True NK
+51539,True NK
+52012,Unclear
+52154,True NK
+52219,True NK
+52230,True NK
+52276,True NK
+52423,Unclear
+52453,NKT
+52516,Unclear
+52546,Unclear
+52563,True NK
+52698,True NK
+52717,True NK
+52341,True NK
+52779,True NK
+53027,True NK
+53028,True NK
+53089,Unclear
+53146,True NK
+53362,True NK
+53365,True NK
+53372,True NK
+53385,True NK
+53450,True NK
+53494,True NK
+53578,True NK
+53606,True NK
+53608,True NK
+53674,True NK
+53682,True NK
+53706,True NK
+53709,Unclear
+52880,True NK
+53275,Unclear
+52936,True NK
+53752,True NK
+53779,True NK
+53788,True NK
+53822,True NK
+53882,Unclear
+53930,True NK
+53936,True NK
+53950,True NK
+53955,Cytotoxic CD8 (mislabeled)
+53996,Unclear
+54099,NKT
+54122,True NK
+54218,True NK
+54223,Unclear
+54247,True NK
+54262,True NK
+54264,True NK
+54313,Unclear
+54382,NKT
+54410,True NK
+54431,True NK
+54473,True NK
+53756,True NK
+54006,True NK
+54079,Unclear
+54202,Unclear
+54698,Unclear
+54938,Unclear
+55201,Unclear
+55313,Unclear
+55441,True NK
+55540,True NK
+55423,True NK
+55461,Unclear
+55649,True NK
+55657,True NK
+55668,True NK
+55897,True NK
+55922,True NK
+55748,NKT
+56663,Unclear
+55943,True NK
+56000,True NK
+56113,Cytotoxic CD8 (mislabeled)
+56120,Unclear
+56153,True NK
+56163,True NK
+56190,Unclear
+56462,True NK
+56524,Unclear
+56787,True NK
+56792,True NK
+56882,True NK
+56981,Unclear
+57000,True NK
+57007,True NK
+57051,True NK
+57082,Unclear
+57141,Unclear
+56740,Unclear
+56396,True NK
+56431,True NK
+56693,Unclear

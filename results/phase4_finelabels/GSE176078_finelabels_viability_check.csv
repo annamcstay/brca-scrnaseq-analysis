@@ -1,0 +1,26 @@
+cell_type_fine,total_cells,TNBC_vs_ER+_viable,HER2+_vs_ER+_viable,TNBC_vs_HER2+_viable,VIABLE_FOR_ANY_COMPARISON
+B cells,2786,True,True,True,True
+Basal epithelial,1073,False,False,False,False
+CAFs,6469,True,True,True,True
+Cycling T cells,991,False,False,True,True
+Cycling epithelial,2774,True,True,True,True
+Cytotoxic CD8 T cells (reclassified),1206,True,True,True,True
+Effector CD8 T cells,2238,True,True,True,True
+Endothelial cells,7040,True,True,True,True
+Epithelial (ambiguous),4923,True,True,True,True
+Exhausted CD8 T cells,1232,False,False,True,True
+GZMK+ CD8 T cells,1862,True,True,True,True
+Interferon-Response CD8 T cells,624,True,True,True,True
+Luminal epithelial,19084,True,True,True,True
+Macrophages,8716,True,True,True,True
+Memory T cells,9112,True,True,True,True
+NK cells,570,True,True,True,True
+NKT cells,504,True,True,True,True
+PVL,5033,True,True,True,True
+Plasma cells,2615,True,False,False,True
+Resting/Memory-like CD8 T cells,2391,True,True,True,True
+Stress-Response/Activated CD8 T cells,2569,True,True,True,True
+T cells,6467,True,True,True,True
+True NK cells,803,True,True,True,True
+"Unassigned (n=28, doublet/mixed-identity artefact)",28,False,False,False,False
+pDC,315,False,False,False,False

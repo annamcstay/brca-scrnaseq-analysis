@@ -1,0 +1,25 @@
+Covariate,Cell Type,Final Parameter
+subtype[T.HER2+],B cells,False
+subtype[T.HER2+],Basal epithelial,False
+subtype[T.HER2+],CAFs,False
+subtype[T.HER2+],Cycling T cells,False
+subtype[T.HER2+],Cycling epithelial,False
+subtype[T.HER2+],Cytotoxic CD8 T cells (reclassified),False
+subtype[T.HER2+],Effector CD8 T cells,False
+subtype[T.HER2+],Endothelial cells,False
+subtype[T.HER2+],Epithelial (ambiguous),False
+subtype[T.HER2+],Exhausted CD8 T cells,False
+subtype[T.HER2+],GZMK+ CD8 T cells,False
+subtype[T.HER2+],Interferon-Response CD8 T cells,False
+subtype[T.HER2+],Luminal epithelial,False
+subtype[T.HER2+],Macrophages,False
+subtype[T.HER2+],Memory T cells,True
+subtype[T.HER2+],NK cells,False
+subtype[T.HER2+],NKT cells,False
+subtype[T.HER2+],PVL,False
+subtype[T.HER2+],Plasma cells,False
+subtype[T.HER2+],Resting/Memory-like CD8 T cells,False
+subtype[T.HER2+],Stress-Response/Activated CD8 T cells,False
+subtype[T.HER2+],T cells,False
+subtype[T.HER2+],True NK cells,False
+subtype[T.HER2+],pDC,False

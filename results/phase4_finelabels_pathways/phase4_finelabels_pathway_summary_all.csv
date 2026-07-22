@@ -1,0 +1,26 @@
+comparison,n_significant_pathways,top_pathway,top_pathway_adj_pvalue
+GSE176078_finelabels_DE_Luminal_epithelial_TNBC_vs_ER+,18,E2F Targets,7.606686364860106e-13
+GSE176078_finelabels_DE_Epithelial_ambiguous_TNBC_vs_ER+,14,Estrogen Response Early,8.895846661841032e-07
+GSE176078_finelabels_DE_B_cells_TNBC_vs_HER2+,12,TNF-alpha Signaling via NF-kB,4.109425326710098e-12
+GSE176078_finelabels_DE_B_cells_TNBC_vs_ER+,10,TNF-alpha Signaling via NF-kB,1.3426104488599498e-09
+GSE176078_finelabels_DE_Cycling_epithelial_TNBC_vs_ER+,9,Estrogen Response Early,8.440925664578261e-05
+GSE176078_finelabels_DE_Cycling_epithelial_TNBC_vs_HER2+,4,Epithelial Mesenchymal Transition,0.010131036743583163
+GSE176078_finelabels_DE_Cytotoxic_CD8_T_cells_reclassified_TNBC_vs_HER2+,3,TNF-alpha Signaling via NF-kB,2.7851722962671465e-06
+GSE176078_finelabels_DE_PVL_TNBC_vs_HER2+,3,TNF-alpha Signaling via NF-kB,0.000738294184218955
+GSE176078_finelabels_DE_Cytotoxic_CD8_T_cells_reclassified_TNBC_vs_ER+,3,TNF-alpha Signaling via NF-kB,0.007621691266829436
+GSE176078_finelabels_DE_Luminal_epithelial_HER2+_vs_ER+,2,Estrogen Response Early,4.9888806294770565e-08
+GSE176078_finelabels_DE_Memory_T_cells_TNBC_vs_HER2+,1,Interferon Alpha Response,0.005226462470791223
+GSE176078_finelabels_DE_Cycling_epithelial_HER2+_vs_ER+,1,Pperoxisome,0.002803108287504568
+GSE176078_finelabels_DE_CAFs_TNBC_vs_ER+,1,Epithelial Mesenchymal Transition,0.0038133642086962214
+GSE176078_finelabels_DE_T_cells_TNBC_vs_ER+,1,TNF-alpha Signaling via NF-kB,0.003104651449716977
+GSE176078_finelabels_DE_NK_cells_TNBC_vs_ER+,0,Interferon Gamma Response,0.15530104332245032
+GSE114725_finelabels_DE_Monocyte-like_macrophages_tumor_vs_normal,0,Fatty Acid Metabolism,0.6196064044577301
+GSE176078_finelabels_DE_Macrophages_TNBC_vs_ER+,0,Estrogen Response Early,0.11551294151747597
+GSE176078_finelabels_DE_T_cells_HER2+_vs_ER+,0,Coagulation,0.09440594188441068
+GSE176078_finelabels_DE_Epithelial_ambiguous_HER2+_vs_ER+,0,UV Response Dn,0.1555728786080296
+GSE176078_finelabels_DE_Stress-Response_Activated_CD8_T_cells_TNBC_vs_ER+,0,heme Metabolism,0.23536536221015708
+GSE176078_finelabels_DE_PVL_TNBC_vs_ER+,0,Unfolded Protein Response,0.32262342532057925
+GSE176078_finelabels_DE_Epithelial_ambiguous_TNBC_vs_HER2+,0,Estrogen Response Late,0.1299451722580343
+GSE176078_finelabels_DE_Cycling_T_cells_TNBC_vs_HER2+,0,IL-2/STAT5 Signaling,0.10135679524126794
+GSE176078_finelabels_DE_Luminal_epithelial_TNBC_vs_HER2+,0,Apical Junction,0.16790197734170212
+GSE176078_finelabels_DE_GZMK+_CD8_T_cells_TNBC_vs_HER2+,0,TGF-beta Signaling,0.0783624964364503

@@ -1,0 +1,23 @@
+Covariate,Cell Type,Final Parameter
+tissue[T.TUMOR],Activated CD8 T cells,False
+tissue[T.TUMOR],Antigen-presenting macrophages,False
+tissue[T.TUMOR],B cells,False
+tissue[T.TUMOR],CD4 Activated T cells,False
+tissue[T.TUMOR],CD4 Naive/Resting T cells,False
+tissue[T.TUMOR],Complement-high macrophages,False
+tissue[T.TUMOR],Cycling CD8 T cells,False
+tissue[T.TUMOR],Effector CD8 T cells,False
+tissue[T.TUMOR],LAM-like macrophages,False
+tissue[T.TUMOR],Lipid-laden/Foam-cell macrophages,False
+tissue[T.TUMOR],Mast cells,False
+tissue[T.TUMOR],Mixed/stromal-contaminated (CD8+fibroblast signal),False
+tissue[T.TUMOR],Monocyte-like macrophages,False
+tissue[T.TUMOR],Monocytes/DC,False
+tissue[T.TUMOR],NK-like CD8 T cells,False
+tissue[T.TUMOR],NKT cells,False
+tissue[T.TUMOR],Naive/Memory CD8 T cells,False
+tissue[T.TUMOR],Non-classical monocytes (CD16+),False
+tissue[T.TUMOR],"Regulatory T cells (Tregs, CD4+)",False
+tissue[T.TUMOR],Resting/Resident macrophages,False
+tissue[T.TUMOR],True NK cells,False
+tissue[T.TUMOR],pDC,False
