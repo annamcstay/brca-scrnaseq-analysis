@@ -1,0 +1,27 @@
+patient,age,grade,cancer_type,subtype_ihc,treatment_status,treatment_details,ki67_raw
+CID3586,43,3,IDC,HER2+/ER+,Naive,-,30-50%
+CID3838,49,3,IDC,HER2+,Naive,-,0.6
+CID3921,60,3,IDC,HER2+,Naive,-,>50%
+CID3941,50,2,IDC,ER+,Naive,-,0.1
+CID3946,52,3,IDC,TNBC,Naive,-,0.6
+CID3948,82,3,IDC,ER+,Naive,-,~10%
+CID3963,61,3,IDC,ER+,Treated,"AC, Paclitaxel, Herceptin (3yr prior)",0.43
+CID4040,57,3,IDC,ER+,Naive,-,>50%
+CID4066,41,2,IDC,HER2+/ER+,Treated,Neoadjuvant AC,0.3
+CID4067,85,2,IDC,ER+,Naive,-,3-4%
+CID4290A,88,2,IDC,ER+,Naive,-,0.1
+CID4398,52,3,IDC,ER+,Treated,Neoadjuvant FEC-D,0.75
+CID44041,35,3,IDC,TNBC,Naive,-,0.7
+CID4461,54,2,IDC,ER+,Naive,-,0.15
+CID4463,58,2,IDC,ER+,Naive,-,0.5
+CID4465,54,3,IDC,TNBC,Naive,-,0.7
+CID4471,55,2,ILC,ER+,Naive,-,0.2
+CID4495,63,3,IDC,TNBC,Naive,-,0.8
+CID44971,49,3,IDC,TNBC,Naive,-,0.4
+CID44991,47,3,IDC,TNBC,Naive,-,60-70%
+CID4513,73,3,MBC,TNBC,Treated,"Neoadjuvant AC (4x), Paclitaxel (3x)",0.75
+CID4515,67,3,IDC,TNBC,Naive,-,0.6
+CID45171,58,3,IDC,HER2+,Naive,-,0.8
+CID4523,52,3,MBC,TNBC,Treated,"Neoadjuvant AC (4x), Paclitaxel (1x)",0.9
+CID4530N,42,2,IDC,ER+,Naive,-,0.05
+CID4535,47,2,ILC,ER+,Naive,-,0.1

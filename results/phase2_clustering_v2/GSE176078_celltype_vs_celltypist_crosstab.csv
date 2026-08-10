@@ -1,0 +1,18 @@
+cell_type,B cells,B-cell lineage,Cycling cells,DC,Double-negative thymocytes,Double-positive thymocytes,ETP,Endothelial cells,Epithelial cells,Erythroid,Fibroblasts,HSC/MPP,ILC,MNP,Macrophages,Mast cells,Megakaryocytes/platelets,Mono-mac,Monocytes,Myelocytes,Plasma cells,T cells,pDC
+B cells,2739,0,0,8,0,1,0,9,5,0,0,0,0,0,1,0,0,0,0,0,6,16,1
+Basal epithelial,4,0,0,2,0,8,0,5,993,0,6,0,20,0,16,0,0,0,1,0,2,16,0
+CAFs,25,0,0,27,9,69,0,13,13,0,5650,2,63,0,556,1,0,0,8,0,2,31,0
+CD8 T cells,1,0,0,2,0,2,0,3,8,0,0,0,226,0,2,3,0,0,0,0,1,10667,1
+Cycling T cells,14,0,17,7,0,10,0,0,17,0,0,0,63,0,4,1,0,0,1,0,2,855,0
+Cycling epithelial,73,0,3,13,0,129,0,4,2253,0,5,2,28,0,131,0,0,0,16,1,0,116,0
+Endothelial cells,0,0,0,0,0,0,0,7036,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0
+Epithelial (ambiguous),44,0,0,11,0,26,0,9,4527,0,3,1,45,0,72,0,0,2,21,0,2,160,0
+Luminal epithelial,222,0,1,55,0,173,0,25,15868,2,8,7,497,0,1124,2,0,2,158,0,36,904,0
+Macrophages,4,0,0,1296,0,2,1,14,7,0,3,0,2,9,6620,1,0,13,726,0,5,10,3
+Memory T cells,9,0,1,2,0,1,0,3,7,0,0,0,69,0,2,4,0,0,2,0,9,9003,0
+NK cells,1,0,0,0,0,1,0,2,1,0,0,0,2134,0,0,0,0,0,0,0,0,944,0
+PVL,287,1,1,217,4,123,0,982,101,0,1914,7,702,0,197,1,1,1,185,11,3,294,1
+Plasma cells,7,0,0,0,0,0,2,4,35,0,2,0,4,0,4,0,0,0,0,0,2525,31,1
+T cells,6,0,3,3,0,1,0,2,2,0,0,0,5,0,0,0,0,0,0,0,2,6443,0
+"Unassigned (n=28, doublet/mixed-identity artefact)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0
+pDC,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,312

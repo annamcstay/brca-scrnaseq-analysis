@@ -1,0 +1,10 @@
+cell_type,B cells,B-cell lineage,Cycling cells,DC,DC precursor,Double-negative thymocytes,Double-positive thymocytes,ETP,Endothelial cells,Epithelial cells,Erythroid,Fibroblasts,Granulocytes,HSC/MPP,ILC,MNP,Macrophages,Mast cells,Megakaryocytes/platelets,Mono-mac,Monocytes,Myelocytes,Plasma cells,Promyelocytes,T cells,pDC
+T cells,64,0,0,3,0,0,6,0,0,13,1,2,0,1,113,0,11,0,0,0,0,9,1,0,19988,1
+CD8/Effector T cells,20,2,3,4,0,0,6,0,0,1,0,2,0,1,919,0,7,1,0,0,1,1,2,0,6890,1
+Mixed/stromal-contaminated (CD8+fibroblast signal),51,2,0,13,2,1,6,1,146,43,3,53,0,0,322,0,21,2,1,5,12,2,0,0,648,1
+NK/Cytotoxic T cells,11,0,0,0,0,0,3,0,1,0,0,0,0,0,3545,0,2,0,0,1,0,3,0,0,1363,0
+B cells,3328,4,0,1,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,1,4,0,25,3
+Macrophages,94,1,0,1212,1,0,12,0,61,7,3,15,0,3,18,56,3122,5,1,51,1071,55,8,1,110,7
+pDC,2,0,0,1,0,0,0,0,1,0,0,0,0,0,6,0,2,0,0,0,0,2,4,0,8,162
+Monocytes/DC,2,0,0,2,0,1,0,0,2,0,0,0,0,0,4,0,22,3,0,0,281,8,2,0,32,0
+Mast cells,0,0,0,0,0,0,0,0,10,1,0,1,1,0,4,0,2,470,0,0,0,0,0,0,5,0

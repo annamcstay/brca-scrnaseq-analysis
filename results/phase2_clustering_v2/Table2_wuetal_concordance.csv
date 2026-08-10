@@ -1,0 +1,11 @@
+cell_type (this thesis),Wu et al. reference label,Concordance,n,Note
+CD8 T cells,T-cells,99.70%,"10,882/10,916",
+Memory T cells,T-cells,99.60%,"9,072/9,112",
+NK cells,T-cells,99.97%,"3,082/3,083",Reference does not distinguish NK from T cells at this tier
+Endothelial cells,Endothelial,99.50%,"7,006/7,040",
+Macrophages,Myeloid,98.80%,"8,612/8,716",
+B cells,B-cells,96.90%,"2,700/2,786",
+Plasma cells,Plasmablasts,95.00%,"2,485/2,615",
+PVL,PVL,94.90%,"4,776/5,033",
+Luminal epithelial,Cancer Epithelial,93.00%,"17,748/19,084",
+CAFs,CAFs,89.30%,"5,778/6,469",

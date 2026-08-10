@@ -1,0 +1,18 @@
+Covariate,Cell Type,Final Parameter,HDI 3%,HDI 97%,SD,Inclusion probability,Expected Sample,log2-fold change
+treatment_status[T.Treated],B cells,0.0,-0.794,0.28,0.247,0.551,132.3634103925594,0.0
+treatment_status[T.Treated],Basal epithelial,0.0,-0.469,0.522,0.173,0.47946666666666665,77.9097611606361,0.0
+treatment_status[T.Treated],CAFs,0.0,-0.474,0.426,0.158,0.47813333333333335,270.57552074279374,0.0
+treatment_status[T.Treated],CD8 T cells,0.0,-0.266,0.794,0.252,0.5736,351.26862661742206,0.0
+treatment_status[T.Treated],Cycling T cells,0.0,-0.341,0.666,0.197,0.5028,101.65159680020706,0.0
+treatment_status[T.Treated],Cycling epithelial,0.0,-0.378,0.601,0.18,0.5058666666666667,145.1185868850485,0.0
+treatment_status[T.Treated],Endothelial cells,0.0,-0.71,0.225,0.201,0.5226,295.1699371913577,0.0
+treatment_status[T.Treated],Epithelial (ambiguous),0.0,-0.501,0.415,0.168,0.49593333333333334,149.3886424549451,0.0
+treatment_status[T.Treated],Luminal epithelial,0.0,-0.812,0.178,0.246,0.5786666666666667,406.4867157035193,0.0
+treatment_status[T.Treated],Macrophages,0.0,-0.265,0.723,0.218,0.5550666666666667,370.7586266148511,0.0
+treatment_status[T.Treated],Memory T cells,0.0,-0.388,0.601,0.189,0.5214,305.6838044005169,0.0
+treatment_status[T.Treated],NK cells,0.0,-0.272,0.887,0.27,0.5842666666666667,192.58762573075947,0.0
+treatment_status[T.Treated],PVL,0.0,0.0,0.0,0.0,0.0,232.42120137348655,0.0
+treatment_status[T.Treated],Plasma cells,0.0,-0.851,0.236,0.242,0.5413333333333333,99.63876032307617,0.0
+treatment_status[T.Treated],T cells,0.0,-0.332,0.619,0.183,0.5172,255.07337497243893,0.0
+treatment_status[T.Treated],"Unassigned (n=28, doublet/mixed-identity artefact)",0.0,-0.473,0.524,0.176,0.4784,50.63035252657185,0.0
+treatment_status[T.Treated],pDC,0.0,-0.504,0.459,0.168,0.48133333333333334,80.92730226365683,0.0

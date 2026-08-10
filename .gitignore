@@ -12,3 +12,4 @@ test.ipynb
 docs/.Rhistory 
 figures/.gitignore 
 results/phase3_pseudobulk_de/pseudobulk_cache/ 
+"Data/Raw/" 
